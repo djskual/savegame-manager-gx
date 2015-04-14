@@ -1,0 +1,1568 @@
+# SaveGame Manager GX language source file.
+# italian.lang - r106
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-03 02:22+0200\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1 ora"
+
+msgid "1 min"
+msgstr "1 minuto"
+
+msgid "10 mins"
+msgstr "10 minuti"
+
+msgid "100 miis are installed!!!"
+msgstr "Sono installati 100 Mii!!!"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 minuti"
+
+msgid "3 mins"
+msgstr "3 minuti"
+
+msgid "30 mins"
+msgstr "30 minuti"
+
+msgid "3DS Mii transfer function"
+msgstr ""
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 minuti"
+
+msgid "7z decompression failed:"
+msgstr ""
+
+msgid "Action cancelled."
+msgstr "Azione annullata."
+
+msgid "All"
+msgstr ""
+
+msgid "All Files"
+msgstr "Tutti i file"
+
+msgid "All Languages Files"
+msgstr ""
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr "Tutte le funzioni del SaveGame Manager GX sono sbloccate."
+
+msgid "All translaters for language files updates"
+msgstr "Tutti i traduttori per gli aggiornamenti alle lingue"
+
+msgid "Apply"
+msgstr "Applica"
+
+msgid "April"
+msgstr "Aprile"
+
+msgid "Are you sure you want to reset?"
+msgstr "Sicuro che vuoi resettare?"
+
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Settings"
+msgstr "Impostazioni audio"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "Author(s):"
+msgstr "Autore/i:"
+
+msgid "Auto Connect"
+msgstr "Connetti automaticamente"
+
+msgid "Back"
+msgstr "Indietro"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Back to Loader"
+msgstr "Ritorna al Loader"
+
+msgid "Bad game ID"
+msgstr ""
+
+msgid "Be carrefull, present files can be overwritten"
+msgstr ""
+
+msgid "BgMusic Loop"
+msgstr "Loop musica di sottofondo"
+
+msgid "BgMusic Path"
+msgstr "Percorso musica di sottofondo"
+
+msgid "Big thanks to:"
+msgstr "Grazie mille a:"
+
+msgid "Black.Pearl Icon"
+msgstr "Icona di Black.Pearl"
+
+msgid "Block Audio Settings"
+msgstr ""
+
+msgid "Block Controls Settings"
+msgstr ""
+
+msgid "Block Custom Paths"
+msgstr ""
+
+msgid "Block Features Menu"
+msgstr ""
+
+msgid "Block Global Settings"
+msgstr ""
+
+msgid "Block Gui Settings"
+msgstr ""
+
+msgid "Block HBC Menu"
+msgstr ""
+
+msgid "Block Manage"
+msgstr ""
+
+msgid "Block Manage DataBin"
+msgstr ""
+
+msgid "Block Manage Emu Nand"
+msgstr ""
+
+msgid "Block ManageAll"
+msgstr ""
+
+msgid "Block Parental Settings"
+msgstr ""
+
+msgid "Block Reset Settings"
+msgstr ""
+
+msgid "Block SD Reload Button"
+msgstr ""
+
+msgid "Block Saves Download"
+msgstr ""
+
+msgid "Block Theme Settings"
+msgstr ""
+
+msgid "Block Title Launcher"
+msgstr ""
+
+msgid "Block Updates"
+msgstr ""
+
+msgid "Block(s)"
+msgstr ""
+
+msgid "Boot Browser"
+msgstr "Avvia Browser"
+
+msgid "Browsed"
+msgstr "Sfoglia"
+
+msgid "CRC of extracted file does not match. Wrong password?"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr "Impossibile sfogliare il percorso."
+
+#, c-format
+msgid "Can't create path: %s"
+msgstr "Impossibile creare il percorso: %s"
+
+msgid "Can't open file."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annulla"
+
+#, c-format
+msgid "Cannot close file %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot open file %s"
+msgstr ""
+
+msgid "Cannot write to destination."
+msgstr "Impossibile scrivere in destinazione"
+
+msgid "Change Play Path"
+msgstr "Cambia percorso di riproduzione"
+
+msgid "Click Button"
+msgstr ""
+
+msgid "Clock"
+msgstr "Orologio"
+
+msgid "Close"
+msgstr "Chiudi"
+
+#, c-format
+msgid "Coded by: %s"
+msgstr ""
+
+msgid "Coding:"
+msgstr "Codice:"
+
+msgid "Compress"
+msgstr ""
+
+msgid "Compress to:"
+msgstr ""
+
+msgid "Compressing..."
+msgstr ""
+
+msgid "Compression cancelled"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Connection to server timed out."
+msgstr "Connessione al server scaduta."
+
+msgid "Console"
+msgstr ""
+
+msgid "Console Locked"
+msgstr "Console bloccata."
+
+msgid "Console must be unlocked for this option."
+msgstr "La console dev'essere sbloccata per quest'opzione."
+
+msgid "Controller Settings"
+msgstr ""
+
+msgid "Copy"
+msgstr "Copia"
+
+msgid "Copy cancelled"
+msgstr "Copia cancellata"
+
+msgid "Copy to:"
+msgstr "Copia in:"
+
+msgid "Copying..."
+msgstr "Copia in corso..."
+
+msgid "Correct Password"
+msgstr "Correggi password"
+
+msgid "Could not connect to the server."
+msgstr "Impossibile connettersi al server"
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr "Impossibile creare il percorso: %s"
+
+msgid "Could not download file."
+msgstr "Impossibile scaricare il file."
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not initialize network!"
+msgstr "Impossibile inizializzare la rete!"
+
+msgid "Could not load text file."
+msgstr "Impossibile caricare il file di testo."
+
+msgid "Creator:"
+msgstr ""
+
+msgid "Credits"
+msgstr "Riconoscimenti"
+
+msgid "Credits Volume"
+msgstr "Volume audio nei Riconoscimenti"
+
+msgid "Custom"
+msgstr "Personalizzato"
+
+msgid "Custom Font"
+msgstr "Font personale"
+
+msgid "Custom Paths"
+msgstr "Percorsi personali"
+
+msgid "Data.bin"
+msgstr ""
+
+msgid "Data.bin Path"
+msgstr ""
+
+msgid "Date:"
+msgstr ""
+
+msgid "December"
+msgstr "Dicembre"
+
+msgid "Decompress"
+msgstr ""
+
+msgid "Decompress to:"
+msgstr ""
+
+msgid "Decompressing..."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Default Settings"
+msgstr "Impostazioni di default"
+
+msgid "Default Theme"
+msgstr "Tema di default"
+
+msgid "Delete"
+msgstr "Elimina"
+
+msgid "Delete All"
+msgstr "Elimina tutto"
+
+msgid "Delete cancelled"
+msgstr "Eliminazione annullata"
+
+msgid "Delete from Emu Nand"
+msgstr ""
+
+msgid "Delete from Wii"
+msgstr "Elimina dalla Wii"
+
+msgid "Delete from:"
+msgstr "Elimina da:"
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Design:"
+msgstr ""
+
+msgid "Device"
+msgstr "Periferica"
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Do you want to apply it now?"
+msgstr "Vuoi applicarlo adesso?"
+
+msgid "Do you want to apply this theme?"
+msgstr "Vuoi applicare questo tema?"
+
+msgid "Do you want to change the font?"
+msgstr "Vuoi cambiare il font?"
+
+msgid "Do you want to connect?"
+msgstr "Vuoi connetterti?"
+
+msgid "Do you want to download now?"
+msgstr "Vuoi scaricare adesso?"
+
+msgid "Do you want to download themes now ?"
+msgstr "Vuoi scaricare i temi adesso?"
+
+msgid "Do you want to download this theme?"
+msgstr "Vuoi scaricare questo tema?"
+
+msgid "Do you want to load the default theme?"
+msgstr "Vuoi caricare il tema di default?"
+
+msgid "Do you want to load this language ?"
+msgstr "Vuoi caricare questa lingua?"
+
+msgid "Do you want to reboot now ?"
+msgstr "Vuoi riavviare ora?"
+
+msgid "Do you want to select a theme now ?"
+msgstr "Vuoi selezionare un tema adesso?"
+
+msgid "Do you want to update now ?"
+msgstr "Vuoi aggiornare ora?"
+
+msgid "Down Button"
+msgstr ""
+
+msgid "Download"
+msgstr "Scarica"
+
+msgid "Download Themes"
+msgstr "Scarica temi"
+
+msgid "Download cancelled"
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr "Scarica/Aggiorna lingue in:"
+
+msgid "Downloading Language Files:"
+msgstr "Scaricamento lingue in corso:"
+
+msgid "Downloading all Languages Files:"
+msgstr "Scaricamento di tutte le lingue in corso:"
+
+msgid "Downloading file..."
+msgstr "Scaricamento file..."
+
+msgid "Downloading from"
+msgstr ""
+
+msgid "Downloading image:"
+msgstr "Scaricamento immagine:"
+
+msgid "Downloading pagelist:"
+msgstr "Scaricamento lista pagine:"
+
+msgid "Downloading saveslist:"
+msgstr ""
+
+msgid "Downloading..."
+msgstr "Scaricamento..."
+
+msgid "Duplicate"
+msgstr "Duplicato"
+
+msgid "Dutch"
+msgstr "Olandese"
+
+msgid "ERROR: Can't set up theme."
+msgstr "ERRORE: Impossibile impostare il tema."
+
+msgid "Emu"
+msgstr ""
+
+msgid "Emu Nand Path"
+msgstr ""
+
+msgid "Emu Nand browser"
+msgstr ""
+
+msgid "EmuMii"
+msgstr ""
+
+msgid "English"
+msgstr "Inglese"
+
+msgid "Error"
+msgstr "Errore"
+
+#, c-format
+msgid "Error opening %s"
+msgstr ""
+
+#, c-format
+msgid "Error opening %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error received from %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error when downloading file: %i"
+msgstr "Errore nello scaricamento del file: %i"
+
+msgid "Error while transfering data."
+msgstr "Errore trasferimento dati."
+
+msgid "Error:"
+msgstr "Errore:"
+
+msgid "Extract"
+msgstr "Estrai"
+
+msgid "Extract cancelled"
+msgstr "Estrazione annullata"
+
+msgid "Extract error code:"
+msgstr ""
+
+msgid "Extract to Device"
+msgstr ""
+
+msgid "Extract to:"
+msgstr "Estrai in:"
+
+msgid "Extracting files..."
+msgstr ""
+
+msgid "Extracting..."
+msgstr ""
+
+msgid "FaceLib database is corrupted."
+msgstr ""
+
+msgid "FaceLib database is missing."
+msgstr ""
+
+msgid "Failed to extract."
+msgstr "Estrazione fallita."
+
+msgid "Failed to get the Changelog."
+msgstr "Impossibile scaricare il Changelog."
+
+msgid "Failed to read file data."
+msgstr ""
+
+#, c-format
+msgid "Fatal error: %i."
+msgstr ""
+
+msgid "Features Menu"
+msgstr ""
+
+msgid "February"
+msgstr "Febbraio"
+
+msgid "File"
+msgstr ""
+
+msgid "File is corrupt (CRC mismatch)."
+msgstr ""
+
+msgid "File is corrupt."
+msgstr ""
+
+msgid "File is too big."
+msgstr "Il file e' troppo grande."
+
+msgid "File not created."
+msgstr ""
+
+msgid "File uses too high of compression settings (dictionary size is too large)."
+msgstr ""
+
+msgid "File uses unsupported compression settings."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr "La dimensione del file e' %i Byte."
+
+msgid "Filesize is 0 Byte."
+msgstr "Il file e' 0 Byte."
+
+msgid "Folder"
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Font Scale Factor"
+msgstr "Fattore di scala del font"
+
+msgid "Fontpath changed."
+msgstr "Percorso font cambiato."
+
+msgid "French"
+msgstr "Francese"
+
+msgid "Full Shutdown"
+msgstr "Spegni la Wii"
+
+msgid "GC PAD BUTTON A"
+msgstr ""
+
+msgid "GC PAD BUTTON B"
+msgstr ""
+
+msgid "GC PAD BUTTON DOWN"
+msgstr ""
+
+msgid "GC PAD BUTTON LEFT"
+msgstr ""
+
+msgid "GC PAD BUTTON NONE"
+msgstr ""
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr ""
+
+msgid "GC PAD BUTTON START"
+msgstr ""
+
+msgid "GC PAD BUTTON UP"
+msgstr ""
+
+msgid "GC PAD BUTTON X"
+msgstr ""
+
+msgid "GC PAD BUTTON Y"
+msgstr ""
+
+msgid "GC PAD TRIGGER L"
+msgstr ""
+
+msgid "GC PAD TRIGGER R"
+msgstr ""
+
+msgid "GC PAD TRIGGER Z"
+msgstr ""
+
+msgid "GUI Settings"
+msgstr "Impostazioni GUI"
+
+msgid "GameTDB Path"
+msgstr ""
+
+msgid "GameTDB Titles"
+msgstr ""
+
+msgid "GameTDB Update"
+msgstr ""
+
+msgid "GameTDB not found."
+msgstr ""
+
+msgid "German"
+msgstr "Tedesco"
+
+msgid "Getting Changelog..."
+msgstr "Recupero del Changelog..."
+
+msgid "Getting EmuNand Lists..."
+msgstr ""
+
+msgid "Getting Saves List..."
+msgstr "Recupero lista salvataggi..."
+
+msgid "Global Settings"
+msgstr "Impostazioni globali"
+
+msgid "HOME Menu"
+msgstr "Menu HOME"
+
+msgid "Home Button"
+msgstr ""
+
+msgid "Home Menu"
+msgstr "Menu Home"
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Launcher"
+msgstr "Lanciatore homebrew"
+
+msgid "Homebrew Path"
+msgstr "Percorso homebrew"
+
+msgid "Hour"
+msgstr "Ora"
+
+msgid "ID:"
+msgstr ""
+
+msgid "Icon Update"
+msgstr "Aggiornamento Icona"
+
+msgid "Icon successfully downloaded."
+msgstr "Icona scaricata con successo."
+
+msgid "Idle Shutdown"
+msgstr "Standby"
+
+#, c-format
+msgid "Incoming file %0.2fKB"
+msgstr "File in arrivo %0.2fKB"
+
+#, c-format
+msgid "Incoming file %0.2fMB"
+msgstr "File in arrivo %0.2fMB"
+
+msgid "Initializing Network"
+msgstr "Inizializzazione rete"
+
+msgid "Install"
+msgstr "Installa"
+
+msgid "Install cancelled"
+msgstr "Installazione annullata"
+
+msgid "Install from:"
+msgstr "Installa da:"
+
+msgid "Install to EmuNand"
+msgstr ""
+
+msgid "Install to Wii"
+msgstr ""
+
+msgid "Install to:"
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed Files"
+msgstr "Files installati"
+
+msgid "Installed Languages Files"
+msgstr ""
+
+msgid "Installing..."
+msgstr "Installazione in corso..."
+
+msgid "Italian"
+msgstr "Italiano"
+
+msgid "January"
+msgstr "Gennaio"
+
+msgid "Japanese"
+msgstr "Giapponese"
+
+msgid "July"
+msgstr "Luglio"
+
+msgid "June"
+msgstr "Giugno"
+
+msgid "Keyboard"
+msgstr "Tastiera"
+
+msgid "Korean"
+msgstr "Coreano"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "Language Path changed."
+msgstr "Percorso lingua cambiato."
+
+msgid "Language Update"
+msgstr ""
+
+msgid "Language change:"
+msgstr "Cambio lingua:"
+
+msgid "Left Button"
+msgstr ""
+
+msgid "Load"
+msgstr "Carica"
+
+#, c-format
+msgid "Load file from: %s ?"
+msgstr "Caricare file da: %s ?"
+
+msgid "Loader"
+msgstr ""
+
+msgid "Loading Data.bin Structure"
+msgstr ""
+
+msgid "Loading file:"
+msgstr "Caricamento file:"
+
+msgid "Loading standard music."
+msgstr "Carica la musica di default."
+
+msgid "Lock Console"
+msgstr "Blocca console"
+
+msgid "Locked"
+msgstr "Bloccata"
+
+msgid "Loop Directory"
+msgstr "Directory per il loop"
+
+msgid "Loop Music"
+msgstr "Musica in loop"
+
+msgid "Manage All"
+msgstr "Gestisci files"
+
+msgid "Manage All Miis"
+msgstr "Gestisci i Mii"
+
+msgid "Manage All Saves"
+msgstr "Gestisci i salvataggi"
+
+msgid "March"
+msgstr "Marzo"
+
+msgid "May"
+msgstr "Maggio"
+
+msgid "Meta Update"
+msgstr "Aggiornamento Meta.xml"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii Channel installed"
+msgstr ""
+
+msgid "Mii memory is full"
+msgstr ""
+
+msgid "Miis"
+msgstr "Mii"
+
+msgid "Miis Path"
+msgstr "Percorso Mii"
+
+msgid "Move"
+msgstr "Sposta"
+
+msgid "Move cancelled"
+msgstr "Spostamento cancellato"
+
+msgid "Move to:"
+msgstr "Sposta in:"
+
+msgid "Moving..."
+msgstr "Spostamento in corso..."
+
+msgid "Music Volume"
+msgstr "Volume musica"
+
+msgid "Network is not initiated."
+msgstr "La rete non e' inizializzata."
+
+msgid "No"
+msgstr ""
+
+msgid "No Language File found"
+msgstr "Nessun file lingua trovato"
+
+msgid "No Mii Found in Emulated Nand"
+msgstr ""
+
+msgid "No Mii Found in Wii Nand"
+msgstr ""
+
+msgid "No Mii Found in this path"
+msgstr "Nessun Mii trovato in questo percorso"
+
+msgid "No Save Found in this directory"
+msgstr "Nessun salvataggio trovato in questa directory"
+
+msgid "No Storage Device Found"
+msgstr "Nessun dispositivo trovato"
+
+msgid "No URL or Path specified."
+msgstr "Nessuna URL o percorso specificati"
+
+msgid "No data could be read."
+msgstr "Impossibile leggere i dati"
+
+msgid "No network connection"
+msgstr "Nessuna connessione di rete"
+
+msgid "No new updates available"
+msgstr "Nessun aggiornamento disponibile"
+
+msgid "No saves found on the site."
+msgstr ""
+
+msgid "No themes found on the site."
+msgstr "Nessun tema trovato sul sito."
+
+msgid "No themes found."
+msgstr "Nessun tema trovato."
+
+msgid "Not a valid URL"
+msgstr "URL non valido"
+
+msgid "Not a valid URL path"
+msgstr "Percorso URL non valido"
+
+msgid "Not a valid domain"
+msgstr "Dominio non valido"
+
+msgid "Not already installed in Wii"
+msgstr ""
+
+msgid "Not enough memory."
+msgstr "Memoria insufficiente."
+
+msgid "Not supported format!"
+msgstr "Formato non supportato!"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "OFF"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "ON"
+msgstr ""
+
+msgid "October"
+msgstr "Ottobre"
+
+msgid "Official Site:"
+msgstr "Sito ufficiale:"
+
+msgid "OverWrite"
+msgstr "Sovrascrivi"
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Parental Control"
+msgstr "Controllo genitori"
+
+msgid "Password"
+msgstr ""
+
+msgid "Password has been changed"
+msgstr "La password e' stata cambiata"
+
+msgid "Password is needed."
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path changed."
+msgstr "Percorso cambiato."
+
+msgid "Path:"
+msgstr ""
+
+msgid "Permission denied."
+msgstr "Permesso negato."
+
+msgid "Picture"
+msgstr ""
+
+msgid "Play Next"
+msgstr "Riproduci prossima"
+
+msgid "Play Once"
+msgstr "Riproduci una volta sola"
+
+msgid "Play Previous"
+msgstr "Riproduci precedente"
+
+msgid "Playing Music:"
+msgstr "In riproduzione:"
+
+msgid "Please enter the password."
+msgstr ""
+
+msgid "Please wait..."
+msgstr "Prego, attendere..."
+
+msgid "Pointer Speed"
+msgstr ""
+
+msgid "Process canceled."
+msgstr ""
+
+msgid "Random Directory Music"
+msgstr "Directory casuale di musica"
+
+#, c-format
+msgid "Read Error in %s"
+msgstr ""
+
+#, c-format
+msgid "Read Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Read error from %s in %s"
+msgstr ""
+
+msgid "Receiving file from:"
+msgstr "Ricezione file da:"
+
+msgid "Reload SD"
+msgstr ""
+
+msgid "Repair"
+msgstr ""
+
+msgid "Reset BgMusic"
+msgstr "Resetta musica di sottofondo"
+
+msgid "Reset to default BGM?"
+msgstr "Resettare la musica di default?"
+
+msgid "Retry"
+msgstr "Riprova"
+
+msgid "Rev"
+msgstr ""
+
+msgid "Right Button"
+msgstr ""
+
+msgid "Rumble"
+msgstr ""
+
+msgid "SD Card removed."
+msgstr ""
+
+msgid "SD/USB"
+msgstr ""
+
+msgid "SFX Volume"
+msgstr "Volume SFX"
+
+msgid "Save Path"
+msgstr "Percorso salvataggi"
+
+msgid "SaveGame"
+msgstr ""
+
+msgid "SaveGame Manager GX is protected"
+msgstr "SaveGame Manager GX e' protetto"
+
+msgid "Saves"
+msgstr "Salvataggi"
+
+msgid "Saves Path"
+msgstr "Percorso salvataggi"
+
+msgid "Screen Type"
+msgstr "Tipo schermo"
+
+msgid "Screensaver"
+msgstr ""
+
+msgid "Screenshot Format"
+msgstr ""
+
+msgid "Screenshot Path"
+msgstr ""
+
+msgid "Search"
+msgstr "Cerca"
+
+#, c-format
+msgid "Seek Error in %s"
+msgstr ""
+
+msgid "Select Device"
+msgstr ""
+
+msgid "Select Files"
+msgstr "Selezioan files"
+
+msgid "Select Languages"
+msgstr "Seleziona lingua"
+
+msgid "Select Mode"
+msgstr ""
+
+msgid "Select Theme"
+msgstr "Seleziona tema"
+
+msgid "Select a source:"
+msgstr ""
+
+msgid "Select a target path."
+msgstr ""
+
+msgid "Select a type:"
+msgstr "Seleziona un tipo:"
+
+msgid "Select an action:"
+msgstr "Seleziona un'azione:"
+
+msgid "September"
+msgstr "Settembre"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Show Changelog"
+msgstr "Vedi Changelog"
+
+msgid "Show error log?"
+msgstr "Mostrare log errori?"
+
+msgid "ShutDown Wii"
+msgstr "Spegni Wii"
+
+msgid "Simple Chinese"
+msgstr "Cinese Semplificato"
+
+msgid "Size:"
+msgstr ""
+
+msgid "Sound Path"
+msgstr ""
+
+msgid "Sound Settings"
+msgstr "Impostazione del suono"
+
+msgid "Source and destination folders must be different"
+msgstr "Sorgente e destinazione devono essere diverse"
+
+msgid "Spanish"
+msgstr "Spagnolo"
+
+msgid "Special thanks to:"
+msgstr "Un grazie speciale a:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr "Icona standard"
+
+msgid "Succesfully compressed"
+msgstr ""
+
+msgid "Succesfully copied"
+msgstr "Copia avvenuta con successo"
+
+msgid "Succesfully decompressed"
+msgstr ""
+
+msgid "Succesfully deleted"
+msgstr "Eliminato"
+
+msgid "Succesfully downloaded"
+msgstr ""
+
+msgid "Succesfully extracted"
+msgstr "Estrazione avvenuta con successo"
+
+msgid "Succesfully installed"
+msgstr "Installazione avvenuta con successo"
+
+msgid "Succesfully moved"
+msgstr "Spostamento avvenuto con successo"
+
+msgid "Successfully extracted theme."
+msgstr "Tema estratto con successo."
+
+msgid "System error received"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The .them file was not found in the zip."
+msgstr "File .them non trovato nel file zip."
+
+msgid "The new font is loaded."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Theme Downloader"
+msgstr "Scaricatore di temi"
+
+msgid "Theme Menu"
+msgstr "Menu' tema"
+
+msgid "Theme Path"
+msgstr "Percorso tema"
+
+msgid "Theme Settings"
+msgstr "Impostazione tema"
+
+msgid "Theme Title:"
+msgstr "Titolo tema:"
+
+msgid "Themes by www.spiffy360.com"
+msgstr "Temi da www.spiffy360.com"
+
+msgid "Time left:"
+msgstr "Tempo rimasto:"
+
+msgid "Title Launcher"
+msgstr "Lanciatore titolo"
+
+msgid "Tooltips"
+msgstr "Consigli"
+
+msgid "Trad Chinese"
+msgstr "Cinese Tradizionale"
+
+msgid "Transfer failed"
+msgstr "Trasferimento fallito"
+
+msgid "Type:"
+msgstr ""
+
+msgid "URL is empty."
+msgstr "L'URL e' vuota."
+
+msgid "Unable to SetUID"
+msgstr "Funzione non riuscita: SetUID"
+
+msgid "Unable to compress datas"
+msgstr ""
+
+msgid "Unable to copy datas"
+msgstr "Impossibile copiare i dati."
+
+msgid "Unable to decompress datas"
+msgstr ""
+
+msgid "Unable to delete datas"
+msgstr "Impossibile eliminare i dati"
+
+msgid "Unable to download file."
+msgstr ""
+
+msgid "Unable to find supported files."
+msgstr ""
+
+msgid "Unable to get NAND path"
+msgstr "Impossibile trovare percorso NAND."
+
+msgid "Unable to load path."
+msgstr "Impossibile caricare il percorso"
+
+msgid "Unable to move datas"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+msgid "Unlock Console"
+msgstr "Sblocca console"
+
+msgid "Unlocked"
+msgstr "Sbloccata"
+
+msgid "Unsupported format, try to extract manually TempTheme.zip."
+msgstr "Formato non supportato, prova ad estrarre manualmente il file TempTheme.zip"
+
+msgid "Up Button"
+msgstr ""
+
+msgid "Update"
+msgstr "Aggiorna"
+
+msgid "Update Path"
+msgstr "Percorso aggiornamento"
+
+msgid "Update Settings"
+msgstr "Impostazioni aggiornamento"
+
+msgid "Update failed"
+msgstr "Aggiornamento fallito"
+
+msgid "Update files"
+msgstr ""
+
+msgid "Update successfully finished"
+msgstr "Aggiornamento effettuato"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Disponibile aggiornamento alla Rev%i"
+
+msgid "Updates"
+msgstr "Aggiornamenti"
+
+msgid "Updating GameTDB..."
+msgstr ""
+
+msgid "Updating Language Files:"
+msgstr "Aggiornamento file di lingua:"
+
+msgid "Use IOS58"
+msgstr "Usa l'IOS58"
+
+msgid "Use System Font"
+msgstr ""
+
+msgid "Verifying file..."
+msgstr ""
+
+msgid "Version:"
+msgstr "Versione"
+
+#, c-format
+msgid "Version: %s"
+msgstr ""
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr ""
+
+msgid "WPAD BUTTON 2"
+msgstr ""
+
+msgid "WPAD BUTTON A"
+msgstr ""
+
+msgid "WPAD BUTTON B"
+msgstr ""
+
+msgid "WPAD BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD BUTTON HOME"
+msgstr ""
+
+msgid "WPAD BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr ""
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr ""
+
+msgid "WPAD NONE BUTTON"
+msgstr ""
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Menu Wii"
+
+msgid "Wii Settings"
+msgstr "Impostazioni Wii"
+
+msgid "Wiiload Receive"
+msgstr "Ricezione WiiLoad"
+
+#, c-format
+msgid "Write Error from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s. Disk is Full"
+msgstr ""
+
+#, c-format
+msgid "Write error to %s in %s"
+msgstr ""
+
+msgid "Writing files..."
+msgstr ""
+
+msgid "Wrong Password"
+msgstr "Password errata"
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "Si"
+
+msgid "but datas are corrupted."
+msgstr ""
+
+msgid "but datas are missing."
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr ""
+
+msgid "for Saves hosting"
+msgstr ""
+
+msgid "for Themes hosting"
+msgstr "per l'hosting dei temi."
+
+msgid "for design & sources"
+msgstr "per design & sorgenti"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "per il fantastico tool LibWiiGui"
+
+msgid "for sources"
+msgstr "per i sorgenti"
+
+msgid "for the SaveGame Manager sources"
+msgstr "per i sorgenti del SaveGame Manager"
+
+msgid "is already installed."
+msgstr "e' gia' installato."
+
+msgid "not set"
+msgstr "non impostato"
+
+msgid "on emulated nand"
+msgstr ""
+
+#~ msgid "Extract All Miis"
+#~ msgstr "Estrai tutti i Mii"
+
+#~ msgid "Extract All Saves"
+#~ msgstr "Estrai tutti i salvataggi"
+
+#~ msgid "Delete All Device Miis"
+#~ msgstr "Elimina tutti i Mii nella periferica"
+
+#~ msgid "Delete All Miis"
+#~ msgstr "Elimina tutti i Mii"
+
+#~ msgid "Delete All Nand Miis"
+#~ msgstr "Elimina tutti i Mii nella NAND"
+
+#~ msgid "Delete All Saves"
+#~ msgstr "Elimina tutti i salvataggi"
+
+#~ msgid "Extract All"
+#~ msgstr "Estrai tutti"
+
+#~ msgid "Install All"
+#~ msgstr "Installa tutti"
+
+#~ msgid "Install All Miis"
+#~ msgstr "Installa tutti i Mii"
+
+#~ msgid "Install All Saves"
+#~ msgstr "Installa tutti i salvataggi"
+
+#~ msgid "Wii Nand"
+#~ msgstr "NAND Wii"
+
+#~ msgid "Explore Miis"
+#~ msgstr "Esplora Mii"
+
+#~ msgid "Explore SD"
+#~ msgstr "Esplora SD"
+
+#~ msgid "Explore Saves"
+#~ msgstr "Esplora salvataggi"
+
+#~ msgid "Explore USB"
+#~ msgstr "Esplora USB"
+
+#~ msgid "WiiTDB Path"
+#~ msgstr "Percorso WiiTDB"
+
+#~ msgid "WiiTDB Titles"
+#~ msgstr "Titoli WiiTDB"
+
+#~ msgid "WiiTDB Update"
+#~ msgstr "Aggiornamento WiiTDB"
+
+#~ msgid "for WiiTDB (WiiTitleDataBase)"
+#~ msgstr "per WiiTDB (WiiTitleDataBase)"
+
+#~ msgid "Unable to move data"
+#~ msgstr "Impossibile spostare i dati"
+
+#~ msgid "Console should be unlocked to modify it."
+#~ msgstr "La console dev'essere sbloccata per effettuare la modifica"
+
+#~ msgid "Extracting Files..."
+#~ msgstr "Estrazione file in corso..."
+
+#~ msgid "JAP to EN"
+#~ msgstr "Giapponese > Inglese"
+
+#~ msgid "WiiTDB Langue"
+#~ msgstr "Lingua WiiTDB"
+
+#~ msgid "WiiTDB Settings"
+#~ msgstr "Impostazioni WiiTDB"
+
+#~ msgid "Boot?"
+#~ msgstr "Avviare?"
+
+#~ msgid "Clear"
+#~ msgstr "Pulisci"
+
+#~ msgid "Deleting Save"
+#~ msgstr "Cancellazione salvataggio"
+
+#~ msgid "Extracting Save"
+#~ msgstr "Estrazione salvataggio"
+
+#~ msgid "Mii memory is full."
+#~ msgstr "Memoria Mii piena."
+
+#~ msgid "Updating WiiTDB"
+#~ msgstr "Aggiornamento WiiTDB..."

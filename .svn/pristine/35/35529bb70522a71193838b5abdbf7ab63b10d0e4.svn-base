@@ -1,0 +1,1 @@
+<Project name="app_booter"><Folder name="source"><File path="source\dolloader.c"></File><File path="source\dolloader.h"></File><File path="source\elfloader.c"></File><File path="source\elfloader.h"></File><File path="source\elf_abi.h"></File><File path="source\main.c"></File></Folder><File path="Makefile"></File></Project>

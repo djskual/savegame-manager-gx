@@ -1,0 +1,808 @@
+# SaveGame Manager GX language source file.
+# r98
+# don't delete this line (e).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr " "
+
+#, c-format
+msgid "%d files available"
+msgstr "%d個のファイルが利用できます"
+
+msgid "1 hour"
+msgstr "1時間"
+
+msgid "1 min"
+msgstr "1分"
+
+msgid "10 mins"
+msgstr "10分"
+
+msgid "12 Hours"
+msgstr "12時間表示"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20分"
+
+msgid "24 Hours"
+msgstr "24時間表示"
+
+msgid "3 mins"
+msgstr "3分"
+
+msgid "30 mins"
+msgstr "30分"
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5分"
+
+msgid "Action cancelled."
+msgstr "アクションを中止しました"
+
+msgid "All Language files updated."
+msgstr "全ての言語を更新しました"
+
+msgid "All translaters for language files updates"
+msgstr "全ての翻訳者様"
+
+msgid "April"
+msgstr "4月"
+
+msgid "Are you sure ?"
+msgstr "よろしいですか?"
+
+msgid "Audio Settings"
+msgstr "音楽設定"
+
+msgid "August"
+msgstr "8月"
+
+msgid "Auto Update"
+msgstr "自動更新"
+
+msgid "Back"
+msgstr ""
+
+msgid "Back to Loader"
+msgstr "ローダーへ戻る"
+
+msgid "BgMusic Loop"
+msgstr "BGMを繰り返し再生"
+
+msgid "BgMusic Path"
+msgstr "BGMのパス"
+
+msgid "Big thanks to:"
+msgstr "協力:"
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr "Black.Pearlのアイコン"
+
+msgid "BootMethod"
+msgstr "起動時のデバイス"
+
+msgid "Browse Miis"
+msgstr "Miiをブラウズ"
+
+msgid "Browse SD"
+msgstr "SDを開く"
+
+msgid "Browse Saves"
+msgstr "セーブをブラウズ"
+
+msgid "Browse USB"
+msgstr "USBを開く"
+
+msgid "Browsed"
+msgstr "ブラウズ済み"
+
+msgid "Can not open the file"
+msgstr "ファイルを開けません"
+
+msgid "Can't create the Mii file."
+msgstr "Miiファイルを作成できません"
+
+msgid "Can't load file"
+msgstr "ファイルを読み込めません"
+
+msgid "Can't open the Nand Mii file."
+msgstr "Miiファイルを開けません"
+
+msgid "Can't read the Nand Mii file."
+msgstr "Miiファイルを読めません"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Cancelled"
+msgstr "キャンセルしました"
+
+msgid "Cannot write to destination."
+msgstr "宛先に書き込めません"
+
+msgid "Caps"
+msgstr ""
+
+msgid "Change Play Path"
+msgstr "再生パスを変更"
+
+msgid "Clock"
+msgstr "時計"
+
+msgid "Close"
+msgstr "とじる"
+
+msgid "Coding:"
+msgstr "開発:"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Copy"
+msgstr "コピー"
+
+msgid "Copy cancelled"
+msgstr "コピーを中止しました"
+
+msgid "Copying Save"
+msgstr "セーブをコピー中"
+
+msgid "Could not connect to the server."
+msgstr "サーバーに接続できませんでした"
+
+msgid "Could not download file."
+msgstr "ダウンロードできませんでした"
+
+msgid "Could not initialize network!"
+msgstr "接続できませんでした"
+
+msgid "Credits"
+msgstr "提供･協力"
+
+msgid "Credits Volume"
+msgstr "提供･協力の音量"
+
+msgid "Custom"
+msgstr "カスタム"
+
+msgid "Custom Font"
+msgstr "フォント"
+
+msgid "Custom Paths"
+msgstr "パスの変更"
+
+msgid "December"
+msgstr "12月"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Default Settings"
+msgstr "設定を初期化"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Delete All"
+msgstr "全て削除"
+
+msgid "Delete All Device Miis"
+msgstr "全てのデバイスのMiiを削除"
+
+msgid "Delete All Miis"
+msgstr "全てのMiiを削除"
+
+msgid "Delete cancelled"
+msgstr "削除をキャンセルしました"
+
+msgid "Deleting All Nand Mii..."
+msgstr "NANDの全てのMiiを削除中です…"
+
+msgid "Deleting All device Miis..."
+msgstr "全てのデバイスのMiiを削除中です…"
+
+msgid "Deleting Save"
+msgstr "セーブを削除中です"
+
+msgid "Design:"
+msgstr "デザイン:"
+
+msgid "Devices"
+msgstr "デバイス"
+
+msgid "Directory Loop"
+msgstr "フォルダを繰り返し再生"
+
+msgid "Display the report?"
+msgstr "報告を表示しますか?"
+
+msgid "Do you want to connect?"
+msgstr "接続しますか?"
+
+msgid "Do you want to download now?"
+msgstr "ダウンロードしますか?"
+
+msgid "Do you want to load this language ?"
+msgstr "この言語に設定しますか?"
+
+msgid "Do you want to reboot now ?"
+msgstr "再起動しますか?"
+
+msgid "Do you want to update now ?"
+msgstr "更新しますか?"
+
+msgid "Downloading file..."
+msgstr "ダウンロード中です･･･"
+
+msgid "Duplicate"
+msgstr "重複"
+
+msgid "Dutch"
+msgstr "オランダ語"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error encountered:"
+msgstr "エラーが発生しました:"
+
+msgid "Errors encountered:"
+msgstr "エラーが発生しました:"
+
+msgid "Exit"
+msgstr "終了"
+
+msgid "Extract"
+msgstr "抽出"
+
+msgid "Extract All"
+msgstr "全て抽出"
+
+msgid "Extract All Miis"
+msgstr "全てのMiiを抽出"
+
+msgid "Extract All Saves"
+msgstr "全てのセーブを抽出"
+
+msgid "Extract cancelled"
+msgstr "抽出をキャンセルしました"
+
+msgid "Extract to:"
+msgstr "抽出先:"
+
+msgid "Extracting All..."
+msgstr "全て抽出中です…"
+
+msgid "Extracting Save"
+msgstr "セーブデータを抽出中です"
+
+msgid "Failed to get the Changelog."
+msgstr "更新履歴の入手に失敗しました"
+
+msgid "February"
+msgstr "2月"
+
+msgid "Filesize is empty."
+msgstr "ファイルサイズが0バイトです"
+
+msgid "Font changed"
+msgstr "フォントを変更しました"
+
+msgid "French"
+msgstr "フランス語"
+
+msgid "From:"
+msgstr "抽出元:"
+
+msgid "Full Shutdown"
+msgstr "シャットダウン"
+
+msgid "GUI Settings"
+msgstr "基本設定"
+
+msgid "German"
+msgstr "ドイツ語"
+
+msgid "Getting Changelog..."
+msgstr "更新履歴を入手中です…"
+
+msgid "Go Back"
+msgstr "戻る"
+
+msgid "HOME Menu"
+msgstr "HOMEボタンメニュー"
+
+msgid "Home Menu"
+msgstr "HOMEボタンメニューへ"
+
+msgid "Homebrew Channel"
+msgstr "HBCへ"
+
+msgid "Icon Update"
+msgstr "アイコンの更新"
+
+msgid "Icon successfully downloaded."
+msgstr "アイコンをダウンロードしました"
+
+msgid "Idle Shutdown"
+msgstr "スタンバイ"
+
+msgid "InfoWindow"
+msgstr "情報ウインドウ"
+
+msgid "Initializing Network"
+msgstr "接続中･･･"
+
+msgid "Install"
+msgstr "追加"
+
+msgid "Install All"
+msgstr "全て追加"
+
+msgid "Install All Miis"
+msgstr "全てのMiiを追加"
+
+msgid "Install All Saves"
+msgstr "全てのセーブを追加"
+
+msgid "Install cancelled"
+msgstr "追加をキャンセルしました"
+
+msgid "Installing All..."
+msgstr "全て追加中です…"
+
+msgid "Installing Save"
+msgstr "セーブデータを追加中です"
+
+msgid "Italian"
+msgstr "イタリア語"
+
+msgid "JAP to EN"
+msgstr "日本語(ローマ字)"
+
+msgid "January"
+msgstr "1月"
+
+msgid "Japanese"
+msgstr "日本語"
+
+msgid "July"
+msgstr "7月"
+
+msgid "June"
+msgstr "6月"
+
+msgid "Korean"
+msgstr "韓国語"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Language Path changed."
+msgstr "言語のパスを変更しました"
+
+msgid "Later"
+msgstr "後で"
+
+msgid "Loading file:"
+msgstr "読み込み中です"
+
+msgid "Loading standard music."
+msgstr "標準の音楽を読み込みます"
+
+msgid "Manage All"
+msgstr "全ての管理"
+
+msgid "Manage All Miis"
+msgstr "全てのMiiを管理"
+
+msgid "Manage All Saves"
+msgstr "全てのセーブを管理"
+
+msgid "March"
+msgstr "3月"
+
+msgid "May"
+msgstr "5月"
+
+msgid "Meta Update"
+msgstr "meta.xmlの更新"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii memory is full."
+msgstr "Miiのメモリが満タンです"
+
+msgid "Miis"
+msgstr "Mii"
+
+msgid "Miis Path"
+msgstr "Mii"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Move cancelled"
+msgstr "移動を中止しました"
+
+msgid "Moving Save"
+msgstr "セーブを移動中"
+
+msgid "Music Volume"
+msgstr "音量"
+
+msgid "Nand"
+msgstr "NAND"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Mii found in Wii memory."
+msgstr "Wii内にMiiがありません"
+
+msgid "No Mii found in this folder."
+msgstr "フォルダにMiiが見つかりません"
+
+msgid "No SaveGame found in Wii."
+msgstr "Wiiにセーブが見つかりませんでした"
+
+msgid "No SaveGame found in this folder."
+msgstr "フォルダにセーブが見つかりませんでした"
+
+msgid "No network connection"
+msgstr "接続されていません"
+
+msgid "No new updates available"
+msgstr "更新はありません"
+
+msgid "Not a valid URL"
+msgstr "無効なURLです"
+
+msgid "Not a valid URL path"
+msgstr "無効なURLパスです"
+
+msgid "Not a valid domain"
+msgstr "無効なドメインです"
+
+msgid "Not enough memory."
+msgstr "メモリが足りません"
+
+msgid "Not supported format!"
+msgstr "非対応の形式です!"
+
+msgid "November"
+msgstr "11月"
+
+msgid "OFF"
+msgstr "オフ"
+
+msgid "OK"
+msgstr "はい"
+
+msgid "ON"
+msgstr "オン"
+
+msgid "October"
+msgstr "10月"
+
+msgid "Official Site:"
+msgstr "公式サイト:"
+
+msgid "OverWrite"
+msgstr "上書き"
+
+msgid "Path Changed"
+msgstr "パスを変更しました"
+
+msgid "Play Next"
+msgstr "次を再生"
+
+msgid "Play Once"
+msgstr "一度だけ再生"
+
+msgid "Play Previous"
+msgstr "前を再生"
+
+msgid "Playing Music:"
+msgstr "再生中の音楽:"
+
+msgid "Random Play"
+msgstr "ランダム再生"
+
+msgid "Reboot failed"
+msgstr "再起動に失敗しました"
+
+msgid "Reset BgMusic"
+msgstr "BGMを初期化"
+
+msgid "Reset Settings"
+msgstr "設定をリセットします"
+
+msgid "Retry"
+msgstr "再試行"
+
+msgid "Rev"
+msgstr "Rev."
+
+msgid "Rumble"
+msgstr "振動"
+
+msgid "SD"
+msgstr ""
+
+msgid "SD/USB"
+msgstr "SDまたはUSB"
+
+msgid "SFX Volume"
+msgstr "効果音の音量"
+
+msgid "Save Path"
+msgstr "パスを保存"
+
+msgid "Saves"
+msgstr "セーブ"
+
+msgid "Saves Path"
+msgstr "セーブ"
+
+msgid "Screen Size"
+msgstr "画面サイズ"
+
+msgid "Screensaver"
+msgstr "画面焼け軽減機能"
+
+msgid "September"
+msgstr "9月"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+msgid "Show Changelog"
+msgstr "更新履歴を見る"
+
+msgid "ShutDown Wii"
+msgstr "Wiiの電源を切る"
+
+msgid "Simple Chinese"
+msgstr "簡体字中国語"
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "同じパスにはコピーできません"
+
+msgid "Sorry, you can't move to the same path"
+msgstr "同じパスには移動できません"
+
+msgid "Spanish"
+msgstr "スペイン語"
+
+msgid "Special thanks to:"
+msgstr "スペシャルサンクス:"
+
+msgid "Standard"
+msgstr "通常"
+
+msgid "Standard Icon"
+msgstr "通常のアイコン"
+
+msgid "Stored in Wii's Nand?"
+msgstr "WiiのNANDに置きますか?"
+
+msgid "Succesfully copied"
+msgstr "コピーしました"
+
+msgid "Succesfully deleted"
+msgstr "削除しました"
+
+msgid "Succesfully done"
+msgstr "完了しました"
+
+msgid "Succesfully extracted"
+msgstr "抽出しました"
+
+msgid "Succesfully installed"
+msgstr "追加しました"
+
+msgid "Succesfully moved"
+msgstr "移動しました"
+
+msgid "Title Loop"
+msgstr "タイトルを繰り返し再生"
+
+msgid "To:"
+msgstr "追加先:"
+
+msgid "Tooltips"
+msgstr "ヒントバルーン"
+
+msgid "Trad Chinese"
+msgstr "繁体字中国語"
+
+msgid "Transfer cancelled."
+msgstr "転送をキャンセルしました"
+
+msgid "Transfer failed"
+msgstr "転送に失敗しました"
+
+msgid "URL is empty."
+msgstr "URLが空です"
+
+msgid "USB"
+msgstr ""
+
+msgid "Unable to SetUID"
+msgstr "UIDをセットできません"
+
+msgid "Unable to copy data"
+msgstr "コピーできません"
+
+msgid "Unable to copy the selected Mii"
+msgstr "選択されたMiiをコピーできませんでした"
+
+msgid "Unable to copy this SaveGame"
+msgstr "このセーブをコピーできませんでした"
+
+msgid "Unable to create Mii list."
+msgstr "Miiのリストを作成できませんでした"
+
+msgid "Unable to create Wii Saves list."
+msgstr "セーブデータのリストが作成できませんでした"
+
+msgid "Unable to delete data"
+msgstr "データを削除できません"
+
+msgid "Unable to delete the selected Mii"
+msgstr "選択したMiiを削除できませんでした"
+
+msgid "Unable to delete this SaveGame"
+msgstr "セーブデータを削除できません"
+
+msgid "Unable to extract the selected Mii"
+msgstr "選択されたMiiを抽出できませんでした"
+
+msgid "Unable to find device."
+msgstr "デバイスを見つけられません"
+
+msgid "Unable to get NAND path"
+msgstr "NANDパスを入手できません"
+
+msgid "Unable to install the selected Mii"
+msgstr "選択されたMiiを追加できませんでした"
+
+msgid "Unable to move the selected Mii"
+msgstr "選択されたMiiを移動できませんでした"
+
+msgid "Unable to move this SaveGame"
+msgstr "このセーブを移動できませんでした"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update Path"
+msgstr "GXの場所"
+
+msgid "Update Settings"
+msgstr "更新設定"
+
+msgid "Update all Language Files to:"
+msgstr "全ての言語を更新:"
+
+msgid "Update failed"
+msgstr "更新に失敗しました"
+
+msgid "Update successfully finished"
+msgstr "更新しました"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Rev%iに更新されています"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Updating Language Files:"
+msgstr "言語を更新中です:"
+
+msgid "Updating WiiTDB"
+msgstr "WiiTDBを更新中です"
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "警告:追加されるMiiでWii内のMiiは上書きされます!"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr "警告:Wii内のメモリにあるMiiが全て削除されます!"
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr "警告:パスにあるMiiが全て削除されます!"
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "警告:抽出されるMiiでこのパス内のMiiは上書きされます!"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "警告:Wii内の全てのセーブデータが上書きされます!"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "警告:パス内の全てのセーブデータが上書きされます!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr "警告:このセーブ形式はr87からは対応していません!"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "警告:一度ゲームを遊んでセーブデータを作成してください"
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Wiiメニューへ"
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr "WiiTDB言語"
+
+msgid "WiiTDB Path"
+msgstr "WiiTDB"
+
+msgid "WiiTDB Settings"
+msgstr "WiiTDB設定"
+
+msgid "WiiTDB Titles"
+msgstr "WiiTDBのゲーム名"
+
+msgid "WiiTDB Update"
+msgstr "WiiTDBの更新"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "このアプリの起動にはcIOS249が必要です"
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "このアプリの起動にはcIOS249rev9以上が必要です"
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr "…WiiTDB(Wiiゲーム名資料館)"
+
+msgid "for design & sources"
+msgstr "…デザインとソースを制作"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "…LibWiiGuiを制作"
+
+msgid "for sources"
+msgstr "…ソースを制作"
+
+msgid "for the SaveGame Manager sources"
+msgstr "…SaveGame Managerを制作"
+
+msgid "is already installed."
+msgstr "は既に追加されています"

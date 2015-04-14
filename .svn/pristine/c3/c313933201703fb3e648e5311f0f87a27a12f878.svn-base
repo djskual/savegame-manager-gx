@@ -1,0 +1,808 @@
+# SaveGame Manager GX language source file.
+#
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr ""
+
+#, c-format
+msgid "%d files available"
+msgstr "%d bestanden beschikbaar"
+
+msgid "1 hour"
+msgstr "1 uur"
+
+msgid "1 min"
+msgstr "1 minuut"
+
+msgid "10 mins"
+msgstr "10 minuten"
+
+msgid "12 Hours"
+msgstr "12 uur"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 minuten"
+
+msgid "24 Hours"
+msgstr "24 uur"
+
+msgid "3 mins"
+msgstr "3 minuten"
+
+msgid "30 mins"
+msgstr "30 minuten"
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 minuten"
+
+msgid "Action cancelled."
+msgstr "Actie geannuleerd."
+
+msgid "All Language files updated."
+msgstr "Alle taalbestanden geüpdated."
+
+msgid "All translaters for language files updates"
+msgstr "Alle vertalers van de taalbestanden"
+
+msgid "April"
+msgstr ""
+
+msgid "Are you sure ?"
+msgstr "Weet u het zeker?"
+
+msgid "Audio Settings"
+msgstr ""
+
+msgid "August"
+msgstr ""
+
+msgid "Auto Update"
+msgstr ""
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Back to Loader"
+msgstr ""
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Veel dank aan:"
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "BootMethod"
+msgstr "Beginstand"
+
+msgid "Browse Miis"
+msgstr ""
+
+msgid "Browse SD"
+msgstr "SD disk"
+
+msgid "Browse Saves"
+msgstr ""
+
+msgid "Browse USB"
+msgstr "USB-schijf"
+
+msgid "Browsed"
+msgstr ""
+
+msgid "Can not open the file"
+msgstr ""
+
+msgid "Can't create the Mii file."
+msgstr ""
+
+msgid "Can't load file"
+msgstr ""
+
+msgid "Can't open the Nand Mii file."
+msgstr ""
+
+msgid "Can't read the Nand Mii file."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Cancelled"
+msgstr ""
+
+msgid "Cannot write to destination."
+msgstr "Kan niet naar doel schrijven."
+
+msgid "Caps"
+msgstr "Hoofdletters"
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Clock"
+msgstr "Klok"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Coding:"
+msgstr "Programmeurs:"
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy cancelled"
+msgstr ""
+
+msgid "Copying Save"
+msgstr ""
+
+msgid "Could not connect to the server."
+msgstr "Kan niet verbinden met de server."
+
+msgid "Could not download file."
+msgstr ""
+
+msgid "Could not initialize network!"
+msgstr "Kan het netwerk niet initialiseren!"
+
+msgid "Credits"
+msgstr "Credits"
+
+msgid "Credits Volume"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom Font"
+msgstr "Lettertypes"
+
+msgid "Custom Paths"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Default Settings"
+msgstr "Basis instellingen"
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete All"
+msgstr ""
+
+msgid "Delete All Device Miis"
+msgstr ""
+
+msgid "Delete All Miis"
+msgstr ""
+
+msgid "Delete cancelled"
+msgstr ""
+
+msgid "Deleting All Nand Mii..."
+msgstr ""
+
+msgid "Deleting All device Miis..."
+msgstr ""
+
+msgid "Deleting Save"
+msgstr ""
+
+msgid "Design:"
+msgstr "Design:"
+
+msgid "Devices"
+msgstr ""
+
+msgid "Directory Loop"
+msgstr ""
+
+msgid "Display the report?"
+msgstr ""
+
+msgid "Do you want to connect?"
+msgstr "Wil u verbinden?"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "Wil u deze taal gebruiken?"
+
+msgid "Do you want to reboot now ?"
+msgstr ""
+
+msgid "Do you want to update now ?"
+msgstr ""
+
+msgid "Downloading file..."
+msgstr "Bestand downloaden..."
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Dutch"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "Error encountered:"
+msgstr ""
+
+msgid "Errors encountered:"
+msgstr ""
+
+msgid "Exit"
+msgstr "Einde"
+
+msgid "Extract"
+msgstr ""
+
+msgid "Extract All"
+msgstr ""
+
+msgid "Extract All Miis"
+msgstr ""
+
+msgid "Extract All Saves"
+msgstr ""
+
+msgid "Extract cancelled"
+msgstr ""
+
+msgid "Extract to:"
+msgstr ""
+
+msgid "Extracting All..."
+msgstr ""
+
+msgid "Extracting Save"
+msgstr "Back-uppen van savegame"
+
+msgid "Failed to get the Changelog."
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Filesize is empty."
+msgstr "Bestandsgrootte is nul."
+
+msgid "Font changed"
+msgstr "Lettertype aangepast"
+
+msgid "French"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Full Shutdown"
+msgstr "Volledig afsluiten"
+
+msgid "GUI Settings"
+msgstr "GUI instellingen"
+
+msgid "German"
+msgstr ""
+
+msgid "Getting Changelog..."
+msgstr ""
+
+msgid "Go Back"
+msgstr "Terug"
+
+msgid "HOME Menu"
+msgstr "HOME menu"
+
+msgid "Home Menu"
+msgstr "Home Menu"
+
+msgid "Homebrew Channel"
+msgstr "Homebrew Channel"
+
+msgid "Icon Update"
+msgstr ""
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "Standby"
+
+msgid "InfoWindow"
+msgstr ""
+
+msgid "Initializing Network"
+msgstr "Initialiseren van het netwerk"
+
+msgid "Install"
+msgstr "Installeren"
+
+msgid "Install All"
+msgstr ""
+
+msgid "Install All Miis"
+msgstr ""
+
+msgid "Install All Saves"
+msgstr ""
+
+msgid "Install cancelled"
+msgstr ""
+
+msgid "Installing All..."
+msgstr ""
+
+msgid "Installing Save"
+msgstr "Installeren van de savegame"
+
+msgid "Italian"
+msgstr ""
+
+msgid "JAP to EN"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "June"
+msgstr ""
+
+msgid "Korean"
+msgstr ""
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Language Path changed."
+msgstr "Path van de Taal veranderd."
+
+msgid "Later"
+msgstr "Later"
+
+msgid "Loading file:"
+msgstr ""
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Manage All"
+msgstr ""
+
+msgid "Manage All Miis"
+msgstr ""
+
+msgid "Manage All Saves"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
+msgid "May"
+msgstr ""
+
+msgid "Meta Update"
+msgstr ""
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii memory is full."
+msgstr ""
+
+msgid "Miis"
+msgstr ""
+
+msgid "Miis Path"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Move cancelled"
+msgstr ""
+
+msgid "Moving Save"
+msgstr ""
+
+msgid "Music Volume"
+msgstr "Muziekvolume"
+
+msgid "Nand"
+msgstr ""
+
+msgid "No"
+msgstr "Nee"
+
+msgid "No Mii found in Wii memory."
+msgstr ""
+
+msgid "No Mii found in this folder."
+msgstr ""
+
+msgid "No SaveGame found in Wii."
+msgstr ""
+
+msgid "No SaveGame found in this folder."
+msgstr ""
+
+msgid "No network connection"
+msgstr "Geen netwerkverbinding"
+
+msgid "No new updates available"
+msgstr ""
+
+msgid "Not a valid URL"
+msgstr "Geen geldige URL"
+
+msgid "Not a valid URL path"
+msgstr "Geen geldige URL path"
+
+msgid "Not a valid domain"
+msgstr "Ongeldig domein"
+
+msgid "Not enough memory."
+msgstr "Onvoldoende geheugen."
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "OFF"
+msgstr "UIT"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "AAN"
+
+msgid "October"
+msgstr ""
+
+msgid "Official Site:"
+msgstr "Officiële site:"
+
+msgid "OverWrite"
+msgstr ""
+
+msgid "Path Changed"
+msgstr ""
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Random Play"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr ""
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr "Terug naar basis instellingen."
+
+msgid "Retry"
+msgstr "Opnieuw proberen"
+
+msgid "Rev"
+msgstr "Rev"
+
+msgid "Rumble"
+msgstr "Trillen"
+
+msgid "SD"
+msgstr ""
+
+msgid "SD/USB"
+msgstr "SD/USB"
+
+msgid "SFX Volume"
+msgstr "SFX Volume"
+
+msgid "Save Path"
+msgstr "Savegame directory"
+
+msgid "Saves"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "Savegame directory"
+
+msgid "Screen Size"
+msgstr "Schermgrootte"
+
+msgid "Screensaver"
+msgstr "Screensaver"
+
+msgid "September"
+msgstr ""
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Shortcuts"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr ""
+
+msgid "ShutDown Wii"
+msgstr ""
+
+msgid "Simple Chinese"
+msgstr ""
+
+msgid "Sorry, you can't copy to the same path"
+msgstr ""
+
+msgid "Sorry, you can't move to the same path"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Special thanks to:"
+msgstr "Extra dank aan:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Stored in Wii's Nand?"
+msgstr ""
+
+msgid "Succesfully copied"
+msgstr ""
+
+msgid "Succesfully deleted"
+msgstr ""
+
+msgid "Succesfully done"
+msgstr ""
+
+msgid "Succesfully extracted"
+msgstr "Back-up succesvol."
+
+msgid "Succesfully installed"
+msgstr "Installatie in orde."
+
+msgid "Succesfully moved"
+msgstr ""
+
+msgid "Title Loop"
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "Tooltips"
+msgstr "Tool tips"
+
+msgid "Trad Chinese"
+msgstr ""
+
+msgid "Transfer cancelled."
+msgstr "Verplaatsing geannuleerd"
+
+msgid "Transfer failed"
+msgstr "Verplaatsing mislukt"
+
+msgid "URL is empty."
+msgstr ""
+
+msgid "USB"
+msgstr ""
+
+msgid "Unable to SetUID"
+msgstr "Functie mislukt: SetUID"
+
+msgid "Unable to copy data"
+msgstr "Kan data niet kopiëren"
+
+msgid "Unable to copy the selected Mii"
+msgstr ""
+
+msgid "Unable to copy this SaveGame"
+msgstr ""
+
+msgid "Unable to create Mii list."
+msgstr ""
+
+msgid "Unable to create Wii Saves list."
+msgstr "Aanmaken van de wii savegame lijst mislukt."
+
+msgid "Unable to delete data"
+msgstr ""
+
+msgid "Unable to delete the selected Mii"
+msgstr ""
+
+msgid "Unable to delete this SaveGame"
+msgstr ""
+
+msgid "Unable to extract the selected Mii"
+msgstr ""
+
+msgid "Unable to find device."
+msgstr "Toestel niet gevonden."
+
+msgid "Unable to get NAND path"
+msgstr "Kan NAND path niet vinden."
+
+msgid "Unable to install the selected Mii"
+msgstr ""
+
+msgid "Unable to move the selected Mii"
+msgstr ""
+
+msgid "Unable to move this SaveGame"
+msgstr ""
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Update Path"
+msgstr ""
+
+msgid "Update Settings"
+msgstr ""
+
+msgid "Update all Language Files to:"
+msgstr ""
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update successfully finished"
+msgstr ""
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Updating Language Files:"
+msgstr "Taalbestanden updaten:"
+
+msgid "Updating WiiTDB"
+msgstr ""
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr ""
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr ""
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr ""
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr ""
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr ""
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr ""
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr ""
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr ""
+
+msgid "Wii"
+msgstr "Wii"
+
+msgid "Wii Menu"
+msgstr "Wii menu"
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr ""
+
+msgid "WiiTDB Path"
+msgstr ""
+
+msgid "WiiTDB Settings"
+msgstr ""
+
+msgid "WiiTDB Titles"
+msgstr ""
+
+msgid "WiiTDB Update"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "U moet Waninkoko's cIOS249 geïnstalleerd hebben om dit programma te gebruiken."
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "U moet minstens cIOS249 revisie 9 hebben voor dit programma."
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr ""
+
+msgid "for design & sources"
+msgstr "voor design & broncode."
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "voor zijn fantastische LibWiiGui tool."
+
+msgid "for sources"
+msgstr "voor de broncode."
+
+msgid "for the SaveGame Manager sources"
+msgstr "voor de broncode van savegame manager."
+
+msgid "is already installed."
+msgstr ""

@@ -1,0 +1,170 @@
+# SaveGame Manager GX theme source file.
+# don't delete/change this line (é).
+# ONLY the value before the '-' char needs to be entered in msgstr ""
+# not the complete text.
+# It is important that the image folder is defined for the images to load.
+# The image folder should be in the same folder as the .them file and include the theme images.
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-07 20:36+0100\n"
+"PO-Revision-Date: 2009-10-01 01:00+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Theme-Title: Example\n"
+"Image-Folder: Example\n"
+"Last-Themer: Example\n"
+"Theme-Team: Example\n"
+"Theme-Version: Example\n"
+
+msgid "255 - tooltip alpha"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - mainbrowser entry text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - select browser entry text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - flyingbutton menu mainbutton text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - prompt windows text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - prompt languageSelect list text color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - manage windows text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - checkbox cross color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - checkbox extern border color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - checkbox intern background color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard spec buttons text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard buttons text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - tooltip text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=112 - disabled mask color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - manage buttons text color"
+msgstr ""
+
+msgid "0 - taskbar pos x"
+msgstr ""
+
+msgid "13 - taskbar pos y"
+msgstr ""
+
+msgid "16 - manageAll btn pos x"
+msgstr ""
+
+msgid "355 - managAll btn pos y"
+msgstr ""
+
+msgid "371 - settings btn pos y"
+msgstr ""
+
+msgid "64 - settings btn pos x"
+msgstr ""
+
+msgid "371 - homebrew btn pos y"
+msgstr ""
+
+msgid "489 - homebrew btn pos x"
+msgstr ""
+
+msgid "355 - homemenu btn pos y"
+msgstr ""
+
+msgid "576 - homemenu btn pos x"
+msgstr ""
+
+msgid "160 - sd card btn pos x"
+msgstr ""
+
+msgid "395 - sd card btn pos y"
+msgstr ""
+
+msgid "r=138 g=138 b=138 a=240 - clock color"
+msgstr ""
+
+msgid "left - clock align hor"
+msgstr ""
+
+msgid "top - clock align ver"
+msgstr ""
+
+msgid "275 - clock pos x"
+msgstr ""
+
+msgid "340 - clock pos y"
+msgstr ""
+
+msgid "left - device browser align hor"
+msgstr ""
+
+msgid "middle - device browser align vert"
+msgstr ""
+
+msgid "-50 - device browser pos y"
+msgstr ""
+
+msgid "30 - device browser pos x"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - credits windows text color"
+msgstr ""
+
+msgid "17 - device menu text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - device menu text color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - homemenu title text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - homemenu main button text color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - homemenu battery text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - screensaver background color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - select browser adress text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - download save window text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - flyingbutton menu title text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - text reader filename text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - text reader file text color"
+msgstr ""
+
+msgid "1 - Enable tooltips: 0 for off and 1 for on"
+msgstr ""

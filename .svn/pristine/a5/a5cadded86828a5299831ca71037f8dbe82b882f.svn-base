@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>SaveGame Manager GX</name>
+  <coder>Dj_Skual</coder>
+  <version>rev125</version>
+  <release_date>201204071041</release_date>
+  <!--   // remove this line to enable arguments
+  <arguments>
+    <arg>-ios=58</arg>
+  </arguments>
+  // remove this line to enable arguments  -->
+  <no_ios_reload/>
+  <short_description>SaveGames/Mii Manager</short_description> 
+  <long_description>A Savegame/Mii extractor and installer for the Wii by Dj_Skual.
+The GUI is done with LibWiiGui by Tantric and graphics by NeoRame/Cyrex from USB Loader GX.
+
+Features:
+ * SDHC and USB2 support
+ * USB support FAT, NTFS and EXT2FS
+ * Official saves support (data.bin)
+ * Protected saves support
+ * Mii Support
+ * Multilanguage support 
+ * Custom Font support
+ * Themes support (direct download on www.spiffy360.com)
+ * SaveGame download (direct download on www.wiisave.com)
+ * GameTDB support
+ * Display informations about Savegames/Data.bin in a special window
+   (Name, Subname, ID, BlockSize, Icon)
+ * Display informations about Miis in a special window
+   (Name, Creator, Date, Gender, Favorite Color)
+ * Extract, Install, Delete, Copy, Move fonctions are available
+ * Custom Background Music support (AIF/MP3/OGG/BNS/WAV)
+ * Online AutoUpdate
+ * Homebrew Browser
+ * Channel Browser
+ * WiiLoad .dol receiver
+ * Widesreen support
+ * ScreenSaver
+
+Credits:
+  Coding: Dj_Skual, Giantpune
+  Artworks: Neorame, Cyrex, Dj_Skual
+  Languages: Dj Skual and Translaters
+
+  Libwiigui: Tantric
+  Libogc/Devkit: Shagkur and Wintermute
+  FreeTypeGX: Armin Tamzarian.
+  
+Thanks to:
+  Waninkoko for SaveGame Manager sources
+  USB Loader GX Team for sources and artworks
+  WiiXplorer Team for WiiXplorer sources
+  Lustar for GameTDB (Game Title DataBase)
+  Spiffy360 Team for Themes hosting
+  WiiSave Team for Saves hosting
+  Attila from wii-info.fr for help and support
+
+Links:
+  SaveGame Manager GX Official Site:
+    http://savegamegx.net
+	savegame-manager-gx/
+  SaveGame Manager GX Project Page:
+    http://code.google.com/p/
+	savegame-manager-gx/
+  WiiXplorer Support Site:
+    http://code.google.com/p/
+	savegame-manager-gx/updates/list
+  USB Loader GX Support Site:
+    http://code.google.com/p/
+	usbloader-gui/updates/list
+  Libwiigui Website:
+    http://wiibrew.org/wiki/Libwiigui/
+  GameTDB Website:
+    http://gametdb.com
+  Spiffy360 Website:
+    http://wii.spiffy360.com/index.php
+  WiiSave Website:
+    http://www.wiisave.com
+  FreeTypeGX Project Page:
+    http://code.google.com/p/freetypegx/
+  Gettext Official Page:
+    http://www.gnu.org/software/gettext/
+    gettext.html
+  </long_description> 
+</app>

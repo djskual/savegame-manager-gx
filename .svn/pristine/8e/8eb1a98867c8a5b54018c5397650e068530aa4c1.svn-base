@@ -1,0 +1,808 @@
+# SaveGame Manager GX language source file.
+#
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr ""
+
+#, c-format
+msgid "%d files available"
+msgstr ""
+
+msgid "1 hour"
+msgstr "1 Tunti"
+
+msgid "1 min"
+msgstr "1 Minuutti"
+
+msgid "10 mins"
+msgstr "10 Minuuttia"
+
+msgid "12 Hours"
+msgstr "12 Tuntia"
+
+msgid "16/9"
+msgstr "16/9"
+
+msgid "20 mins"
+msgstr "20 Minuuttia"
+
+msgid "24 Hours"
+msgstr "24 Tuntia"
+
+msgid "3 mins"
+msgstr "3 Minuuttia"
+
+msgid "30 mins"
+msgstr "30 Minuuttia"
+
+msgid "4/3"
+msgstr "4/3"
+
+msgid "5 mins"
+msgstr "5 Minuuttia"
+
+msgid "Action cancelled."
+msgstr "Toiminto peruutettu."
+
+msgid "All Language files updated."
+msgstr "Kaikki kielitiedostot päivitetty."
+
+msgid "All translaters for language files updates"
+msgstr "Kaikki kääntäjät kielitiedostejen päivityksille"
+
+msgid "April"
+msgstr "Huhtikuu"
+
+msgid "Are you sure ?"
+msgstr "Oletko varma ?"
+
+msgid "Audio Settings"
+msgstr ""
+
+msgid "August"
+msgstr "Elokuu"
+
+msgid "Auto Update"
+msgstr "Automaattinen päivitys"
+
+msgid "Back"
+msgstr "Takaisin"
+
+msgid "Back to Loader"
+msgstr ""
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Isot kiitokset:"
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "BootMethod"
+msgstr "BootMethod"
+
+msgid "Browse Miis"
+msgstr "Selaa Mii:tä"
+
+msgid "Browse SD"
+msgstr "Selaa muistikorttia (SD)"
+
+msgid "Browse Saves"
+msgstr "Selaa tallennuksia"
+
+msgid "Browse USB"
+msgstr "Selaa kovalevyä (USB)"
+
+msgid "Browsed"
+msgstr "Selattu"
+
+msgid "Can not open the file"
+msgstr "Tiedostoa ei voida avata"
+
+msgid "Can't create the Mii file."
+msgstr "Mii tiedostoa ei voida luoda."
+
+msgid "Can't load file"
+msgstr "Tiedostoa ei voida ladata"
+
+msgid "Can't open the Nand Mii file."
+msgstr "Nand Mii tiedostoa ei pystytä avaamaan."
+
+msgid "Can't read the Nand Mii file."
+msgstr "Nand Mii tiedostoa ei pystytä lukemaan."
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Cancelled"
+msgstr "Peruutettu"
+
+msgid "Cannot write to destination."
+msgstr "Kohteeseen ei pystytä kirjoittamaan."
+
+msgid "Caps"
+msgstr "Caps"
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Clock"
+msgstr "Kello"
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Coding:"
+msgstr "Koodaus:"
+
+msgid "Confirm"
+msgstr "Hyväksy"
+
+msgid "Copy"
+msgstr "Kopioi"
+
+msgid "Copy cancelled"
+msgstr "Kopiointi peruutettu"
+
+msgid "Copying Save"
+msgstr "Kopioi tallennusta"
+
+msgid "Could not connect to the server."
+msgstr "Palvelimeen ei saada yhtettä."
+
+msgid "Could not download file."
+msgstr "Tiedostoa ei pystytä lataamaan."
+
+msgid "Could not initialize network!"
+msgstr ""
+
+msgid "Credits"
+msgstr "Tekijät"
+
+msgid "Credits Volume"
+msgstr ""
+
+msgid "Custom"
+msgstr "Muokkaa"
+
+msgid "Custom Font"
+msgstr "Muokkaa fonttia"
+
+msgid "Custom Paths"
+msgstr ""
+
+msgid "December"
+msgstr "Joulukuu"
+
+msgid "Default"
+msgstr "Vakio"
+
+msgid "Default Settings"
+msgstr "Vakioasetuset"
+
+msgid "Delete"
+msgstr "Poista"
+
+msgid "Delete All"
+msgstr ""
+
+msgid "Delete All Device Miis"
+msgstr ""
+
+msgid "Delete All Miis"
+msgstr ""
+
+msgid "Delete cancelled"
+msgstr "Poisto peruutettu"
+
+msgid "Deleting All Nand Mii..."
+msgstr ""
+
+msgid "Deleting All device Miis..."
+msgstr ""
+
+msgid "Deleting Save"
+msgstr "Poistetaan tallennusta"
+
+msgid "Design:"
+msgstr "Suunnittelu:"
+
+msgid "Devices"
+msgstr ""
+
+msgid "Directory Loop"
+msgstr ""
+
+msgid "Display the report?"
+msgstr ""
+
+msgid "Do you want to connect?"
+msgstr "Haluatko yhdistää?"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "Haluatko ladata tämän kielen ?"
+
+msgid "Do you want to reboot now ?"
+msgstr "Haluatko uudelleenkäynnistää nyt ?"
+
+msgid "Do you want to update now ?"
+msgstr "Haluatko päivittää nyt ?"
+
+msgid "Downloading file..."
+msgstr "Ladataan tiedostoa..."
+
+msgid "Duplicate"
+msgstr "Monista"
+
+msgid "Dutch"
+msgstr ""
+
+msgid "English"
+msgstr ""
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "Error encountered:"
+msgstr ""
+
+msgid "Errors encountered:"
+msgstr ""
+
+msgid "Exit"
+msgstr "Poistu"
+
+msgid "Extract"
+msgstr "Pura"
+
+msgid "Extract All"
+msgstr "Pura kaikki"
+
+msgid "Extract All Miis"
+msgstr "Pura kaikki Mii:t"
+
+msgid "Extract All Saves"
+msgstr "Pura kaikki tallennukset"
+
+msgid "Extract cancelled"
+msgstr "Purku peruutettu"
+
+msgid "Extract to:"
+msgstr "Pura hakemistoon:"
+
+msgid "Extracting All..."
+msgstr "Puretaan kaikki..."
+
+msgid "Extracting Save"
+msgstr "Puretaan tallennusta"
+
+msgid "Failed to get the Changelog."
+msgstr "Muutoksien haku epäonnistui."
+
+msgid "February"
+msgstr "Helmikuu"
+
+msgid "Filesize is empty."
+msgstr "Tiedoston koko on tyhjä."
+
+msgid "Font changed"
+msgstr "Fontti vaihdettu"
+
+msgid "French"
+msgstr ""
+
+msgid "From:"
+msgstr "Keneltä:"
+
+msgid "Full Shutdown"
+msgstr "Täysi sammutus"
+
+msgid "GUI Settings"
+msgstr "GUI Asetukset"
+
+msgid "German"
+msgstr ""
+
+msgid "Getting Changelog..."
+msgstr "Haetaan muutoksia..."
+
+msgid "Go Back"
+msgstr "Mene takaisin"
+
+msgid "HOME Menu"
+msgstr "KOTI Valikko"
+
+msgid "Home Menu"
+msgstr "Kotivalikko"
+
+msgid "Homebrew Channel"
+msgstr "Homebrew Channel"
+
+msgid "Icon Update"
+msgstr ""
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "Unitila"
+
+msgid "InfoWindow"
+msgstr "InfoIkkuna"
+
+msgid "Initializing Network"
+msgstr "Valmistellaan verkkoa"
+
+msgid "Install"
+msgstr "Asenna"
+
+msgid "Install All"
+msgstr "Asenna kaikki"
+
+msgid "Install All Miis"
+msgstr "Asenna kaikki Mii:t"
+
+msgid "Install All Saves"
+msgstr "Asenna kaikki tallennukset"
+
+msgid "Install cancelled"
+msgstr "Asennus peruttu"
+
+msgid "Installing All..."
+msgstr "Asennetaan kaikki..."
+
+msgid "Installing Save"
+msgstr "Asennetaan tallennusta"
+
+msgid "Italian"
+msgstr ""
+
+msgid "JAP to EN"
+msgstr ""
+
+msgid "January"
+msgstr "Tammikuu"
+
+msgid "Japanese"
+msgstr ""
+
+msgid "July"
+msgstr "Heinäkuu"
+
+msgid "June"
+msgstr "Kesäkuu"
+
+msgid "Korean"
+msgstr ""
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Language Path changed."
+msgstr "Kielipolku vaihdettu."
+
+msgid "Later"
+msgstr "Myöhemmin"
+
+msgid "Loading file:"
+msgstr "Ladataan tiedostoa:"
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Manage All"
+msgstr "Hallitse kaikkia"
+
+msgid "Manage All Miis"
+msgstr "Hallitse kaikkia Mii:tä"
+
+msgid "Manage All Saves"
+msgstr "Hallitse kaikkia tallennuksia"
+
+msgid "March"
+msgstr "Maaliskuu"
+
+msgid "May"
+msgstr "Toukokuu"
+
+msgid "Meta Update"
+msgstr ""
+
+msgid "Mii"
+msgstr "Mii"
+
+msgid "Mii memory is full."
+msgstr "Mii muisti on täysi."
+
+msgid "Miis"
+msgstr "Miit"
+
+msgid "Miis Path"
+msgstr "Mii:n polku"
+
+msgid "Move"
+msgstr "Siirrä"
+
+msgid "Move cancelled"
+msgstr "Siirto peruttu"
+
+msgid "Moving Save"
+msgstr "Siirretään tallennusta"
+
+msgid "Music Volume"
+msgstr "Musiikin voimakkuus"
+
+msgid "Nand"
+msgstr ""
+
+msgid "No"
+msgstr "Ei"
+
+msgid "No Mii found in Wii memory."
+msgstr "Wii:n muistissa ei ole Mii:tä."
+
+msgid "No Mii found in this folder."
+msgstr "Miitä ei löytynyt tästä hakemistosta."
+
+msgid "No SaveGame found in Wii."
+msgstr "Ei tallennuksia Wiissä."
+
+msgid "No SaveGame found in this folder."
+msgstr "Ei tallennuksia tässä kansiossa."
+
+msgid "No network connection"
+msgstr "Ei verkkoyhteyttä"
+
+msgid "No new updates available"
+msgstr "Ei uusia päivityksiä"
+
+msgid "Not a valid URL"
+msgstr "Epäkelpo URL"
+
+msgid "Not a valid URL path"
+msgstr "Epäkelpo URL polku"
+
+msgid "Not a valid domain"
+msgstr "Epäkelpo domain"
+
+msgid "Not enough memory."
+msgstr "Muistia liian vähän."
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr "Marraskuu"
+
+msgid "OFF"
+msgstr "Pois päältä"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "Päällä"
+
+msgid "October"
+msgstr "Lokakuu"
+
+msgid "Official Site:"
+msgstr "Virallinen sivu:"
+
+msgid "OverWrite"
+msgstr "Ylikirjoita"
+
+msgid "Path Changed"
+msgstr ""
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Random Play"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr "Uudelleenkäynnistys epäonnistui"
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr "Nollaa asetukset"
+
+msgid "Retry"
+msgstr "Uudelleen"
+
+msgid "Rev"
+msgstr "Rev"
+
+msgid "Rumble"
+msgstr "Värinä"
+
+msgid "SD"
+msgstr "SD"
+
+msgid "SD/USB"
+msgstr "SD/USB"
+
+msgid "SFX Volume"
+msgstr "Äänitehosteiden voimakkuus"
+
+msgid "Save Path"
+msgstr "Tallenna polku"
+
+msgid "Saves"
+msgstr "Tallennukset"
+
+msgid "Saves Path"
+msgstr "Tallennuksien polku"
+
+msgid "Screen Size"
+msgstr "Näytön koko"
+
+msgid "Screensaver"
+msgstr "Näytönsäästäjä"
+
+msgid "September"
+msgstr "Syyskuu"
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Shortcuts"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr "Näytä muutokset"
+
+msgid "ShutDown Wii"
+msgstr ""
+
+msgid "Simple Chinese"
+msgstr ""
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "Et voi kopioida samaan polkuun"
+
+msgid "Sorry, you can't move to the same path"
+msgstr "Et voi siirtää samaan polkuun"
+
+msgid "Spanish"
+msgstr ""
+
+msgid "Special thanks to:"
+msgstr "Erikoiskiitokset:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Stored in Wii's Nand?"
+msgstr ""
+
+msgid "Succesfully copied"
+msgstr "Kopiointi onnistui"
+
+msgid "Succesfully deleted"
+msgstr "Poisto onnistui"
+
+msgid "Succesfully done"
+msgstr "Onnistui"
+
+msgid "Succesfully extracted"
+msgstr "Purku onnistui"
+
+msgid "Succesfully installed"
+msgstr "Asennus onnistui"
+
+msgid "Succesfully moved"
+msgstr "Siirto onnistui"
+
+msgid "Title Loop"
+msgstr ""
+
+msgid "To:"
+msgstr "Saaja:"
+
+msgid "Tooltips"
+msgstr "Vinkit"
+
+msgid "Trad Chinese"
+msgstr ""
+
+msgid "Transfer cancelled."
+msgstr "Siirto peruttu."
+
+msgid "Transfer failed"
+msgstr "Siirto epäonnistui"
+
+msgid "URL is empty."
+msgstr "URL on tyhjä."
+
+msgid "USB"
+msgstr "USB"
+
+msgid "Unable to SetUID"
+msgstr "Ei voida asettaa UID"
+
+msgid "Unable to copy data"
+msgstr "Ei voida kopioida tietoa"
+
+msgid "Unable to copy the selected Mii"
+msgstr "Ei voida kopioida valittua Miitä"
+
+msgid "Unable to copy this SaveGame"
+msgstr "Ei voida kopioida tätä tallennusta"
+
+msgid "Unable to create Mii list."
+msgstr "Ei voida luoda Mii listaa."
+
+msgid "Unable to create Wii Saves list."
+msgstr "Ei voida luoda Wii tallennuslistaa."
+
+msgid "Unable to delete data"
+msgstr ""
+
+msgid "Unable to delete the selected Mii"
+msgstr "Valitun Miin poisto epäonnistui"
+
+msgid "Unable to delete this SaveGame"
+msgstr "Tallennuksen poisto epäonnistui"
+
+msgid "Unable to extract the selected Mii"
+msgstr "Valitun Miin purku epäonnistui"
+
+msgid "Unable to find device."
+msgstr "Laitetta ei löytynyt."
+
+msgid "Unable to get NAND path"
+msgstr "NAND Polkua ei saada"
+
+msgid "Unable to install the selected Mii"
+msgstr "Valitun Miin asennus epäonnistui"
+
+msgid "Unable to move the selected Mii"
+msgstr "Valitun Miin siirto epäonnistui"
+
+msgid "Unable to move this SaveGame"
+msgstr "Tallennuksen siirto epäonnistui"
+
+msgid "Update"
+msgstr "Päivitä"
+
+msgid "Update Path"
+msgstr "Päivityspolku"
+
+msgid "Update Settings"
+msgstr "Päivitysasetukset"
+
+msgid "Update all Language Files to:"
+msgstr ""
+
+msgid "Update failed"
+msgstr "Päivitys epäonnistui"
+
+msgid "Update successfully finished"
+msgstr "Päivitys onnistui"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Päivitys Rev%i versioon saatavilla"
+
+msgid "Updates"
+msgstr "Päivitykset"
+
+msgid "Updating Language Files:"
+msgstr "Päivitetaan kielitiedostoja:"
+
+msgid "Updating WiiTDB"
+msgstr ""
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "VAROITUS: Kaikki Miit Wiissä ylikirjoitetaan asennettujen Miiden toimesta !!!"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr ""
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr ""
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "VAROITUS: Kaikki Miit tässä polussa ylikirjoitetaan purettujen Miiden toimesta !!!"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "VAROITUS: Kaikki tallennukset Wiissä ylikirjoitetaan asennettujen tallennuksien toimesta !!!"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "VAROITUS: Kaikki entiset tallennukset tässä polussa ylikirjoitetaan purettujen tallennuksien toimesta !!!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr ""
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "VAROITUS: Sinulla täytyy olla tallennus valmiina asennettuna Wiissä asentaaksesi tämän!!!"
+
+msgid "Wii"
+msgstr "Wii"
+
+msgid "Wii Menu"
+msgstr "Wii Valikko"
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr ""
+
+msgid "WiiTDB Path"
+msgstr ""
+
+msgid "WiiTDB Settings"
+msgstr ""
+
+msgid "WiiTDB Titles"
+msgstr ""
+
+msgid "WiiTDB Update"
+msgstr ""
+
+msgid "Yes"
+msgstr "Kyllä"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "Sinun täytyy asentaa cIOS 249 Waninkokolta käyttääksesi tätä ohjelmaa."
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "Sinun täytyy asentaa cIOS 249 rev 9 tai uudempi käyttääksesi tätä ohjelmaa."
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr ""
+
+msgid "for design & sources"
+msgstr "Suunnittelusta & Lähteistä"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "hänen mahtavasta työkalusta LibWiiGui"
+
+msgid "for sources"
+msgstr "Lähteistä"
+
+msgid "for the SaveGame Manager sources"
+msgstr "SaveGame Managerin lähteistä"
+
+msgid "is already installed."
+msgstr "on jo asennettu."

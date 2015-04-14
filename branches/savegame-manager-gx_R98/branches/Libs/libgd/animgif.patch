@@ -1,0 +1,704 @@
+Index: gd.c
+===================================================================
+--- gd.c	(revision 161)
++++ gd.c	(working copy)
+@@ -102,7 +102,7 @@
+     {
+       /* Row-major ever since gd 1.3 */
+       im->pixels[i] = (unsigned char *) gdCalloc (sx, sizeof (unsigned char));
+-			if (!im->pixels[i]) 
++			if (!im->pixels[i])
+ 			{
+ 				for (--i ; i >= 0; i--)
+ 				{
+@@ -136,6 +136,15 @@
+   im->cy2 = im->sy - 1;
+   im->res_x = GD_RESOLUTION;
+   im->res_y = GD_RESOLUTION;
++  /* Gif Animation addition for WiiXplorer */
++  im->frames       = 0;
++  im->framesNumber = 0;
++  im->delay        = 0;
++  im->disposal     = gdDisposalNone;
++  im->xOffset      = 0;
++  im->yOffset      = 0;
++  im->validColormap  = 0;
++
+   return im;
+ }
+ 
+@@ -194,8 +203,8 @@
+   im->trueColor = 1;
+   /* 2.0.2: alpha blending is now on by default, and saving of alpha is
+      off by default. This allows font antialiasing to work as expected
+-     on the first try in JPEGs -- quite important -- and also allows 
+-     for smaller PNGs when saving of alpha channel is not really 
++     on the first try in JPEGs -- quite important -- and also allows
++     for smaller PNGs when saving of alpha channel is not really
+      desired, which it usually isn't! */
+   im->saveAlphaFlag = 0;
+   im->alphaBlendingFlag = 1;
+@@ -207,6 +216,14 @@
+   im->cy2 = im->sy - 1;
+   im->res_x = GD_RESOLUTION;
+   im->res_y = GD_RESOLUTION;
++  /* Gif Animation addition for WiiXplorer */
++  im->frames       = 0;
++  im->framesNumber = 0;
++  im->delay        = 0;
++  im->disposal     = gdDisposalNone;
++  im->xOffset      = 0;
++  im->yOffset      = 0;
++  im->validColormap  = 0;
+   return im;
+ }
+ 
+@@ -237,6 +254,19 @@
+     {
+       gdFree (im->style);
+     }
++    /* GIF Animation addition for WiiXplorer */
++  if (im->frames)
++    {
++      for (i = 0; i < im->framesNumber; i++)
++      {
++          if (im->frames[i])
++          {
++              gdImageDestroy(im->frames[i]);
++          }
++      }
++      gdFree(im->frames);
++    }
++
+   gdFree (im);
+ }
+ 
+@@ -267,7 +297,7 @@
+       gd = (im->green[i] - g);
+       bd = (im->blue[i] - b);
+       /* gd 2.02: whoops, was - b (thanks to David Marwood) */
+-      /* gd 2.16: was blue rather than alpha! Geez! Thanks to 
++      /* gd 2.16: was blue rather than alpha! Geez! Thanks to
+          Artur Jakub Jerzak */
+       ad = (im->alpha[i] - a);
+       dist = rd * rd + gd * gd + bd * bd + ad * ad;
+@@ -282,8 +312,8 @@
+ }
+ 
+ /* This code is taken from http://www.acm.org/jgt/papers/SmithLyons96/hwb_rgb.html, an article
+- * on colour conversion to/from RBG and HWB colour systems. 
+- * It has been modified to return the converted value as a * parameter. 
++ * on colour conversion to/from RBG and HWB colour systems.
++ * It has been modified to return the converted value as a * parameter.
+  */
+ 
+ #define RETURN_HWB(h, w, b) {HWB->H = h; HWB->W = w; HWB->B = b; return HWB;}
+@@ -298,8 +328,8 @@
+ 
+ 
+ /*
+- * Theoretically, hue 0 (pure red) is identical to hue 6 in these transforms. Pure 
+- * red always maps to 6 in this implementation. Therefore UNDEFINED can be 
++ * Theoretically, hue 0 (pure red) is identical to hue 6 in these transforms. Pure
++ * red always maps to 6 in this implementation. Therefore UNDEFINED can be
+  * defined as 0 in situations where only unsigned numbers are desired.
+  */
+ typedef struct
+@@ -318,8 +348,8 @@
+ {
+ 
+   /*
+-   * RGB are each on [0, 1]. W and B are returned on [0, 1] and H is  
+-   * returned on [0, 6]. Exception: H is returned UNDEFINED if W == 1 - B.  
++   * RGB are each on [0, 1]. W and B are returned on [0, 1] and H is
++   * returned on [0, 6]. Exception: H is returned UNDEFINED if W == 1 - B.
+    */
+ 
+   float R = RGB.R, G = RGB.G, B = RGB.B, w, v, b, f;
+@@ -385,9 +415,9 @@
+ HWB_to_RGB (HWBType HWB, RGBType * RGB)
+ {
+ 
+-  /* 
+-   * H is given on [0, 6] or UNDEFINED. W and B are given on [0, 1].  
+-   * RGB are each returned on [0, 1]. 
++  /*
++   * H is given on [0, 6] or UNDEFINED. W and B are given on [0, 1].
++   * RGB are each returned on [0, 1].
+    */
+ 
+   float h = HWB.H, w = HWB.W, b = HWB.B, v, n, f;
+@@ -1235,12 +1265,12 @@
+ 
+   if (color == gdAntiAliased)
+     {
+-      /* 
++      /*
+         gdAntiAliased passed as color: use the much faster, much cheaper
+         and equally attractive gdImageAALine implementation. That
+         clips too, so don't clip twice.
+       */
+-      gdImageAALine(im, x1, y1, x2, y2, im->AA_color); 
++      gdImageAALine(im, x1, y1, x2, y2, im->AA_color);
+       return;
+     }
+   /* 2.0.10: Nick Atty: clip to edges of drawing rectangle, return if no
+@@ -1766,9 +1796,9 @@
+ 
+ /* s and e are integers modulo 360 (degrees), with 0 degrees
+    being the rightmost extreme and degrees changing clockwise.
+-   cx and cy are the center in pixels; w and h are the horizontal 
++   cx and cy are the center in pixels; w and h are the horizontal
+    and vertical diameter in pixels. Nice interface, but slow.
+-   See gd_arc_f_buggy.c for a better version that doesn't 
++   See gd_arc_f_buggy.c for a better version that doesn't
+    seem to be bug-free yet. */
+ 
+ BGD_DECLARE(void) gdImageArc (gdImagePtr im, int cx, int cy, int w, int h, int s, int e,
+@@ -2134,7 +2164,7 @@
+ 		return;
+ 	}
+ 
+-	alphablending_bak = im->alphaBlendingFlag;	
++	alphablending_bak = im->alphaBlendingFlag;
+ 	im->alphaBlendingFlag = 0;
+ 
+ 	if (nc==gdTiled) {
+@@ -2146,7 +2176,7 @@
+ 	wx2=im->sx;wy2=im->sy;
+ 	oc = gdImageGetPixel(im, x, y);
+ 	if (oc==nc || x<0 || x>wx2 || y<0 || y>wy2) {
+-		im->alphaBlendingFlag = alphablending_bak;	
++		im->alphaBlendingFlag = alphablending_bak;
+ 		return;
+ 	}
+ 
+@@ -2225,7 +2255,7 @@
+ 	gdFree(stack);
+ 
+ done:
+-	im->alphaBlendingFlag = alphablending_bak;	
++	im->alphaBlendingFlag = alphablending_bak;
+ }
+ 
+ static void _gdImageFillTiled(gdImagePtr im, int x, int y, int nc)
+@@ -2343,7 +2373,7 @@
+ 		half1 = thick - half;
+ 		x1ul = x1 - half;
+ 		y1ul = y1 - half;
+-		
++
+ 		x2lr = x2 + half;
+ 		y2lr = y2 + half;
+ 
+@@ -2488,7 +2518,7 @@
+ 		  {
+ 			  /* 2.05: remap to the palette available in the
+ 				 destination image. This is slow and
+-				 works badly, but it beats crashing! Thanks 
++				 works badly, but it beats crashing! Thanks
+ 				 to Padhrig McCarthy. */
+ 	      mapTo = gdImageColorResolveAlpha (dst,
+ 						gdTrueColorGetRed (c),
+@@ -2600,10 +2630,10 @@
+ 	      tox++;
+ 	      continue;
+ 	    }
+-	  /* 
+-	   * If it's the same image, mapping is NOT trivial since we 
+-	   * merge with greyscale target, but if pct is 100, the grey 
+-	   * value is not used, so it becomes trivial. pjw 2.0.12. 
++	  /*
++	   * If it's the same image, mapping is NOT trivial since we
++	   * merge with greyscale target, but if pct is 100, the grey
++	   * value is not used, so it becomes trivial. pjw 2.0.12.
+ 	   */
+ 	  if (dst == src && pct == 100)
+ 	    {
+@@ -2704,7 +2734,7 @@
+ 		}
+ 	      if (dst->trueColor)
+ 		{
+-		  /* 2.0.9: Thorben Kundinger: Maybe the source image is not 
++		  /* 2.0.9: Thorben Kundinger: Maybe the source image is not
+ 		     a truecolor image */
+ 		  if (!src->trueColor)
+ 		    {
+@@ -2795,12 +2825,12 @@
+   gdFree (sty);
+ }
+ 
+-/* gd 2.0.8: gdImageCopyRotated is added. Source 
++/* gd 2.0.8: gdImageCopyRotated is added. Source
+ 	is a rectangle, with its upper left corner at
+ 	srcX and srcY. Destination is the *center* of
+         the rotated copy. Angle is in degrees, same as
+         gdImageArc. Floating point destination center
+-	coordinates allow accurate rotation of 
++	coordinates allow accurate rotation of
+ 	objects of odd-numbered width or height. */
+ 
+ BGD_DECLARE(void) gdImageCopyRotated (gdImagePtr dst,
+@@ -2818,7 +2848,7 @@
+   int cmap[gdMaxColors];
+   int i;
+ 
+-	/* 
++	/*
+ 		 2.0.34: transparency preservation. The transparentness of
+ 		 the transparent color is more important than its hue.
+ 	*/
+@@ -2845,10 +2875,10 @@
+ 	    {
+ 				int c = gdImageGetPixel (src, sx, sy);
+ 				/* 2.0.34: transparency wins */
+-				if (c == src->transparent) 
++				if (c == src->transparent)
+ 				{
+ 					gdImageSetPixel (dst, dx, dy, dst->transparent);
+-				}  
++				}
+ 					else if (!src->trueColor)
+ 				{
+ 		  /* Use a table to avoid an expensive
+@@ -2890,7 +2920,7 @@
+    arithmetic. The routine below is shamelessly, gloriously
+    floating point. TBB */
+ 
+-/* 2.0.10: cast instead of floor() yields 35% performance improvement. 
++/* 2.0.10: cast instead of floor() yields 35% performance improvement.
+ 	Thanks to John Buckman. */
+ 
+ #define floor2(exp) ((long) exp)
+@@ -2967,7 +2997,7 @@
+ 		      xportion = 1.0;
+ 		    }
+ 		  pcontribution = xportion * yportion;
+-		  /* 2.08: previously srcX and srcY were ignored. 
++		  /* 2.08: previously srcX and srcY were ignored.
+ 		     Andrew Pattison */
+ 		  p = gdImageGetTrueColorPixel (src,
+ 						(int) sx + srcX,
+@@ -3296,7 +3326,7 @@
+ 	  /* Do the following math as float intermediately, and round to ensure
+ 	   * that Polygon and FilledPolygon for the same set of points have the
+ 	   * same footprint. */
+- 
++
+ 	  if ((y >= y1) && (y < y2))
+ 	    {
+ 	      im->polyInts[ints++] = (int) ((float) ((y - y1) * (x2 - x1)) /
+@@ -3307,7 +3337,7 @@
+ 	      im->polyInts[ints++] = x2;
+ 	    }
+ 	}
+-      /* 
++      /*
+         2.0.26: polygons pretty much always have less than 100 points,
+         and most of the time they have considerably less. For such trivial
+         cases, insertion sort is a good choice. Also a good choice for
+@@ -3334,7 +3364,7 @@
+   /* This doesn't work as well as I'd like, but it doesn't clash either. */
+   if (c == gdAntiAliased) {
+     gdImagePolygon (im, p, n, c);
+-  } 
++  }
+ }
+ 
+ static void gdImageSetAAPixelColor(gdImagePtr im, int x, int y, int color, int t);
+@@ -3347,7 +3377,7 @@
+     }
+   if (overflow2(sizeof (int), noOfPixels)) {
+     return;
+-  }   	
++  }
+   im->style = (int *) gdMalloc (sizeof (int) * noOfPixels);
+ 	if (!im->style) {
+ 		return;
+@@ -3542,7 +3572,7 @@
+     src_weight = gdAlphaTransparent - src_alpha;
+     dst_weight = (gdAlphaTransparent - dst_alpha) * src_alpha / gdAlphaMax;
+     tot_weight = src_weight + dst_weight;
+-    
++
+ /* -------------------------------------------------------------------- */
+ /*      What red, green and blue result values will we use?             */
+ /* -------------------------------------------------------------------- */
+@@ -3660,7 +3690,7 @@
+ 	BLEND_COLOR(t, dg, g, dg);
+ 	BLEND_COLOR(t, db, b, db);
+ 	im->tpixels[y][x] = gdTrueColorAlpha(dr, dg, db,  gdAlphaOpaque);
+-}  
++}
+ 
+ static void gdImageAALine (gdImagePtr im, int x1, int y1, int x2, int y2, int col)
+ {
+Index: gd.h
+===================================================================
+--- gd.h	(revision 161)
++++ gd.h	(working copy)
+@@ -228,6 +228,16 @@
+     /* 2.1.0: allows to specify resolution in dpi */
+     unsigned int res_x;
+     unsigned int res_y;
++
++    /* GIF Animation addition for WiiXplorer */
++    /* read all frames of animated GIF */
++    int    framesNumber;               /* # frames of animated GIF     */
++    int    xOffset;
++    int    yOffset;
++    int    validColormap;              /* use local or global colormap */
++    int    disposal;                   /* replace or combine frame     */
++    int    delay;                      /* delay time between frames    */
++    struct gdImageStruct **frames;     /* all frames of animated GIF   */
+   }
+   gdImage;
+ 
+@@ -817,6 +827,24 @@
+ #define gdImageGetTransparent(im) ((im)->transparent)
+ #define gdImageGetInterlaced(im) ((im)->interlace)
+ 
++/* animated GIF support for WiiXplorer */
++#define gdImageIsAnimatedGIF(im) ((!(im)->trueColor && \
++        (im)->framesNumber > 0 && (im)->frames) ?  1 : 0)
++#define gdImageOffsetX(im)      ((im)->xOffset)
++#define gdImageOffsetY(im)      ((im)->yOffset)
++#define gdImageSetOffsetX(im,i) ((im)->xOffset = i)
++#define gdImageSetOffsetY(im,i) ((im)->yOffset = i)
++#define gdImageValidColormap(im) ((im)->validColormap)
++#define gdImageSetValidColormap(im,i) ((im)->validColormap = i)
++#define gdImageDisposal(im)     ((im)->disposal)
++#define gdImageSetDisposal(im,i) ((im)->disposal = i)
++#define gdImageDelay(im)        ((im)->delay)
++#define gdImageSetDelay(im,i)   ((im)->delay = i)
++#define gdImageFrame(im,i)      ((im)->frames[i] )
++#define gdImageFramesNumber(im) ((im)->framesNumber)
++#define gdImageSetFrames(im,f)  ((im)->frames = f)
++#define gdImageSetFramesNumber(im,n)  ((im)->framesNumber = n)
++
+ /* These macros provide direct access to pixels in
+ 	palette-based and truecolor images, respectively.
+ 	If you use these macros, you must perform your own
+Index: gd_gif_in.c
+===================================================================
+--- gd_gif_in.c	(revision 161)
++++ gd_gif_in.c	(working copy)
+@@ -91,13 +91,15 @@
+ } LZW_STATIC_DATA;
+ 
+ static int ReadColorMap (gdIOCtx *fd, int number, unsigned char (*buffer)[256]);
+-static int DoExtension (gdIOCtx *fd, int label, int *Transparent, int *ZeroDataBlockP);
++static int DoExtension (gdIOCtx *fd, int label, int *Transparent, int *DelayTime, int *Disposal, int *ZeroDataBlockP);
+ static int GetDataBlock (gdIOCtx *fd, unsigned char *buf, int *ZeroDataBlockP);
+ static int GetCode (gdIOCtx *fd, CODE_STATIC_DATA *scd, int code_size, int flag, int *ZeroDataBlockP);
+ static int LWZReadByte (gdIOCtx *fd, LZW_STATIC_DATA *sd, char flag, int input_code_size, int *ZeroDataBlockP);
+ 
+ static void ReadImage (gdImagePtr im, gdIOCtx *fd, int len, int height, unsigned char (*cmap)[256], int interlace, int *ZeroDataBlockP); /*1.4//, int ignore); */
+ 
++static void SetColormap(gdImagePtr im, unsigned char (*cmap)[256]);
++
+ BGD_DECLARE(gdImagePtr) gdImageCreateFromGif(FILE *fdFile)
+ {
+ 	gdIOCtx *fd = gdNewFileCtx(fdFile);
+@@ -136,15 +138,23 @@
+ 	unsigned char c;
+ 	unsigned char ColorMap[3][MAXCOLORMAPSIZE];
+ 	unsigned char localColorMap[3][MAXCOLORMAPSIZE];
+-	int imw, imh, screen_width, screen_height;
+-	int gif87a, useGlobalColormap;
++	int imw, imh, imhw, imhh, imx, imy, screen_width, screen_height;
++	int gif87a;
+ 	int bitPixel, i;
+-	/*1.4//int             imageCount = 0; */
++    int useLocalColormap;
++    int isGlobalColormap = 0;
++    int DelayTime;
++    int Disposal;
++    int imageCount = 0;
++
+ 	/* 2.0.28: threadsafe storage */
+ 	int ZeroDataBlock = FALSE;
+ 	int haveGlobalColormap;
+ 
+ 	gdImagePtr im = 0;
++    gdImagePtr header = 0;
++    gdImagePtr *frames = NULL;
++    int alocated = 0;
+ 
+ 	if(!ReadOK(fd, buf, 6)) {
+ 		return 0;
+@@ -172,8 +182,8 @@
+ 	Background = buf[5];
+ 	AspectRatio = buf[6];
+ #endif
+-	screen_width = imw = LM_to_uint(buf[0], buf[1]);
+-	screen_height = imh = LM_to_uint(buf[2], buf[3]);
++	screen_width = imhw = LM_to_uint(buf[0], buf[1]);
++	screen_height = imhh = LM_to_uint(buf[2], buf[3]);
+ 
+ 	haveGlobalColormap = BitSet(buf[4], LOCALCOLORMAP); /* Global Colormap */
+ 	if(haveGlobalColormap) {
+@@ -181,6 +191,7 @@
+ 			return 0;
+ 		}
+ 	}
++    isGlobalColormap = 1;
+ 
+ 	for (;;) {
+ 		int top, left;
+@@ -199,7 +210,7 @@
+ 				return 0;
+ 			}
+ 
+-			DoExtension(fd, c, &Transparent, &ZeroDataBlock);
++			DoExtension(fd, c, &Transparent, &DelayTime, &Disposal, &ZeroDataBlock);
+ 			continue;
+ 		}
+ 
+@@ -207,19 +218,23 @@
+ 			continue;
+ 		}
+ 
+-		/*1.4//++imageCount; */
++		++imageCount;
+ 
+ 		if(!ReadOK(fd, buf, 9)) {
+ 			return 0;
+ 		}
+ 
+-		useGlobalColormap = !BitSet(buf[8], LOCALCOLORMAP);
++		useLocalColormap = BitSet(buf[8], LOCALCOLORMAP);
+ 
+ 		bitPixel = 1 << ((buf[8] & 0x07) + 1);
+ 		left = LM_to_uint(buf[0], buf[1]);
+ 		top = LM_to_uint(buf[2], buf[3]);
+ 		width = LM_to_uint(buf[4], buf[5]);
+ 		height = LM_to_uint(buf[6], buf[7]);
++        imx = left;
++        imy = top;
++        imw = width;
++        imh = height;
+ 
+ 		if(((left + width) > screen_width) || ((top + height) > screen_height)) {
+ 			if(VERBOSE) {
+@@ -232,14 +247,17 @@
+ 			return 0;
+ 		}
+ 
++        im->xOffset   = imx;
++        im->yOffset   = imy;
+ 		im->interlace = BitSet(buf[8], INTERLACE);
+-		if(!useGlobalColormap) {
+-			if(ReadColorMap(fd, bitPixel, localColorMap)) { 
++		im->validColormap = useLocalColormap;
++		if (useLocalColormap) {
++			if(ReadColorMap(fd, bitPixel, localColorMap)) {
+ 				gdImageDestroy(im);
+ 				return 0;
+ 			}
+ 
+-			ReadImage(im, fd, width, height, localColorMap, BitSet(buf[8], INTERLACE), &ZeroDataBlock); 
++			ReadImage(im, fd, width, height, localColorMap, BitSet(buf[8], INTERLACE), &ZeroDataBlock);
+ 		} else {
+ 			if(!haveGlobalColormap) {
+ 				gdImageDestroy(im);
+@@ -251,34 +269,61 @@
+ 
+ 		if(Transparent != (-1)) {
+ 			gdImageColorTransparent(im, Transparent);
+-		}	   
++		}
+ 
+-		goto terminated;
++        im->delay    = DelayTime;
++        im->disposal = Disposal;
++
++        if (header) { /* we already have at least one frame -> it is animated GIF */
++            if (imageCount >= alocated) {
++                alocated += 16;
++                frames = (gdImagePtr *)gdRealloc(frames, alocated * sizeof(gdImagePtr));
++                if (!frames) return 0;
++                if (imageCount == 2) { /* move 1st frame to frames */
++                    frames[0]=header;
++                    /* and in header will be only GIF header (global colormap, size, ...) */
++                    if (!(header = gdImageCreate(imhw, imhh))) {
++                        return 0;
++                    }
++                    if (isGlobalColormap) {
++                        SetColormap(header,ColorMap);
++                    }
++                    header->validColormap  = isGlobalColormap;
++                }
++            }
++            frames[imageCount-1] = im;
++            header->framesNumber = imageCount; /* to recognize header from frames */
++
++        } else { /* 1st frame */
++            header = im;
++        }
++
++       /* Check for open colors at the end, so
++          we can reduce colorsTotal and ultimately
++          BitsPerPixel - only for used local colormaps */
++        if (im->validColormap && im->framesNumber == 0)
++        {
++            for (i=((im->colorsTotal-1)); (i>=0); i--) {
++                if (im->open[i]) {
++                    im->colorsTotal--;
++                } else {
++                    break;
++                }
++            }
++        }
+ 	}
+ 
+ terminated:
+ 	/* Terminator before any image was declared! */
+-	if(!im) {
++	if(!header) {
+ 		return 0;
+ 	}
+-
+-	if(!im->colorsTotal) {
+-		gdImageDestroy(im);
+-		return 0;
+-	}
+-
+-	/* Check for open colors at the end, so
+-	 * we can reduce colorsTotal and ultimately
+-	 * BitsPerPixel */
+-	for(i = im->colorsTotal - 1; i >= 0; i--) {
+-		if(im->open[i]) {
+-			im->colorsTotal--;
+-		} else {
+-			break;
+-		}
+-	} 
+-
+-	return im;
++    if (frames) {
++        header->framesNumber = imageCount;
++        header->frames = frames;
++        header->frames[imageCount] = NULL;
++    }
++    return header;
+ }
+ 
+ static int
+@@ -301,7 +346,7 @@
+ }
+ 
+ static int
+-DoExtension(gdIOCtx *fd, int label, int *Transparent, int *ZeroDataBlockP)
++DoExtension(gdIOCtx *fd, int label, int *Transparent, int *DelayTime, int *Disposal, int *ZeroDataBlockP)
+ {
+ 	unsigned char buf[256];
+ 
+@@ -314,6 +359,9 @@
+ 			Gif89.inputFlag = (buf[0] >> 1) & 0x1;
+ 			Gif89.delayTime = LM_to_uint(buf[1], buf[2]);
+ #endif
++            *DelayTime = LM_to_uint(buf[1],buf[2]);
++            *Disposal  = (buf[0] >> 2) & 0x7;
++
+ 			if((buf[0] & 0x1) != 0) {
+ 				*Transparent = buf[3];
+ 			}
+@@ -331,6 +379,20 @@
+ 	return FALSE;
+ }
+ 
++static void
++SetColormap(gdImagePtr im, unsigned char (*cmap)[256])
++{
++       int i;
++       /* Stash the color map into the image */
++       for (i=0; (i<gdMaxColors); i++) {
++               im->red[i] = cmap[CM_RED][i];
++               im->green[i] = cmap[CM_GREEN][i];
++               im->blue[i] = cmap[CM_BLUE][i];
++               im->open[i] = 1;
++       }
++       im->colorsTotal = gdMaxColors;
++}
++
+ static int
+ GetDataBlock_(gdIOCtx *fd, unsigned char *buf, int *ZeroDataBlockP)
+ {
+@@ -388,7 +450,7 @@
+ 		if(scd->done) {
+ 			if(scd->curbit >= scd->lastbit) {
+ 				/* Oh well */
+-			}                        
++			}
+ 			return -1;
+ 		}
+ 
+@@ -442,7 +504,7 @@
+ 		sd->max_code = sd->clear_code + 2;
+ 
+ 		GetCode(fd, &sd->scd, 0, TRUE, ZeroDataBlockP);
+-               
++
+ 		sd->fresh = TRUE;
+ 
+ 		for(i = 0; i < sd->clear_code; ++i) {
+@@ -460,7 +522,7 @@
+ 
+ 	} else if(sd->fresh) {
+ 		sd->fresh = FALSE;
+-		
++
+ 		do {
+ 			sd->firstcode = sd->oldcode =
+ 				GetCode(fd, &sd->scd, sd->code_size, FALSE, ZeroDataBlockP);
+@@ -526,7 +588,7 @@
+ 			}
+ 
+ 			*sd->sp++ = sd->table[1][code];
+-			
++
+ 			if(code == sd->table[0][code]) {
+ 				/* Oh well */
+ 			}
+@@ -574,25 +636,25 @@
+ static void
+ ReadImage(gdImagePtr im, gdIOCtx *fd, int len, int height, unsigned char (*cmap)[256], int interlace, int *ZeroDataBlockP) /*1.4//, int ignore) */
+ {
+-	unsigned char c;      
++	unsigned char c;
+ 	int xpos = 0, ypos = 0, pass = 0;
+ 	int v, i;
+ 	LZW_STATIC_DATA sd;
+ 
+ 	/* Initialize the Compression routines */
+ 	if(!ReadOK(fd, &c, 1)) {
+-		return; 
++		return;
+ 	}
+ 
+ 	if(c > MAX_LWZ_BITS) {
+-		return;	
++		return;
+ 	}
+ 
+ 	/* Stash the color map into the image */
+ 	for(i=0; (i < gdMaxColors); i++) {
+-		im->red[i] = cmap[CM_RED][i];	
+-		im->green[i] = cmap[CM_GREEN][i];	
+-		im->blue[i] = cmap[CM_BLUE][i];	
++		im->red[i] = cmap[CM_RED][i];
++		im->green[i] = cmap[CM_GREEN][i];
++		im->blue[i] = cmap[CM_BLUE][i];
+ 		im->open[i] = 1;
+ 	}
+ 
+@@ -661,7 +723,7 @@
+ 				++ypos;
+ 			}
+ 		}
+-		
++
+ 		if(ypos >= height) {
+ 			break;
+ 		}

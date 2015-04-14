@@ -1,0 +1,790 @@
+# SaveGame Manager GX
+# german language source file - r97
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-04 15:43+0200\n"
+"PO-Revision-Date: 2011-01-12 14:19-0800\n"
+"Last-Translator: ZEN.13\n"
+"Language-Team: ZEN.13\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr ""
+
+#, c-format
+msgid "%d files available"
+msgstr "%d Dateien verfügbar"
+
+msgid "1 hour"
+msgstr "1 Stunde"
+
+msgid "1 min"
+msgstr "1 Minute"
+
+msgid "10 mins"
+msgstr "10 Minuten"
+
+msgid "12 Hours"
+msgstr "12 Stunden"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 Minuten"
+
+msgid "24 Hours"
+msgstr "24 Stunden"
+
+msgid "3 mins"
+msgstr "3 Minuten"
+
+msgid "30 mins"
+msgstr "30 Minuten"
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 Minuten"
+
+msgid "Action cancelled."
+msgstr "Vorgang abgebrochen."
+
+msgid "All Language files updated."
+msgstr "Alle Sprachdateien wurden aktualisiert."
+
+msgid "All translaters for language files updates"
+msgstr "Alle Übersetzer für Updates der Sprachdateien."
+
+msgid "April"
+msgstr ""
+
+msgid "Are you sure ?"
+msgstr "Bist du sicher?"
+
+msgid "Audio Settings"
+msgstr "Audio"
+
+msgid "August"
+msgstr ""
+
+msgid "Auto Update"
+msgstr "Auto. Update"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "Back to Loader"
+msgstr "Zum Loader"
+
+msgid "BgMusic Loop"
+msgstr "Musik wiederholen"
+
+msgid "BgMusic Path"
+msgstr "Hintergrundmusik"
+
+msgid "Big thanks to:"
+msgstr "Großen Dank an:"
+
+msgid "BootMethod"
+msgstr "Startkategorie"
+
+msgid "Browse Miis"
+msgstr "Miis durchsuchen"
+
+msgid "Browse SD"
+msgstr "SD durchsuchen"
+
+msgid "Browse Saves"
+msgstr "Speicherdateien durchsuchen"
+
+msgid "Browse USB"
+msgstr "USB durchsuchen"
+
+msgid "Browsed"
+msgstr "Geöffneter"
+
+msgid "Can not open the file"
+msgstr "Datei kann nicht geöffnet werden"
+
+msgid "Can't create the Mii file."
+msgstr "Mii Datei kann nicht erstellt werden."
+
+msgid "Can't load file"
+msgstr "Datei kann nicht geladen werden"
+
+msgid "Can't open the Nand Mii file."
+msgstr "Mii Datei im Speicher der Wii kann nicht geöffnet werden."
+
+msgid "Can't read the Nand Mii file."
+msgstr "Mii Datei im Speicher der Wii kann nicht gelesen werden."
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+msgid "Cannot write to destination."
+msgstr "Zielverzeichnis ist nicht beschreibbar."
+
+msgid "Caps"
+msgstr ""
+
+msgid "Change Play Path"
+msgstr "Pfad ändern"
+
+msgid "Clock"
+msgstr "Uhr"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Coding:"
+msgstr "Programmierung:"
+
+msgid "Confirm"
+msgstr "Bestätigen"
+
+msgid "Copy"
+msgstr "Kopieren"
+
+msgid "Copy cancelled"
+msgstr "Kopieren abgebrochen"
+
+msgid "Copying Save"
+msgstr "Kopiere Speicherdatei"
+
+msgid "Could not connect to the server."
+msgstr "Es konnte keine Verbindng zum Server hergestellt werden."
+
+msgid "Could not download file."
+msgstr "Datei konnte nicht heruntergeladen werden."
+
+msgid "Could not initialize network!"
+msgstr "Netzwerk konnte nicht initialisiert werden!"
+
+msgid "Credits"
+msgstr "Danksagungen"
+
+msgid "Credits Volume"
+msgstr "Danksagungen"
+
+msgid "Custom"
+msgstr "Anderer"
+
+msgid "Custom Font"
+msgstr "Schriftart"
+
+msgid "Custom Paths"
+msgstr "Pfade anpassen"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Default Settings"
+msgstr "Einstellungen zurücksetzen"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Delete All"
+msgstr "Alle löschen"
+
+msgid "Delete All Device Miis"
+msgstr "Alle Miis auf dem Medium löschen"
+
+msgid "Delete All Miis"
+msgstr "Alle Miis löschen"
+
+msgid "Delete cancelled"
+msgstr "Löschvorgang abgebrochen"
+
+msgid "Deleting All Nand Mii..."
+msgstr "Lösche alle Miis im Wii Speicher..."
+
+msgid "Deleting All device Miis..."
+msgstr "Lösche alle Miis auf dem Medium..."
+
+msgid "Deleting Save"
+msgstr "Lösche Speicherdatei"
+
+msgid "Design:"
+msgstr ""
+
+msgid "Devices"
+msgstr "Externe Speichermedien"
+
+msgid "Directory Loop"
+msgstr "Verzeichnis wiederholen"
+
+msgid "Display the report?"
+msgstr "Das Protokoll anzeigen?"
+
+msgid "Do you want to connect?"
+msgstr "Verbindung herstellen?"
+
+msgid "Do you want to load this language ?"
+msgstr "Diese Sprache laden?"
+
+msgid "Do you want to reboot now ?"
+msgstr "Jetzt neu starten?"
+
+msgid "Do you want to update now ?"
+msgstr "Jetzt aktualisieren?"
+
+msgid "Downloading file..."
+msgstr "Lade Datei herunter..."
+
+msgid "Duplicate"
+msgstr "Duplizieren"
+
+msgid "Dutch"
+msgstr "Niederländisch"
+
+msgid "English"
+msgstr "Englisch"
+
+msgid "Error"
+msgstr "Fehler"
+
+msgid "Error encountered:"
+msgstr "Ein Fehler ist aufgetreten:"
+
+msgid "Errors encountered:"
+msgstr "Fehler sind aufgetreten:"
+
+msgid "Exit"
+msgstr "Beenden"
+
+msgid "Extract"
+msgstr "Extrahieren"
+
+msgid "Extract All"
+msgstr "Extrahieren"
+
+msgid "Extract All Miis"
+msgstr "Miis extrahieren"
+
+msgid "Extract All Saves"
+msgstr "Speicherdateien extrahieren"
+
+msgid "Extract cancelled"
+msgstr "Extrahierungsvorgang abgebrochen"
+
+msgid "Extract to:"
+msgstr "Wähle einen Pfad zum extrahieren:"
+
+msgid "Extracting All..."
+msgstr "Alle Speicherdateien werden extrahiert..."
+
+msgid "Extracting Save"
+msgstr "Speicherdatei wird extrahiert"
+
+msgid "Failed to get the Changelog."
+msgstr "Laden des ChangeLogs fehlgeschlangen."
+
+msgid "February"
+msgstr "Februar"
+
+msgid "Filesize is empty."
+msgstr "Dateigröße ist 0 Byte."
+
+msgid "Font changed"
+msgstr "Schriftart geändert"
+
+msgid "French"
+msgstr "Französisch"
+
+msgid "From:"
+msgstr "Pfad:"
+
+msgid "Full Shutdown"
+msgstr "WiiConnect24 aus"
+
+msgid "GUI Settings"
+msgstr "GUI"
+
+msgid "German"
+msgstr "Deutsch"
+
+msgid "Getting Changelog..."
+msgstr "Lade ChangeLog..."
+
+msgid "Go Back"
+msgstr "Zurück"
+
+msgid "HOME Menu"
+msgstr "HOME Menü"
+
+msgid "Home Menu"
+msgstr "HOME Menü"
+
+msgid "Homebrew Channel"
+msgstr "Homebrewkanal"
+
+msgid "Icon Update"
+msgstr "Icon aktualisieren"
+
+msgid "Idle Shutdown"
+msgstr "WiiConnect24 an"
+
+msgid "InfoWindow"
+msgstr "Namen (Wii) anzeigen"
+
+msgid "Initializing Network"
+msgstr "Initialisiere Netzwerk"
+
+msgid "Install"
+msgstr "Installieren"
+
+msgid "Install All"
+msgstr "Installieren"
+
+msgid "Install All Miis"
+msgstr "Miis installieren"
+
+msgid "Install All Saves"
+msgstr "Speicherdateien installieren"
+
+msgid "Install cancelled"
+msgstr "Installationsvorgang abgebrochen"
+
+msgid "Installing All..."
+msgstr "Alle Speicherdateien werden installiert..."
+
+msgid "Installing Save"
+msgstr "Installiere Speicherdatei"
+
+msgid "Italian"
+msgstr "Italienisch"
+
+msgid "JAP to EN"
+msgstr "Japanisch nach Englisch"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "Japanese"
+msgstr "Japanisch"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "Korean"
+msgstr "Koreanisch"
+
+msgid "Language"
+msgstr "Sprache"
+
+msgid "Language Path changed."
+msgstr "Pfad geändert"
+
+msgid "Later"
+msgstr "Später"
+
+msgid "Loading file:"
+msgstr "Lade Datei:"
+
+msgid "Loading standard music."
+msgstr "Standardmusik wird geladen."
+
+msgid "Manage All"
+msgstr "Alles verwalten"
+
+msgid "Manage All Miis"
+msgstr "Alle Miis verwalten"
+
+msgid "Manage All Saves"
+msgstr "Alle Speicherdateien verwalten"
+
+msgid "March"
+msgstr "März"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "Meta Update"
+msgstr "Meta aktualisieren"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii memory is full."
+msgstr "Es kann kein weiterer Mii auf der Wii gespeichert werden."
+
+msgid "Miis"
+msgstr ""
+
+msgid "Miis Path"
+msgstr "Mii"
+
+msgid "Move"
+msgstr "Verschieben"
+
+msgid "Move cancelled"
+msgstr "Verschieben abgebrochen"
+
+msgid "Moving Save"
+msgstr "Verschiebe Speicherdatei"
+
+msgid "Music Volume"
+msgstr "Musik"
+
+msgid "Nand"
+msgstr "Wii Speicher"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "No Mii found in Wii memory."
+msgstr "Kein Mii auf der Wii gefunden."
+
+msgid "No Mii found in this folder."
+msgstr "Kein Mii in diesem Ordner gefunden."
+
+msgid "No SaveGame found in Wii."
+msgstr "Keine Speicherdatei auf der Wii gefunden."
+
+msgid "No SaveGame found in this folder."
+msgstr "Keine Speicherdatei in diesem Ordner gefunden."
+
+msgid "No network connection"
+msgstr "Keine Netzwerkverbindung"
+
+msgid "No new updates available"
+msgstr "Keine neuen Updates verfügbar"
+
+msgid "Not a valid URL"
+msgstr "Keine gültige URL"
+
+msgid "Not a valid URL path"
+msgstr "Kein gültiger URL Pfad"
+
+msgid "Not a valid domain"
+msgstr "Keine gültige Domain"
+
+msgid "Not enough memory."
+msgstr "Nicht genug Speicher."
+
+msgid "Not supported format!"
+msgstr "Format wird nicht unterstützt!"
+
+msgid "November"
+msgstr ""
+
+msgid "OFF"
+msgstr "AUS"
+
+msgid "OK"
+msgstr ""
+
+msgid "ON"
+msgstr "AN"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "Official Site:"
+msgstr "Offizielle Seite:"
+
+msgid "OverWrite"
+msgstr "Überschreiben"
+
+msgid "Path Changed"
+msgstr "Pfad geändert"
+
+msgid "Play Next"
+msgstr "Nächster Titel"
+
+msgid "Play Once"
+msgstr "Einmal abspielen"
+
+msgid "Play Previous"
+msgstr "Vorheriger Titel"
+
+msgid "Playing Music:"
+msgstr "Aktueller Titel:"
+
+msgid "Random Play"
+msgstr "Zufällige Wiedergabe"
+
+msgid "Reboot failed"
+msgstr "Neustart fehlgeschlagen"
+
+msgid "Reset BgMusic"
+msgstr "Musik zurücksetzen"
+
+msgid "Reset Settings"
+msgstr "Einstellungen zurücksetzen"
+
+msgid "Retry"
+msgstr "Erneut versuchen"
+
+msgid "Rev"
+msgstr "Revision"
+
+msgid "Rumble"
+msgstr ""
+
+msgid "SD"
+msgstr ""
+
+msgid "SD/USB"
+msgstr ""
+
+msgid "SFX Volume"
+msgstr "Soundeffekte"
+
+msgid "Save Path"
+msgstr "Pfad zu den Speicherdateien"
+
+msgid "Saves"
+msgstr "Speicherdateien"
+
+msgid "Saves Path"
+msgstr "Speicherdatei"
+
+msgid "Screen Size"
+msgstr "Bildschirmgröße"
+
+msgid "Screensaver"
+msgstr "Bildschirmschoner nach"
+
+msgid "September"
+msgstr ""
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Shortcuts"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr "ChangeLog"
+
+msgid "ShutDown Wii"
+msgstr "Wii ausschalten"
+
+msgid "Simple Chinese"
+msgstr "Chinesisch (Einfach)"
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "Bedaure, aber du kannst nicht in den selben Pfad kopieren."
+
+msgid "Sorry, you can't move to the same path"
+msgstr "Bedaure, aber du kannst nicht in den selben Pfad verschieben."
+
+msgid "Spanish"
+msgstr "Spanisch"
+
+msgid "Special thanks to:"
+msgstr "Besonderen Dank an:"
+
+msgid "Stored in Wii's Nand?"
+msgstr "Wii Speicher"
+
+msgid "Succesfully copied"
+msgstr "Erfolgreich kopiert"
+
+msgid "Succesfully deleted"
+msgstr "Erfolgreich gelöscht"
+
+msgid "Succesfully done"
+msgstr "Erfolgreich beendet"
+
+msgid "Succesfully extracted"
+msgstr "Erfolgreich extrahiert"
+
+msgid "Succesfully installed"
+msgstr "Erfolgreich installiert"
+
+msgid "Succesfully moved"
+msgstr "Erfolgreich verschoben"
+
+msgid "Title Loop"
+msgstr "Titel wiederholen"
+
+msgid "To:"
+msgstr "Nach:"
+
+msgid "Tooltips"
+msgstr "Quickinfo"
+
+msgid "Trad Chinese"
+msgstr "Chinesisch (Traditionell)"
+
+msgid "Transfer cancelled."
+msgstr "Übertragung abgebrochen."
+
+msgid "Transfer failed"
+msgstr "Übertragung fehlgeschlagen"
+
+msgid "URL is empty."
+msgstr "URL ist leer."
+
+msgid "USB"
+msgstr ""
+
+msgid "Unable to SetUID"
+msgstr "UID konnte nicht gesetzt werden."
+
+msgid "Unable to copy data"
+msgstr "Daten konnten nicht kopiert werden."
+
+msgid "Unable to copy the selected Mii"
+msgstr "Der ausgewählte Mii konnte nicht kopiert werden."
+
+msgid "Unable to copy this SaveGame"
+msgstr "Diese Speicherdatei konnte nicht kopiert werden."
+
+msgid "Unable to create Mii list."
+msgstr "Liste mit Miis auf der Wii konnte nicht erstellt werden."
+
+msgid "Unable to create Wii Saves list."
+msgstr "Liste mit Speicherdateien auf der Wii konnte nicht erstellt werden."
+
+msgid "Unable to delete data"
+msgstr "Daten konnten nicht gelöscht werden."
+
+msgid "Unable to delete the selected Mii"
+msgstr "Der ausgewählte Mii konnte nicht gelöscht werden."
+
+msgid "Unable to delete this SaveGame"
+msgstr "Diese Speicherdatei konnte nicht gelöscht werden."
+
+msgid "Unable to extract the selected Mii"
+msgstr "Der ausgewählte Mii konnte nicht extrahiert werden."
+
+msgid "Unable to find device."
+msgstr "Es wurde kein Gerät gefunden."
+
+msgid "Unable to get NAND path"
+msgstr "NAND Pfad konnte nicht gelesen werden."
+
+msgid "Unable to install the selected Mii"
+msgstr "Der ausgewählte Mii konnte nicht installiert werden."
+
+msgid "Unable to move the selected Mii"
+msgstr "Der ausgewählte Mii konnte nicht verschoben werden."
+
+msgid "Unable to move this SaveGame"
+msgstr "Diese Speicherdatei konnte nicht verschoben werden."
+
+msgid "Update"
+msgstr "Update starten"
+
+msgid "Update Path"
+msgstr "Update"
+
+msgid "Update Settings"
+msgstr "Einstellungen"
+
+msgid "Update all Language Files to:"
+msgstr "Aktualisierte Sprachdateien speichern in:"
+
+msgid "Update failed"
+msgstr "Update fehlgeschlagen"
+
+msgid "Update successfully finished"
+msgstr "Update erfolgreich abgeschlossen."
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Update auf Revision %i verfügbar"
+
+msgid "Updates"
+msgstr "Aktualisierung"
+
+msgid "Updating Language Files:"
+msgstr "Aktualisiere Sprachdateien:"
+
+msgid "Updating WiiTDB"
+msgstr "Aktualisiere WiiTDB"
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "WARNUNG: Alle Miis auf der Wii werden beim Installieren überschrieben!"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr "WARNUNG: Alle Miis auf der Wii werden gelöscht!"
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr "WARNUNG: Alle Miis in diesem Verzeichnis werden gelöscht!"
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "WARNUNG: Alle Miis in diesem Verzeichnis werden beim Extrahieren überschrieben!"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "WARNUNG: Alle Speicherdateien auf der Wii werden beim Installieren überschrieben!"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "WARNUNG: Alle Speicherdateien in diesem Verzeichnis werden beim Extrahieren überschrieben!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr "WARNUNG: Dieses alte SaveGame Manager GX-Speicherformat wird seit Revision 87 nicht mehr unterstützt!"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "WARNUNG: Du must bereits eine Speicherdatei auf der Wii haben um diese zu installieren!"
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Wii Menü"
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr "Sprache"
+
+msgid "WiiTDB Path"
+msgstr "Pfad"
+
+msgid "WiiTDB Settings"
+msgstr "WiiTDB Einstellungen"
+
+msgid "WiiTDB Titles"
+msgstr "WiiTDB verwenden"
+
+msgid "WiiTDB Update"
+msgstr "WiiTDB Update"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "Du benötigts ein cIOS 249 von Waninkoko um diese App zu benutzen."
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "Du benötigts cIOS 249 r9 oder höher um diese App zu benutzen."
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr "für WiiTDB (WiiTitelDatenBank)"
+
+msgid "for design & sources"
+msgstr "für Design & Quellcode"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "für sein großartiges Tool LibWiiGui"
+
+msgid "for sources"
+msgstr "für den Quellcode"
+
+msgid "for the SaveGame Manager sources"
+msgstr "für den SaveGame Manager Quellcode"
+
+msgid "is already installed."
+msgstr "ist bereits installiert."

@@ -1,0 +1,829 @@
+# SaveGame Manager GX language source file.
+# r95
+# don't delete this line (é)
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: ASTUR2000\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr " "
+
+#, c-format
+msgid "%d files available"
+msgstr "%d archivos disponibles"
+
+msgid "1 hour"
+msgstr "1 hora"
+
+msgid "1 min"
+msgstr ""
+
+msgid "10 mins"
+msgstr "10 Mins"
+
+msgid "12 Hours"
+msgstr "12 Hores"
+
+msgid "16/9"
+msgstr ""
+
+msgid "20 mins"
+msgstr "20 mins"
+
+msgid "24 Hours"
+msgstr "24 Hores"
+
+msgid "3 mins"
+msgstr "3 mins"
+
+msgid "30 mins"
+msgstr "30 mins"
+
+msgid "4/3"
+msgstr ""
+
+msgid "5 mins"
+msgstr "5 min"
+
+msgid "Action cancelled."
+msgstr "Aición atayada"
+
+msgid "All Language files updated."
+msgstr "Toles llingues anovaes"
+
+msgid "All translaters for language files updates"
+msgstr "Tolos tornadores poles llingues"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "Are you sure ?"
+msgstr "¿De xuru?"
+
+msgid "Audio Settings"
+msgstr "Axustes Soníu"
+
+msgid "August"
+msgstr "Agostu"
+
+msgid "Auto Update"
+msgstr "Auto anovación"
+
+msgid "Back"
+msgstr "Tornar"
+
+msgid "Back to Loader"
+msgstr "Tornal pal HBC"
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Munches gracies a:"
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "BootMethod"
+msgstr "Metodu d'aniciu"
+
+msgid "Browse Miis"
+msgstr "Restolar Miis"
+
+msgid "Browse SD"
+msgstr "Restolar SD"
+
+msgid "Browse Saves"
+msgstr "Restolar Saves"
+
+msgid "Browse USB"
+msgstr "Restolar USB"
+
+msgid "Browsed"
+msgstr "Restoláo"
+
+msgid "Can not open the file"
+msgstr "Nun pue trechase l'archivu"
+
+msgid "Can't create the Mii file."
+msgstr "Nun pue criase'l Mii"
+
+msgid "Can't load file"
+msgstr "Nun pue cargase l'archivu"
+
+msgid "Can't open the Nand Mii file."
+msgstr "Nun puen trechase los Mii de NAND"
+
+msgid "Can't read the Nand Mii file."
+msgstr "Nun puen lleese los Mii de NAND"
+
+msgid "Cancel"
+msgstr "Atayar"
+
+msgid "Cancelled"
+msgstr "Atayao"
+
+msgid "Cannot write to destination."
+msgstr "Nun pue escribise al destín"
+
+msgid "Caps"
+msgstr "Mays."
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Clock"
+msgstr "Reló"
+
+msgid "Close"
+msgstr "Zarrar"
+
+msgid "Coding:"
+msgstr "Programación:"
+
+msgid "Confirm"
+msgstr "Val"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Copy cancelled"
+msgstr "Copia atayada"
+
+msgid "Copying Save"
+msgstr "Copiando Save"
+
+msgid "Could not connect to the server."
+msgstr "Nun pue coneutase al sirvidor"
+
+msgid "Could not download file."
+msgstr "Nun pue descargase l'archivu"
+
+msgid "Could not initialize network!"
+msgstr "¡Nun pue aniciase la rede!"
+
+msgid "Credits"
+msgstr "Creitos"
+
+msgid "Credits Volume"
+msgstr "Volume de creitos"
+
+msgid "Custom"
+msgstr "Otro"
+
+msgid "Custom Font"
+msgstr "Otra fonte"
+
+msgid "Custom Paths"
+msgstr "Otru destín"
+
+msgid "December"
+msgstr "Avientu"
+
+msgid "Default"
+msgstr "Per defeutu"
+
+msgid "Default Settings"
+msgstr "Axustes aniciales"
+
+msgid "Delete"
+msgstr "Esborrar"
+
+msgid "Delete All"
+msgstr "Esborrar too"
+
+msgid "Delete All Device Miis"
+msgstr "Esborrar tolos Miis"
+
+msgid "Delete All Miis"
+msgstr "Esborrar tolos Miis"
+
+msgid "Delete cancelled"
+msgstr "Atayao"
+
+msgid "Deleting All Nand Mii..."
+msgstr "Esborrando tolos Mii NAND..."
+
+msgid "Deleting All device Miis..."
+msgstr "Esborrando tolos Miis..."
+
+msgid "Deleting Save"
+msgstr "Esborrando save"
+
+msgid "Design:"
+msgstr "Diseñu:"
+
+msgid "Devices"
+msgstr "Dispositivos"
+
+msgid "Directory Loop"
+msgstr ""
+
+msgid "Display the report?"
+msgstr "¿Amosar l'erru?"
+
+msgid "Do you want to connect?"
+msgstr "¿Quiés coneutate?"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "¿Quiés cambear la llingua?"
+
+msgid "Do you want to reboot now ?"
+msgstr "¿Quiés reaniciar agora?"
+
+msgid "Do you want to update now ?"
+msgstr "¿Quiés anovar agora?"
+
+msgid "Downloading file..."
+msgstr "Descargando archivu..."
+
+msgid "Duplicate"
+msgstr "Desdobláu"
+
+msgid "Dutch"
+msgstr "Holandés"
+
+msgid "English"
+msgstr "Inglés"
+
+msgid "Error"
+msgstr "Erru"
+
+msgid "Error encountered:"
+msgstr "Erru atopáu:"
+
+msgid "Errors encountered:"
+msgstr "Erros atopaos:"
+
+msgid "Exit"
+msgstr "Colar"
+
+msgid "Extract"
+msgstr "Estrayer"
+
+msgid "Extract All"
+msgstr "Estrayer too"
+
+msgid "Extract All Miis"
+msgstr "Estrayer tolos Miis"
+
+msgid "Extract All Saves"
+msgstr "Estrayer tolos Saves"
+
+msgid "Extract cancelled"
+msgstr "Estraición atayada"
+
+msgid "Extract to:"
+msgstr "Estrayer a:"
+
+msgid "Extracting All..."
+msgstr "Estrayendo too..."
+
+msgid "Extracting Save"
+msgstr "Estrayendo Save..."
+
+msgid "Failed to get the Changelog."
+msgstr "Llista de cambeos nun coyía"
+
+msgid "February"
+msgstr "Febreru"
+
+msgid "Filesize is empty."
+msgstr "Archivu lluecu"
+
+msgid "Font changed"
+msgstr "Fonte cambeada"
+
+msgid "French"
+msgstr "Francés"
+
+msgid "From:"
+msgstr "Dende:"
+
+msgid "Full Shutdown"
+msgstr "Apagar"
+
+msgid "GUI Settings"
+msgstr "Axustes GUI"
+
+msgid "German"
+msgstr "Alemán"
+
+msgid "Getting Changelog..."
+msgstr "Consiguir llista cambeos"
+
+msgid "Go Back"
+msgstr "Tornar"
+
+msgid "HOME Menu"
+msgstr "Menú HOME"
+
+msgid "Home Menu"
+msgstr "Menú Home"
+
+msgid "Homebrew Channel"
+msgstr "Pal HBC"
+
+msgid "Icon Update"
+msgstr "Anovar fustax"
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "Ivernar"
+
+msgid "InfoWindow"
+msgstr ""
+
+msgid "Initializing Network"
+msgstr "Aniciando rede"
+
+msgid "Install"
+msgstr "Allugar"
+
+msgid "Install All"
+msgstr "Allugar too"
+
+msgid "Install All Miis"
+msgstr "Allugar tolos Miis"
+
+msgid "Install All Saves"
+msgstr "Allugar tolos Saves"
+
+msgid "Install cancelled"
+msgstr "Allugación atayada"
+
+msgid "Installing All..."
+msgstr "Allugando too..."
+
+msgid "Installing Save"
+msgstr "Allugando Save"
+
+msgid "Italian"
+msgstr "Italianu"
+
+msgid "JAP to EN"
+msgstr "XAP a ING"
+
+msgid "January"
+msgstr "Xineru"
+
+msgid "Japanese"
+msgstr "Xapones"
+
+msgid "July"
+msgstr "Xunetu"
+
+msgid "June"
+msgstr "Xunu"
+
+msgid "Korean"
+msgstr "Coreanu"
+
+msgid "Language"
+msgstr "Llingua"
+
+msgid "Language Path changed."
+msgstr "Destín llingua cambeada"
+
+msgid "Later"
+msgstr "Dempués"
+
+msgid "Loading file:"
+msgstr "Cargando archivu:"
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Manage All"
+msgstr "Alministrar too"
+
+msgid "Manage All Miis"
+msgstr "Alministrar tolos Miis"
+
+msgid "Manage All Saves"
+msgstr "Alministrar tolos saves"
+
+msgid "March"
+msgstr "Marzu"
+
+msgid "May"
+msgstr "Mayu"
+
+msgid "Meta Update"
+msgstr "Anovar Meta.xml"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii memory is full."
+msgstr "Memoria Mii enforma"
+
+msgid "Miis"
+msgstr "Miis"
+
+msgid "Miis Path"
+msgstr "Destín Miis"
+
+msgid "Move"
+msgstr "Ximelgar"
+
+msgid "Move cancelled"
+msgstr "Ximielga atayada"
+
+msgid "Moving Save"
+msgstr "Moviendo Save"
+
+msgid "Music Volume"
+msgstr "Volume"
+
+msgid "Nand"
+msgstr "NAND"
+
+msgid "No"
+msgstr "Non"
+
+msgid "No Mii found in Wii memory."
+msgstr "Nun s'atopó Mii dalu"
+
+msgid "No Mii found in this folder."
+msgstr "Mii dalu nesti destín"
+
+msgid "No SaveGame found in Wii."
+msgstr "SaveGame dalu atopáu"
+
+msgid "No SaveGame found in this folder."
+msgstr "SaveGame dalu nesti destín"
+
+msgid "No network connection"
+msgstr "Nun hai conexón de rede"
+
+msgid "No new updates available"
+msgstr "Nun hai anovaciones"
+
+msgid "Not a valid URL"
+msgstr "URL non válidu"
+
+msgid "Not a valid URL path"
+msgstr "URL de destín non válidu"
+
+msgid "Not a valid domain"
+msgstr "Dominiu non válidu"
+
+msgid "Not enough memory."
+msgstr "Nun hay enforma memoria"
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr "Payares"
+
+msgid "OFF"
+msgstr "Apagáo"
+
+msgid "OK"
+msgstr "Val"
+
+msgid "ON"
+msgstr "Enceso"
+
+msgid "October"
+msgstr "Ochobre"
+
+msgid "Official Site:"
+msgstr "Sitiu oficial:"
+
+msgid "OverWrite"
+msgstr "Sustituyir"
+
+msgid "Path Changed"
+msgstr "Destín cambeáu"
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Random Play"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr "Reaniciu fallíu"
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr "Reaniciar axustes"
+
+msgid "Retry"
+msgstr "Volver a intentar"
+
+msgid "Rev"
+msgstr "Rev."
+
+msgid "Rumble"
+msgstr "Vibrador"
+
+msgid "SD"
+msgstr ""
+
+msgid "SD/USB"
+msgstr ""
+
+msgid "SFX Volume"
+msgstr "Volume SFX"
+
+msgid "Save Path"
+msgstr "Atoldar destín"
+
+msgid "Saves"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "Destín Saves"
+
+msgid "Screen Size"
+msgstr "Tamañu pantalla"
+
+msgid "Screensaver"
+msgstr "Curiapantalles"
+
+msgid "September"
+msgstr "Setiembre"
+
+msgid "Settings"
+msgstr "Axustes"
+
+msgid "Shortcuts"
+msgstr "Enllaces direutos"
+
+msgid "Show Changelog"
+msgstr "Amosar llista cambeos"
+
+msgid "ShutDown Wii"
+msgstr "Apagar"
+
+msgid "Simple Chinese"
+msgstr "Chinu Simplificáu"
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "Nun pues copialo al mesmu destin"
+
+msgid "Sorry, you can't move to the same path"
+msgstr "Nun pues ximelgalo al mesmu destín"
+
+msgid "Spanish"
+msgstr "Castellán"
+
+msgid "Special thanks to:"
+msgstr "Gracies especiales a:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Stored in Wii's Nand?"
+msgstr "¿Atoldaos na Wii?"
+
+msgid "Succesfully copied"
+msgstr "Copiao"
+
+msgid "Succesfully deleted"
+msgstr "Borrao"
+
+msgid "Succesfully done"
+msgstr "Fecho"
+
+msgid "Succesfully extracted"
+msgstr "Estrayío"
+
+msgid "Succesfully installed"
+msgstr "Allugao"
+
+msgid "Succesfully moved"
+msgstr "Ximelgao"
+
+msgid "Title Loop"
+msgstr ""
+
+msgid "To:"
+msgstr "a:"
+
+msgid "Tooltips"
+msgstr "Ferramientes"
+
+msgid "Trad Chinese"
+msgstr "Chinu tradicional"
+
+msgid "Transfer cancelled."
+msgstr "Tresferencia atayada"
+
+msgid "Transfer failed"
+msgstr "Tresferencia fallía"
+
+msgid "URL is empty."
+msgstr "Enllaz lluecu"
+
+msgid "USB"
+msgstr ""
+
+msgid "Unable to SetUID"
+msgstr ""
+
+msgid "Unable to copy data"
+msgstr "Nun pue copiase los datos"
+
+msgid "Unable to copy the selected Mii"
+msgstr "Nun se pue copiar el Mii esbilláu"
+
+msgid "Unable to copy this SaveGame"
+msgstr "nun pue copiase esti Save"
+
+msgid "Unable to create Mii list."
+msgstr "Nun pue criase la llista Mii"
+
+msgid "Unable to create Wii Saves list."
+msgstr "Nun pue criase la llista de Saves"
+
+msgid "Unable to delete data"
+msgstr "Nun pue esborrase los datos"
+
+msgid "Unable to delete the selected Mii"
+msgstr "Nun pue esborriase'l Mii esbilláu"
+
+msgid "Unable to delete this SaveGame"
+msgstr "Nun pue esborrase esti SaveGame"
+
+msgid "Unable to extract the selected Mii"
+msgstr "Nun pue estrayise'l Mii esbilláu"
+
+msgid "Unable to find device."
+msgstr "Nun puen atopase los dispositivos"
+
+msgid "Unable to get NAND path"
+msgstr "Nun pue consiguise'l destín NAND"
+
+msgid "Unable to install the selected Mii"
+msgstr "Nun pue allugase'l Mii escoyíu"
+
+msgid "Unable to move the selected Mii"
+msgstr "Nun pue ximelgase'l Mii esbilláu"
+
+msgid "Unable to move this SaveGame"
+msgstr "Nun pue ximelgase esti Save"
+
+msgid "Update"
+msgstr "Anovación"
+
+msgid "Update Path"
+msgstr "Ruta anovación"
+
+msgid "Update Settings"
+msgstr "Axustes anovaos"
+
+msgid "Update all Language Files to:"
+msgstr "Anovar toles llingues a:"
+
+msgid "Update failed"
+msgstr "Anovación fallica"
+
+msgid "Update successfully finished"
+msgstr "Anovación finada"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Anovación Rev%i disponible"
+
+msgid "Updates"
+msgstr "Anovaciones"
+
+msgid "Updating Language Files:"
+msgstr "Anovando llingues:"
+
+msgid "Updating WiiTDB"
+msgstr "Anovando WiiTDB"
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "REPARA: ¡¡¡Tolos Miis sedrán sustituyíos polos allugaos!!!"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr "REPARA: ¡¡¡Tolos Miis de la Wii sedrán esborraos!!!"
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr "REPARA: ¡¡¡Tolos Miis d'esti destín esborraranse!"
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "REPARA: ¡¡¡Tolos Miis d'esti destín sedrán sustituyíos polos estrayíos!!!"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "REPARA: ¡¡¡Tolos Saves d'esta Wii sedrán sustituyíos polos allugaos!!!"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "REPARA: ¡¡¡Tolos Saves d'esti destín sedrán sustituyios polos estrayíos!!!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr "REPARA: ¡¡¡Esti SaveGame vieyu xá nun ta soportáu dende la versión 87!!!"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "REPARA: ¡¡¡Ye dable un partida allugada p'allugar esta!!!"
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Menú Wii"
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr "Llingua"
+
+msgid "WiiTDB Path"
+msgstr "Destín"
+
+msgid "WiiTDB Settings"
+msgstr "Axustes"
+
+msgid "WiiTDB Titles"
+msgstr "Semeyes"
+
+msgid "WiiTDB Update"
+msgstr "Anovación"
+
+msgid "Yes"
+msgstr "Si"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "Ties qu'allugar el cIOS 249 pa emplegar esta aplicación."
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "Ties qu'allugar el cIOS249 rev 9 o meyor pa emplegar esta aplicación"
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr "por WiiTDB (WiiTitleDataBase)"
+
+msgid "for design & sources"
+msgstr "pol diseñu y el códigu fonte"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "pola so ablucante ferramienta LibWiiGui"
+
+msgid "for sources"
+msgstr "pol códigu fonte"
+
+msgid "for the SaveGame Manager sources"
+msgstr "pol códigu de SaveGame Manager"
+
+msgid "is already installed."
+msgstr "xá ta allugáu"
+
+#~ msgid "Can't create directory"
+#~ msgstr "Nun pue criase'l destín"
+
+#~ msgid "Directory does not exist!"
+#~ msgstr "¡El destín nun esiste!"
+
+#~ msgid "Enter/Create Path"
+#~ msgstr "Dir/Criar destín"
+
+#~ msgid "Go Back whitout save changes?"
+#~ msgstr "¿Tornar ensín atoldar cambeos?"
+
+#~ msgid "Save"
+#~ msgstr "Atoldar"
+
+#~ msgid "Save changes and exit?"
+#~ msgstr "¿Atoldar ya colar?"
+
+#~ msgid "Would you like to create it?"
+#~ msgstr "¿Prestariate crialu?"

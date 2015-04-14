@@ -1,0 +1,1178 @@
+# SaveGame Manager GX language source file.
+#
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-11 17:33+0200\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1 Tunti"
+
+msgid "1 min"
+msgstr "1 Minuutti"
+
+msgid "10 mins"
+msgstr "10 Minuuttia"
+
+msgid "20 mins"
+msgstr "20 Minuuttia"
+
+msgid "3 mins"
+msgstr "3 Minuuttia"
+
+msgid "30 mins"
+msgstr "30 Minuuttia"
+
+msgid "5 mins"
+msgstr "5 Minuuttia"
+
+msgid "ASDFGHJKL:\"+"
+msgstr ""
+
+msgid "Add to Playlist"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Files"
+msgstr ""
+
+msgid "All Languages File"
+msgstr ""
+
+msgid "All Languages Files"
+msgstr ""
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr ""
+
+msgid "All translaters for language files updates"
+msgstr "Kaikki kääntäjät kielitiedostejen päivityksille"
+
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Settings"
+msgstr ""
+
+msgid "Author(s):"
+msgstr ""
+
+msgid "Auto Connect"
+msgstr ""
+
+msgid "Back"
+msgstr "Takaisin"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Isot kiitokset:"
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "Block Audio Settings"
+msgstr ""
+
+msgid "Block Controls Settings"
+msgstr ""
+
+msgid "Block Custom Paths"
+msgstr ""
+
+msgid "Block Features Menu"
+msgstr ""
+
+msgid "Block Global Settings"
+msgstr ""
+
+msgid "Block Gui Settings"
+msgstr ""
+
+msgid "Block HBC Menu"
+msgstr ""
+
+msgid "Block Manage"
+msgstr ""
+
+msgid "Block Manage DataBin"
+msgstr ""
+
+msgid "Block Manage Emu Nand"
+msgstr ""
+
+msgid "Block ManageAll"
+msgstr ""
+
+msgid "Block Parental Settings"
+msgstr ""
+
+msgid "Block Reset Settings"
+msgstr ""
+
+msgid "Block SD Reload Button"
+msgstr ""
+
+msgid "Block Saves Download"
+msgstr ""
+
+msgid "Block Theme Settings"
+msgstr ""
+
+msgid "Block Title Launcher"
+msgstr ""
+
+msgid "Block Updates"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr ""
+
+msgid "Can't load file"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgid "Cannot write to destination."
+msgstr "Kohteeseen ei pystytä kirjoittamaan."
+
+msgid "Cannot write to the file."
+msgstr ""
+
+msgid "Caps"
+msgstr ""
+
+msgid "Checking for new update"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Click Button"
+msgstr ""
+
+msgid "Clock"
+msgstr "Kello"
+
+msgid "Clock Scale Factor"
+msgstr ""
+
+msgid "Close"
+msgstr "Sulje"
+
+msgid "Coding:"
+msgstr "Koodaus:"
+
+msgid "Config"
+msgstr ""
+
+msgid "Connection to server timed out."
+msgstr ""
+
+msgid "Console"
+msgstr ""
+
+msgid "Console Locked"
+msgstr ""
+
+msgid "Console must be unlocked for this option."
+msgstr ""
+
+msgid "Controller Settings"
+msgstr ""
+
+msgid "Correct Password"
+msgstr ""
+
+msgid "Could not connect to the server."
+msgstr "Palvelimeen ei saada yhtettä."
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr ""
+
+msgid "Could not download file."
+msgstr "Tiedostoa ei pystytä lataamaan."
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not load file."
+msgstr ""
+
+msgid "Could not load text file."
+msgstr ""
+
+msgid "Could not parse directory."
+msgstr ""
+
+msgid "Credits"
+msgstr "Tekijät"
+
+msgid "Credits Volume"
+msgstr ""
+
+msgid "Custom Font"
+msgstr "Muokkaa fonttia"
+
+msgid "Custom Paths"
+msgstr ""
+
+msgid "Data.bin"
+msgstr ""
+
+msgid "Default"
+msgstr "Vakio"
+
+msgid "Default Settings"
+msgstr "Vakioasetuset"
+
+msgid "Default Theme"
+msgstr ""
+
+msgid "Design:"
+msgstr "Suunnittelu:"
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Do you want to boot:"
+msgstr ""
+
+msgid "Do you want to change the font?"
+msgstr ""
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to download themes now ?"
+msgstr ""
+
+msgid "Do you want to load the default theme?"
+msgstr ""
+
+msgid "Do you want to open this file in TextEditor?"
+msgstr ""
+
+msgid "Do you want to playback this file?"
+msgstr ""
+
+msgid "Do you want to reboot now ?"
+msgstr "Haluatko uudelleenkäynnistää nyt ?"
+
+msgid "Do you want to save changes?"
+msgstr ""
+
+msgid "Do you want to select a theme now ?"
+msgstr ""
+
+msgid "Do you want to update now ?"
+msgstr "Haluatko päivittää nyt ?"
+
+msgid "Down Button"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Themes"
+msgstr ""
+
+msgid "Download failed."
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr ""
+
+msgid "Downloading Language Files:"
+msgstr ""
+
+msgid "Downloading all Language Files:"
+msgstr ""
+
+msgid "Downloading file..."
+msgstr "Ladataan tiedostoa..."
+
+msgid "Downloading from"
+msgstr ""
+
+msgid "Downloading image:"
+msgstr ""
+
+msgid "Downloading pagelist:"
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Enter"
+msgstr ""
+
+msgid "Error"
+msgstr "Virhe"
+
+msgid "Error:"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Exit to where?"
+msgstr ""
+
+msgid "Extracting files..."
+msgstr ""
+
+msgid "Failed to get the Changelog."
+msgstr "Muutoksien haku epäonnistui."
+
+msgid "Features Menu"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File is too big."
+msgstr ""
+
+msgid "File was edited."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr ""
+
+msgid "Filesize is 0 Byte."
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Font Scale Factor"
+msgstr ""
+
+msgid "Fontpath changed."
+msgstr ""
+
+msgid "Full Menu"
+msgstr ""
+
+msgid "Full shutdown"
+msgstr ""
+
+msgid "GC Homebrew"
+msgstr ""
+
+msgid "GC PAD BUTTON A"
+msgstr ""
+
+msgid "GC PAD BUTTON B"
+msgstr ""
+
+msgid "GC PAD BUTTON DOWN"
+msgstr ""
+
+msgid "GC PAD BUTTON LEFT"
+msgstr ""
+
+msgid "GC PAD BUTTON NONE"
+msgstr ""
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr ""
+
+msgid "GC PAD BUTTON START"
+msgstr ""
+
+msgid "GC PAD BUTTON UP"
+msgstr ""
+
+msgid "GC PAD BUTTON X"
+msgstr ""
+
+msgid "GC PAD BUTTON Y"
+msgstr ""
+
+msgid "GC PAD TRIGGER L"
+msgstr ""
+
+msgid "GC PAD TRIGGER R"
+msgstr ""
+
+msgid "GC PAD TRIGGER Z"
+msgstr ""
+
+msgid "GUI Settings"
+msgstr "GUI Asetukset"
+
+msgid "GameTDB Update"
+msgstr ""
+
+msgid "Getting Changelog..."
+msgstr "Haetaan muutoksia..."
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "HOME Menu"
+msgstr "KOTI Valikko"
+
+msgid "Home Button"
+msgstr ""
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Channel"
+msgstr "Homebrew Channel"
+
+msgid "Homebrew Launcher"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "How do you want to change the path?"
+msgstr ""
+
+msgid "How do you want to load this language file?"
+msgstr ""
+
+msgid "How to Shutdown?"
+msgstr ""
+
+msgid "Icon Update"
+msgstr ""
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed Files"
+msgstr ""
+
+msgid "Installed Languages Files"
+msgstr ""
+
+msgid "Keyboard Del Delay"
+msgstr ""
+
+msgid "Lang."
+msgstr ""
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Language Update"
+msgstr ""
+
+msgid "Language change:"
+msgstr ""
+
+msgid "Left Button"
+msgstr ""
+
+msgid "Linebreak"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Loading file:"
+msgstr "Ladataan tiedostoa:"
+
+msgid "Lock Console"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Loop"
+msgstr ""
+
+msgid "Loop Playlist"
+msgstr ""
+
+msgid "Manage All"
+msgstr "Hallitse kaikkia"
+
+msgid "Mii"
+msgstr "Mii"
+
+msgid "Music Loop Mode"
+msgstr ""
+
+msgid "Music Path"
+msgstr ""
+
+msgid "Music Player"
+msgstr ""
+
+msgid "Music Volume"
+msgstr "Musiikin voimakkuus"
+
+msgid "Network initialising..."
+msgstr ""
+
+msgid "Network is not initiated."
+msgstr ""
+
+msgid "No"
+msgstr "Ei"
+
+msgid "No Language File found"
+msgstr ""
+
+msgid "No URL or Path specified."
+msgstr ""
+
+msgid "No network connection."
+msgstr ""
+
+msgid "No new updates available"
+msgstr "Ei uusia päivityksiä"
+
+msgid "No themes found on the site."
+msgstr ""
+
+msgid "Not a valid URL"
+msgstr "Epäkelpo URL"
+
+msgid "Not a valid URL path"
+msgstr "Epäkelpo URL polku"
+
+msgid "Not a valid domain"
+msgstr "Epäkelpo domain"
+
+msgid "Not enough memory."
+msgstr "Muistia liian vähän."
+
+msgid "OFF"
+msgstr "Pois päältä"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "Päällä"
+
+msgid "Official Site:"
+msgstr "Virallinen sivu:"
+
+msgid "OnThemeDownloaderFlyingButtonClicked"
+msgstr ""
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Parental Control"
+msgstr ""
+
+msgid "Parse Directory"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password has been changed"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path changed."
+msgstr ""
+
+msgid "Path:"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Pointer Speed"
+msgstr ""
+
+msgid "Possible unsupported format."
+msgstr ""
+
+msgid "QWERTYUIOP{}|"
+msgstr ""
+
+msgid "Quit Settings"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr ""
+
+msgid "Reload SD"
+msgstr ""
+
+msgid "Remember Unlock"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Right Button"
+msgstr ""
+
+msgid "Rumble"
+msgstr "Värinä"
+
+msgid "SFX Volume"
+msgstr "Äänitehosteiden voimakkuus"
+
+msgid "SaveGame"
+msgstr ""
+
+msgid "SaveGame Manager GX is protected"
+msgstr ""
+
+msgid "SaveGameGX Default Music"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "Tallennuksien polku"
+
+msgid "Screensaver"
+msgstr "Näytönsäästäjä"
+
+msgid "Screenshot Format"
+msgstr ""
+
+msgid "Screenshot Path"
+msgstr ""
+
+msgid "Scroll Speed"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Select Device"
+msgstr ""
+
+msgid "Select Files"
+msgstr ""
+
+msgid "Select Languages"
+msgstr ""
+
+msgid "Select Mode"
+msgstr ""
+
+msgid "Select Theme"
+msgstr ""
+
+msgid "Settings"
+msgstr "Asetukset"
+
+msgid "Shift"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr "Näytä muutokset"
+
+msgid "Show error log?"
+msgstr ""
+
+msgid "Shutdown Wii"
+msgstr ""
+
+msgid "Size:"
+msgstr ""
+
+msgid "Soundblock Size"
+msgstr ""
+
+msgid "Soundblocks"
+msgstr ""
+
+msgid "Special thanks to:"
+msgstr "Erikoiskiitokset:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Standby"
+msgstr ""
+
+msgid "System Default"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Text Editor"
+msgstr ""
+
+msgid "The buffer size is really high. If the app doesn't start after this delete your config files."
+msgstr ""
+
+msgid "The effect will take with next music load. It might break music playback."
+msgstr ""
+
+msgid "The new font could not be loaded."
+msgstr ""
+
+msgid "The new font is loaded."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Theme Downloader"
+msgstr ""
+
+msgid "Theme Menu"
+msgstr ""
+
+msgid "Theme Path"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Theme Title:"
+msgstr ""
+
+msgid "Themes by www.spiffy360.com"
+msgstr ""
+
+msgid "Tooltip Delay"
+msgstr ""
+
+msgid "Tooltips"
+msgstr "Vinkit"
+
+msgid "Transfer failed"
+msgstr "Siirto epäonnistui"
+
+msgid "Type:"
+msgstr ""
+
+msgid "URL is empty."
+msgstr "URL on tyhjä."
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlock Console"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Up Button"
+msgstr ""
+
+msgid "Update"
+msgstr "Päivitä"
+
+msgid "Update Path"
+msgstr "Päivityspolku"
+
+msgid "Update Settings"
+msgstr "Päivitysasetukset"
+
+msgid "Update failed"
+msgstr "Päivitys epäonnistui"
+
+msgid "Update files"
+msgstr ""
+
+msgid "Update successfully finished"
+msgstr "Päivitys onnistui"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Päivitys Rev%i versioon saatavilla"
+
+msgid "Updates"
+msgstr "Päivitykset"
+
+msgid "Updating Language Files:"
+msgstr "Päivitetaan kielitiedostoja:"
+
+msgid "Use System Font"
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr ""
+
+msgid "WPAD BUTTON 2"
+msgstr ""
+
+msgid "WPAD BUTTON A"
+msgstr ""
+
+msgid "WPAD BUTTON B"
+msgstr ""
+
+msgid "WPAD BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD BUTTON HOME"
+msgstr ""
+
+msgid "WPAD BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr ""
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr ""
+
+msgid "WPAD NONE BUTTON"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "Wii Homebrew"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Wii Valikko"
+
+msgid "Wiiload Receive"
+msgstr ""
+
+msgid "Wrong Password"
+msgstr ""
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "Kyllä"
+
+msgid "ZXCVBNM<>?"
+msgstr ""
+
+msgid "`1234567890-"
+msgstr ""
+
+msgid "asdfghjkl;'="
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr ""
+
+msgid "for Saves hosting"
+msgstr ""
+
+msgid "for Themes hosting"
+msgstr ""
+
+msgid "for design & sources"
+msgstr "Suunnittelusta & Lähteistä"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "hänen mahtavasta työkalusta LibWiiGui"
+
+msgid "for sources"
+msgstr "Lähteistä"
+
+msgid "for the SaveGame Manager sources"
+msgstr "SaveGame Managerin lähteistä"
+
+msgid "not set"
+msgstr ""
+
+msgid "qwertyuiop[]\\"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "zxcvbnm,./"
+msgstr ""
+
+msgid "~!@#$%^&*()_"
+msgstr ""
+
+#~ msgid "Rev"
+#~ msgstr "Rev"
+
+#~ msgid "16/9"
+#~ msgstr "16/9"
+
+#~ msgid "4/3"
+#~ msgstr "4/3"
+
+#~ msgid "Action cancelled."
+#~ msgstr "Toiminto peruutettu."
+
+#~ msgid "April"
+#~ msgstr "Huhtikuu"
+
+#~ msgid "August"
+#~ msgstr "Elokuu"
+
+#~ msgid "Browsed"
+#~ msgstr "Selattu"
+
+#~ msgid "Copy"
+#~ msgstr "Kopioi"
+
+#~ msgid "Copy cancelled"
+#~ msgstr "Kopiointi peruutettu"
+
+#~ msgid "Custom"
+#~ msgstr "Muokkaa"
+
+#~ msgid "December"
+#~ msgstr "Joulukuu"
+
+#~ msgid "Delete"
+#~ msgstr "Poista"
+
+#~ msgid "Delete cancelled"
+#~ msgstr "Poisto peruutettu"
+
+#~ msgid "Do you want to connect?"
+#~ msgstr "Haluatko yhdistää?"
+
+#~ msgid "Do you want to load this language ?"
+#~ msgstr "Haluatko ladata tämän kielen ?"
+
+#~ msgid "Duplicate"
+#~ msgstr "Monista"
+
+#~ msgid "Extract"
+#~ msgstr "Pura"
+
+#~ msgid "Extract cancelled"
+#~ msgstr "Purku peruutettu"
+
+#~ msgid "Extract to:"
+#~ msgstr "Pura hakemistoon:"
+
+#~ msgid "February"
+#~ msgstr "Helmikuu"
+
+#~ msgid "Home Menu"
+#~ msgstr "Kotivalikko"
+
+#~ msgid "Initializing Network"
+#~ msgstr "Valmistellaan verkkoa"
+
+#~ msgid "Install"
+#~ msgstr "Asenna"
+
+#~ msgid "Install cancelled"
+#~ msgstr "Asennus peruttu"
+
+#~ msgid "January"
+#~ msgstr "Tammikuu"
+
+#~ msgid "July"
+#~ msgstr "Heinäkuu"
+
+#~ msgid "June"
+#~ msgstr "Kesäkuu"
+
+#~ msgid "Language Path changed."
+#~ msgstr "Kielipolku vaihdettu."
+
+#~ msgid "Manage All Miis"
+#~ msgstr "Hallitse kaikkia Mii:tä"
+
+#~ msgid "Manage All Saves"
+#~ msgstr "Hallitse kaikkia tallennuksia"
+
+#~ msgid "March"
+#~ msgstr "Maaliskuu"
+
+#~ msgid "May"
+#~ msgstr "Toukokuu"
+
+#~ msgid "Miis"
+#~ msgstr "Miit"
+
+#~ msgid "Miis Path"
+#~ msgstr "Mii:n polku"
+
+#~ msgid "Move"
+#~ msgstr "Siirrä"
+
+#~ msgid "Move cancelled"
+#~ msgstr "Siirto peruttu"
+
+#~ msgid "No network connection"
+#~ msgstr "Ei verkkoyhteyttä"
+
+#~ msgid "November"
+#~ msgstr "Marraskuu"
+
+#~ msgid "October"
+#~ msgstr "Lokakuu"
+
+#~ msgid "OverWrite"
+#~ msgstr "Ylikirjoita"
+
+#~ msgid "Retry"
+#~ msgstr "Uudelleen"
+
+#~ msgid "SD/USB"
+#~ msgstr "SD/USB"
+
+#~ msgid "Save Path"
+#~ msgstr "Tallenna polku"
+
+#~ msgid "Saves"
+#~ msgstr "Tallennukset"
+
+#~ msgid "September"
+#~ msgstr "Syyskuu"
+
+#~ msgid "Succesfully copied"
+#~ msgstr "Kopiointi onnistui"
+
+#~ msgid "Succesfully deleted"
+#~ msgstr "Poisto onnistui"
+
+#~ msgid "Succesfully extracted"
+#~ msgstr "Purku onnistui"
+
+#~ msgid "Succesfully installed"
+#~ msgstr "Asennus onnistui"
+
+#~ msgid "Succesfully moved"
+#~ msgstr "Siirto onnistui"
+
+#~ msgid "Unable to SetUID"
+#~ msgstr "Ei voida asettaa UID"
+
+#~ msgid "Unable to get NAND path"
+#~ msgstr "NAND Polkua ei saada"
+
+#~ msgid "Wii"
+#~ msgstr "Wii"
+
+#~ msgid "is already installed."
+#~ msgstr "on jo asennettu."
+
+#~ msgid "Full Shutdown"
+#~ msgstr "Täysi sammutus"
+
+#~ msgid "Idle Shutdown"
+#~ msgstr "Unitila"
+
+#~ msgid "Extract All Miis"
+#~ msgstr "Pura kaikki Mii:t"
+
+#~ msgid "Extract All Saves"
+#~ msgstr "Pura kaikki tallennukset"
+
+#~ msgid "Extract All"
+#~ msgstr "Pura kaikki"
+
+#~ msgid "Install All"
+#~ msgstr "Asenna kaikki"
+
+#~ msgid "Install All Miis"
+#~ msgstr "Asenna kaikki Mii:t"
+
+#~ msgid "Install All Saves"
+#~ msgstr "Asenna kaikki tallennukset"

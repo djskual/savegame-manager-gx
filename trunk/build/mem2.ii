@@ -1,0 +1,1436 @@
+# 1 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp"
+# 1 "d:\\Projects\\SaveGameManager\\savegame-manager-gx\\trunk\\build//"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp"
+
+# 1 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.h" 1
+
+
+
+
+
+
+
+extern "C" {
+
+
+
+
+void *MEM1_alloc(unsigned int s);
+void *MEM1_memalign(unsigned int a, unsigned int s);
+void *MEM1_realloc(void *p, unsigned int s);
+void MEM1_free(void *p);
+
+void MEM2_init(unsigned int mem2Size);
+void MEM2_cleanup(void);
+void MEM2_takeBigOnes(bool b);
+void *MEM2_alloc(unsigned int s);
+void *MEM2_realloc(void *p, unsigned int s);
+void MEM2_free(void *p);
+unsigned int MEM2_usableSize(void *p);
+unsigned int MEM2_freesize();
+
+
+}
+# 3 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp" 2
+# 1 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2alloc.hpp" 1
+
+
+
+
+
+
+# 1 "d:/devkitPro/libogc/include/ogc/mutex.h" 1
+# 39 "d:/devkitPro/libogc/include/ogc/mutex.h"
+# 1 "d:/devkitPro/libogc/include/gctypes.h" 1
+# 9 "d:/devkitPro/libogc/include/gctypes.h"
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stdbool.h" 1 3 4
+# 10 "d:/devkitPro/libogc/include/gctypes.h" 2
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stdint.h" 1 3 4
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 1 3 4
+# 13 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+extern "C" {
+# 41 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef signed char int8_t ;
+typedef unsigned char uint8_t ;
+
+
+
+
+typedef signed char int_least8_t;
+typedef unsigned char uint_least8_t;
+
+
+
+
+typedef signed short int16_t;
+typedef unsigned short uint16_t;
+# 67 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef int16_t int_least16_t;
+typedef uint16_t uint_least16_t;
+# 79 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef signed int int32_t;
+typedef unsigned int uint32_t;
+# 97 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef int32_t int_least32_t;
+typedef uint32_t uint_least32_t;
+# 119 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef signed long long int64_t;
+typedef unsigned long long uint64_t;
+# 129 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef int64_t int_least64_t;
+typedef uint64_t uint_least64_t;
+# 159 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+  typedef signed int int_fast8_t;
+  typedef unsigned int uint_fast8_t;
+
+
+
+
+  typedef signed int int_fast16_t;
+  typedef unsigned int uint_fast16_t;
+
+
+
+
+  typedef signed int int_fast32_t;
+  typedef unsigned int uint_fast32_t;
+# 213 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+  typedef int_least64_t int_fast64_t;
+  typedef uint_least64_t uint_fast64_t;
+
+
+
+
+
+
+
+  typedef long long int intmax_t;
+# 231 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+  typedef long long unsigned int uintmax_t;
+# 243 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+typedef signed int intptr_t;
+typedef unsigned int uintptr_t;
+# 490 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/stdint.h" 3 4
+}
+# 4 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stdint.h" 2 3 4
+# 11 "d:/devkitPro/libogc/include/gctypes.h" 2
+
+
+   extern "C" {
+
+
+
+typedef uint8_t u8;
+typedef uint16_t u16;
+typedef uint32_t u32;
+typedef uint64_t u64;
+
+typedef int8_t s8;
+typedef int16_t s16;
+typedef int32_t s32;
+typedef int64_t s64;
+
+typedef volatile u8 vu8;
+typedef volatile u16 vu16;
+typedef volatile u32 vu32;
+typedef volatile u64 vu64;
+
+typedef volatile s8 vs8;
+typedef volatile s16 vs16;
+typedef volatile s32 vs32;
+typedef volatile s64 vs64;
+
+
+typedef s16 sfp16;
+typedef s32 sfp32;
+typedef u16 ufp16;
+typedef u32 ufp32;
+
+typedef float f32;
+typedef double f64;
+
+typedef volatile float vf32;
+typedef volatile double vf64;
+
+
+
+typedef unsigned int BOOL;
+# 88 "d:/devkitPro/libogc/include/gctypes.h"
+struct __argv {
+ int argvMagic;
+ char *commandLine;
+ int length;
+ int argc;
+ char **argv;
+ char **endARGV;
+};
+
+
+extern struct __argv *__system_argv;
+
+
+
+
+
+   }
+# 40 "d:/devkitPro/libogc/include/ogc/mutex.h" 2
+
+
+
+
+ extern "C" {
+
+
+
+
+
+
+typedef u32 mutex_t;
+# 61 "d:/devkitPro/libogc/include/ogc/mutex.h"
+s32 LWP_MutexInit(mutex_t *mutex,bool use_recursive);
+# 70 "d:/devkitPro/libogc/include/ogc/mutex.h"
+s32 LWP_MutexDestroy(mutex_t mutex);
+# 79 "d:/devkitPro/libogc/include/ogc/mutex.h"
+s32 LWP_MutexLock(mutex_t mutex);
+# 88 "d:/devkitPro/libogc/include/ogc/mutex.h"
+s32 LWP_MutexTryLock(mutex_t mutex);
+# 97 "d:/devkitPro/libogc/include/ogc/mutex.h"
+s32 LWP_MutexUnlock(mutex_t mutex);
+
+
+ }
+# 8 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2alloc.hpp" 2
+
+class CMEM2Alloc
+{
+public:
+ void *allocate(unsigned int s);
+ void release(void *p);
+ void *reallocate(void *p, unsigned int s);
+ void init(unsigned int size);
+ void init(void *addr, void *end);
+ void cleanup(void);
+ void clear(void);
+ static unsigned int usableSize(void *p);
+ void forceEndAddress(void *newAddr) { m_endAddress = (SBlock *)newAddr; }
+ void *getEndAddress(void) const { return m_endAddress; }
+ void info(void *&address, unsigned int &size) const { address = m_baseAddress; size = (const char *)m_endAddress - (const char *)m_baseAddress; }
+ unsigned int FreeSize();
+
+ CMEM2Alloc(void) : m_baseAddress(0), m_endAddress(0), m_first(0), m_mutex(0) { }
+private:
+ struct SBlock
+ {
+  unsigned int s;
+  SBlock *next;
+  SBlock *prev;
+  bool f;
+ } __attribute__((aligned(32)));
+ SBlock *m_baseAddress;
+ SBlock *m_endAddress;
+ SBlock *m_first;
+ mutex_t m_mutex;
+private:
+ CMEM2Alloc(const CMEM2Alloc &);
+};
+# 4 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp" 2
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 1 3
+
+
+
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/_ansi.h" 1 3
+# 15 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/_ansi.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/newlib.h" 1 3
+# 16 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/_ansi.h" 2 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/config.h" 1 3
+
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/ieeefp.h" 1 3
+# 5 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/config.h" 2 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/features.h" 1 3
+# 25 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/features.h" 3
+extern "C" {
+# 209 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/features.h" 3
+}
+# 6 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/config.h" 2 3
+# 17 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/_ansi.h" 2 3
+# 7 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 2 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 1 3
+# 9 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+extern "C" {
+
+
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 1 3
+# 12 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_types.h" 1 3
+
+
+
+
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 1 3
+# 9 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+extern "C" {
+# 26 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef signed char __int8_t ;
+typedef unsigned char __uint8_t ;
+# 36 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef signed short __int16_t;
+typedef unsigned short __uint16_t;
+# 46 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef __int16_t __int_least16_t;
+typedef __uint16_t __uint_least16_t;
+# 58 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+# 76 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef __int32_t __int_least32_t;
+typedef __uint32_t __uint_least32_t;
+# 99 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+typedef signed long long __int64_t;
+typedef unsigned long long __uint64_t;
+# 118 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_default_types.h" 3
+}
+# 8 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/_types.h" 2 3
+
+
+typedef long long _fpos_t;
+
+
+typedef long long _off_t;
+# 13 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 2 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/lock.h" 1 3
+
+
+
+
+
+typedef int _LOCK_T;
+typedef int _LOCK_RECURSIVE_T;
+# 47 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/lock.h" 3
+extern int __libc_lock_init(int*,int);
+extern int __libc_lock_close(int*);
+extern int __libc_lock_acquire(int*);
+extern int __libc_lock_try_acquire(int*);
+extern int __libc_lock_release(int*);
+# 14 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 2 3
+# 24 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 3
+typedef short __dev_t;
+
+
+
+
+typedef unsigned short __uid_t;
+
+
+typedef unsigned short __gid_t;
+
+
+
+__extension__ typedef long long _off64_t;
+# 56 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 3
+typedef int _ssize_t;
+
+
+
+
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 1 3 4
+# 353 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 3 4
+typedef unsigned int wint_t;
+# 64 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/_types.h" 2 3
+
+
+
+typedef struct
+{
+  int __count;
+  union
+  {
+    wint_t __wch;
+    unsigned char __wchb[4];
+  } __value;
+} _mbstate_t;
+
+
+
+typedef _LOCK_RECURSIVE_T _flock_t;
+
+
+
+
+typedef void *_iconv_t;
+# 15 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 2 3
+
+
+
+
+
+
+typedef unsigned long __ULong;
+# 37 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct _reent;
+
+
+
+
+
+
+struct _Bigint
+{
+  struct _Bigint *_next;
+  int _k, _maxwds, _sign, _wds;
+  __ULong _x[1];
+};
+
+
+struct __tm
+{
+  int __tm_sec;
+  int __tm_min;
+  int __tm_hour;
+  int __tm_mday;
+  int __tm_mon;
+  int __tm_year;
+  int __tm_wday;
+  int __tm_yday;
+  int __tm_isdst;
+};
+
+
+
+
+
+
+
+struct _on_exit_args {
+ void * _fnargs[32];
+ void * _dso_handle[32];
+
+ __ULong _fntypes;
+
+
+ __ULong _is_cxa;
+};
+# 89 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct _atexit {
+ struct _atexit *_next;
+ int _ind;
+
+ void (*_fns[32])(void);
+        struct _on_exit_args _on_exit_args;
+};
+# 105 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct __sbuf {
+ unsigned char *_base;
+ int _size;
+};
+# 169 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct __sFILE {
+  unsigned char *_p;
+  int _r;
+  int _w;
+  short _flags;
+  short _file;
+  struct __sbuf _bf;
+  int _lbfsize;
+
+
+
+
+
+
+  void * _cookie;
+
+  int (* _read) (struct _reent *, void *, char *, int)
+                     ;
+  int (* _write) (struct _reent *, void *, const char *, int)
+                            ;
+  _fpos_t (* _seek) (struct _reent *, void *, _fpos_t, int);
+  int (* _close) (struct _reent *, void *);
+
+
+  struct __sbuf _ub;
+  unsigned char *_up;
+  int _ur;
+
+
+  unsigned char _ubuf[3];
+  unsigned char _nbuf[1];
+
+
+  struct __sbuf _lb;
+
+
+  int _blksize;
+  _fpos_t _offset;
+
+
+  struct _reent *_data;
+
+
+
+  _flock_t _lock;
+
+  _mbstate_t _mbstate;
+  int _flags2;
+};
+# 273 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+typedef struct __sFILE __FILE;
+
+
+
+struct _glue
+{
+  struct _glue *_next;
+  int _niobs;
+  __FILE *_iobs;
+};
+# 305 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct _rand48 {
+  unsigned short _seed[3];
+  unsigned short _mult[3];
+  unsigned short _add;
+
+
+
+
+};
+# 580 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+struct _reent
+{
+  int _errno;
+
+
+
+
+  __FILE *_stdin, *_stdout, *_stderr;
+
+  int _inc;
+  char _emergency[25];
+
+  int _current_category;
+  const char *_current_locale;
+
+  int __sdidinit;
+
+  void (* __cleanup) (struct _reent *);
+
+
+  struct _Bigint *_result;
+  int _result_k;
+  struct _Bigint *_p5s;
+  struct _Bigint **_freelist;
+
+
+  int _cvtlen;
+  char *_cvtbuf;
+
+  union
+    {
+      struct
+        {
+          unsigned int _unused_rand;
+          char * _strtok_last;
+          char _asctime_buf[26];
+          struct __tm _localtime_buf;
+          int _gamma_signgam;
+          __extension__ unsigned long long _rand_next;
+          struct _rand48 _r48;
+          _mbstate_t _mblen_state;
+          _mbstate_t _mbtowc_state;
+          _mbstate_t _wctomb_state;
+          char _l64a_buf[8];
+          char _signal_buf[24];
+          int _getdate_err;
+          _mbstate_t _mbrlen_state;
+          _mbstate_t _mbrtowc_state;
+          _mbstate_t _mbsrtowcs_state;
+          _mbstate_t _wcrtomb_state;
+          _mbstate_t _wcsrtombs_state;
+   int _h_errno;
+        } _reent;
+
+
+
+      struct
+        {
+
+          unsigned char * _nextf[30];
+          unsigned int _nmalloc[30];
+        } _unused;
+    } _new;
+
+
+  struct _atexit *_atexit;
+  struct _atexit _atexit0;
+
+
+  void (**(_sig_func))(int);
+
+
+
+
+  struct _glue __sglue;
+  __FILE __sf[3];
+};
+# 818 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+extern struct _reent *_impure_ptr __attribute__((__section__(".sdata")));
+extern struct _reent *const _global_impure_ptr __attribute__((__section__(".sdata")));
+
+void _reclaim_reent (struct _reent *);
+# 841 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/reent.h" 3
+}
+# 8 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 2 3
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 1 3 4
+# 212 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 3 4
+typedef unsigned int size_t;
+# 11 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 2 3
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/malloc.h" 1 3
+# 14 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 2 3
+
+
+extern "C" {
+
+
+
+
+
+struct mallinfo {
+  int arena;
+  int ordblks;
+  int smblks;
+  int hblks;
+  int hblkhd;
+  int usmblks;
+  int fsmblks;
+  int uordblks;
+  int fordblks;
+  int keepcost;
+};
+
+
+
+extern void * malloc (size_t);
+
+
+
+
+extern void * _malloc_r (struct _reent *, size_t);
+
+
+extern void free (void *);
+
+
+
+
+extern void _free_r (struct _reent *, void *);
+
+
+extern void * realloc (void *, size_t);
+
+
+
+
+extern void * _realloc_r (struct _reent *, void *, size_t);
+
+
+extern void * calloc (size_t, size_t);
+
+
+
+
+extern void * _calloc_r (struct _reent *, size_t, size_t);
+
+
+extern void * memalign (size_t, size_t);
+
+
+
+
+extern void * _memalign_r (struct _reent *, size_t, size_t);
+
+
+extern struct mallinfo mallinfo (void);
+
+
+
+
+extern struct mallinfo _mallinfo_r (struct _reent *);
+
+
+extern void malloc_stats (void);
+
+
+
+
+extern void _malloc_stats_r (struct _reent *);
+
+
+extern int mallopt (int, int);
+
+
+
+
+extern int _mallopt_r (struct _reent *, int, int);
+
+
+extern size_t malloc_usable_size (void *);
+
+
+
+
+extern size_t _malloc_usable_size_r (struct _reent *, void *);
+
+
+
+
+
+extern void * valloc (size_t);
+
+
+
+
+extern void * _valloc_r (struct _reent *, size_t);
+
+
+extern void * pvalloc (size_t);
+
+
+
+
+extern void * _pvalloc_r (struct _reent *, size_t);
+
+
+extern int malloc_trim (size_t);
+
+
+
+
+extern int _malloc_trim_r (struct _reent *, size_t);
+
+
+
+
+extern void mstats (char *);
+
+
+
+
+extern void _mstats_r (struct _reent *, char *);
+# 162 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/malloc.h" 3
+extern void cfree (void *);
+
+
+
+}
+# 6 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp" 2
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 1 3
+# 10 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/_ansi.h" 1 3
+# 11 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 2 3
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/cdefs.h" 1 3
+# 13 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 2 3
+
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 1 3 4
+# 16 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 2 3
+
+
+
+
+
+extern "C" {
+
+void * memchr (const void *, int, size_t);
+int memcmp (const void *, const void *, size_t);
+void * memcpy (void *, const void *, size_t);
+void * memmove (void *, const void *, size_t);
+void * memset (void *, int, size_t);
+char *strcat (char *, const char *);
+char *strchr (const char *, int);
+int strcmp (const char *, const char *);
+int strcoll (const char *, const char *);
+char *strcpy (char *, const char *);
+size_t strcspn (const char *, const char *);
+char *strerror (int);
+size_t strlen (const char *);
+char *strncat (char *, const char *, size_t);
+int strncmp (const char *, const char *, size_t);
+char *strncpy (char *, const char *, size_t);
+char *strpbrk (const char *, const char *);
+char *strrchr (const char *, int);
+size_t strspn (const char *, const char *);
+char *strstr (const char *, const char *);
+
+
+char *strtok (char *, const char *);
+
+
+size_t strxfrm (char *, const char *, size_t);
+
+
+char *strtok_r (char *, const char *, char **);
+
+int bcmp (const void *, const void *, size_t);
+void bcopy (const void *, void *, size_t);
+void bzero (void *, size_t);
+int ffs (int);
+char *index (const char *, int);
+void * memccpy (void *, const void *, int, size_t);
+void * mempcpy (void *, const void *, size_t);
+void * memmem (const void *, size_t, const void *, size_t);
+char *rindex (const char *, int);
+char *stpcpy (char *, const char *);
+char *stpncpy (char *, const char *, size_t);
+int strcasecmp (const char *, const char *);
+char *strcasestr (const char *, const char *);
+char *strchrnul (const char *, int);
+char *strdup (const char *);
+char *_strdup_r (struct _reent *, const char *);
+char *strndup (const char *, size_t);
+char *_strndup_r (struct _reent *, const char *, size_t);
+# 79 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 3
+int strerror_r (int, char *, size_t) __asm__ ("" "__xpg_strerror_r");
+
+
+
+
+
+size_t strlcat (char *, const char *, size_t);
+size_t strlcpy (char *, const char *, size_t);
+int strncasecmp (const char *, const char *, size_t);
+size_t strnlen (const char *, size_t);
+char *strsep (char **, const char *);
+char *strlwr (char *);
+char *strupr (char *);
+
+char *strsignal (int __signo);
+
+
+
+
+
+
+char * _strerror_r (struct _reent *, int, int, int *);
+# 132 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/string.h" 1 3
+# 133 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/string.h" 2 3
+
+}
+# 7 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp" 2
+# 1 "d:/devkitPro/libogc/include/ogc/system.h" 1
+# 42 "d:/devkitPro/libogc/include/ogc/system.h"
+# 1 "d:/devkitPro/libogc/include/gcutil.h" 1
+# 43 "d:/devkitPro/libogc/include/ogc/system.h" 2
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 1 3
+# 18 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/time.h" 1 3
+# 19 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 2 3
+# 27 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 1 3 4
+# 28 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 2 3
+
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 1 3
+# 69 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 1 3 4
+# 150 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/include/stddef.h" 3 4
+typedef int ptrdiff_t;
+# 70 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 2 3
+# 1 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/types.h" 1 3
+# 19 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/machine/types.h" 3
+typedef long int __off_t;
+typedef int __pid_t;
+
+__extension__ typedef long long int __loff_t;
+# 71 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 2 3
+# 92 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+typedef unsigned char u_char;
+typedef unsigned short u_short;
+typedef unsigned int u_int;
+typedef unsigned long u_long;
+
+
+
+typedef unsigned short ushort;
+typedef unsigned int uint;
+typedef unsigned long ulong;
+
+
+
+typedef unsigned long clock_t;
+
+
+
+
+typedef long time_t;
+
+
+
+
+struct timespec {
+  time_t tv_sec;
+  long tv_nsec;
+};
+
+struct itimerspec {
+  struct timespec it_interval;
+  struct timespec it_value;
+};
+
+
+typedef long daddr_t;
+typedef char * caddr_t;
+
+
+
+
+
+
+typedef unsigned int ino_t;
+# 163 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+typedef _off_t off_t;
+typedef __dev_t dev_t;
+typedef __uid_t uid_t;
+typedef __gid_t gid_t;
+
+
+
+
+
+typedef int pid_t;
+
+
+
+
+
+
+
+typedef long key_t;
+
+typedef _ssize_t ssize_t;
+# 196 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+typedef unsigned int mode_t __attribute__ ((__mode__ (__SI__)));
+
+
+
+
+typedef unsigned short nlink_t;
+# 223 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+typedef long fd_mask;
+
+
+
+
+
+
+
+typedef struct _types_fd_set {
+ fd_mask fds_bits[(((64)+(((sizeof (fd_mask) * 8))-1))/((sizeof (fd_mask) * 8)))];
+} _types_fd_set;
+# 254 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/sys/types.h" 3
+typedef unsigned long clockid_t;
+
+
+
+
+typedef unsigned long timer_t;
+
+
+
+typedef unsigned long useconds_t;
+typedef long suseconds_t;
+
+typedef __uint32_t fsblkcnt_t;
+typedef __uint32_t fsfilcnt_t;
+# 30 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 2 3
+
+extern "C" {
+
+struct tm
+{
+  int tm_sec;
+  int tm_min;
+  int tm_hour;
+  int tm_mday;
+  int tm_mon;
+  int tm_year;
+  int tm_wday;
+  int tm_yday;
+  int tm_isdst;
+};
+
+clock_t clock (void);
+double difftime (time_t _time2, time_t _time1);
+time_t mktime (struct tm *_timeptr);
+time_t time (time_t *_timer);
+
+char *asctime (const struct tm *_tblock);
+char *ctime (const time_t *_time);
+struct tm *gmtime (const time_t *_timer);
+struct tm *localtime (const time_t *_timer);
+
+size_t strftime (char *_s, size_t _maxsize, const char *_fmt, const struct tm *_t);
+
+char *asctime_r (const struct tm *, char *);
+char *ctime_r (const time_t *, char *);
+struct tm *gmtime_r (const time_t *, struct tm *);
+struct tm *localtime_r (const time_t *, struct tm *);
+
+}
+
+
+extern "C" {
+
+
+
+char *strptime (const char *, const char *, struct tm *);
+void tzset (void);
+void _tzset_r (struct _reent *);
+
+typedef struct __tzrule_struct
+{
+  char ch;
+  int m;
+  int n;
+  int d;
+  int s;
+  time_t change;
+  long offset;
+} __tzrule_type;
+
+typedef struct __tzinfo_struct
+{
+  int __tznorth;
+  int __tzyear;
+  __tzrule_type __tzrule[2];
+} __tzinfo_type;
+
+__tzinfo_type *__gettzinfo (void);
+# 118 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+extern long _timezone;
+extern int _daylight;
+extern char *_tzname[2];
+# 129 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+}
+# 195 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+extern "C" {
+# 273 "d:\\devkitpro\\devkitppc\\bin\\../lib/gcc/powerpc-eabi/4.6.3/../../../../powerpc-eabi/include/time.h" 3
+}
+# 44 "d:/devkitPro/libogc/include/ogc/system.h" 2
+# 1 "d:/devkitPro/libogc/include/ogc/lwp_queue.h" 1
+# 13 "d:/devkitPro/libogc/include/ogc/lwp_queue.h"
+extern "C" {
+
+
+typedef struct _lwpnode {
+ struct _lwpnode *next;
+ struct _lwpnode *prev;
+} lwp_node;
+
+typedef struct _lwpqueue {
+ lwp_node *first;
+ lwp_node *perm_null;
+ lwp_node *last;
+} lwp_queue;
+
+void __lwp_queue_initialize(lwp_queue *,void *,u32,u32);
+lwp_node* __lwp_queue_get(lwp_queue *);
+void __lwp_queue_append(lwp_queue *,lwp_node *);
+void __lwp_queue_extract(lwp_node *);
+void __lwp_queue_insert(lwp_node *,lwp_node *);
+
+
+
+
+
+
+ }
+# 45 "d:/devkitPro/libogc/include/ogc/system.h" 2
+# 1 "d:/devkitPro/libogc/include/ogc/gx_struct.h" 1
+# 42 "d:/devkitPro/libogc/include/ogc/gx_struct.h"
+   extern "C" {
+# 58 "d:/devkitPro/libogc/include/ogc/gx_struct.h"
+typedef struct _gx_rmodeobj {
+ u32 viTVMode;
+ u16 fbWidth;
+ u16 efbHeight;
+ u16 xfbHeight;
+ u16 viXOrigin;
+ u16 viYOrigin;
+ u16 viWidth;
+ u16 viHeight;
+ u32 xfbMode;
+ u8 field_rendering;
+ u8 aa;
+ u8 sample_pattern[12][2];
+ u8 vfilter[7];
+} GXRModeObj;
+
+
+   }
+# 46 "d:/devkitPro/libogc/include/ogc/system.h" 2
+# 130 "d:/devkitPro/libogc/include/ogc/system.h"
+   extern "C" {
+
+
+
+
+
+
+
+typedef u32 syswd_t;
+# 154 "d:/devkitPro/libogc/include/ogc/system.h"
+typedef struct _syssram syssram;
+
+struct _syssram {
+ u16 checksum;
+ u16 checksum_inv;
+ u32 ead0;
+ u32 ead1;
+ u32 counter_bias;
+ s8 display_offsetH;
+ u8 ntd;
+ u8 lang;
+ u8 flags;
+} __attribute__((packed));
+# 180 "d:/devkitPro/libogc/include/ogc/system.h"
+typedef struct _syssramex syssramex;
+
+struct _syssramex {
+ u8 flash_id[2][12];
+ u32 wirelessKbd_id;
+ u16 wirelessPad_id[4];
+ u8 dvderr_code;
+ u8 __padding0;
+ u16 flashID_chksum[2];
+ u8 __padding1[4];
+} __attribute__((packed));
+
+typedef void (*alarmcallback)(syswd_t alarm,void *cb_arg);
+
+typedef struct _sys_fontheader sys_fontheader;
+
+struct _sys_fontheader {
+ u16 font_type;
+ u16 first_char;
+ u16 last_char;
+ u16 inval_char;
+ u16 asc;
+ u16 desc;
+ u16 width;
+ u16 leading;
+    u16 cell_width;
+    u16 cell_height;
+    u32 sheet_size;
+    u16 sheet_format;
+    u16 sheet_column;
+    u16 sheet_row;
+    u16 sheet_width;
+    u16 sheet_height;
+    u16 width_table;
+    u32 sheet_image;
+    u32 sheet_fullsize;
+    u8 c0;
+    u8 c1;
+    u8 c2;
+    u8 c3;
+} __attribute__((packed));
+
+typedef void (*resetcallback)(void);
+typedef void (*powercallback)(void);
+typedef s32 (*resetfunction)(s32 final);
+typedef struct _sys_resetinfo sys_resetinfo;
+
+struct _sys_resetinfo {
+ lwp_node node;
+ resetfunction func;
+ u32 prio;
+};
+
+
+
+
+
+
+void SYS_Init();
+# 248 "d:/devkitPro/libogc/include/ogc/system.h"
+void* SYS_AllocateFramebuffer(GXRModeObj *rmode);
+
+
+void SYS_ProtectRange(u32 chan,void *addr,u32 bytes,u32 cntrl);
+void SYS_StartPMC(u32 mcr0val,u32 mcr1val);
+void SYS_DumpPMC();
+void SYS_StopPMC();
+# 263 "d:/devkitPro/libogc/include/ogc/system.h"
+s32 SYS_CreateAlarm(syswd_t *thealarm);
+# 274 "d:/devkitPro/libogc/include/ogc/system.h"
+s32 SYS_SetAlarm(syswd_t thealarm,const struct timespec *tp,alarmcallback cb,void *cbarg);
+# 286 "d:/devkitPro/libogc/include/ogc/system.h"
+s32 SYS_SetPeriodicAlarm(syswd_t thealarm,const struct timespec *tp_start,const struct timespec *tp_period,alarmcallback cb,void *cbarg);
+# 295 "d:/devkitPro/libogc/include/ogc/system.h"
+s32 SYS_RemoveAlarm(syswd_t thealarm);
+# 304 "d:/devkitPro/libogc/include/ogc/system.h"
+s32 SYS_CancelAlarm(syswd_t thealarm);
+
+
+void SYS_SetWirelessID(u32 chan,u32 id);
+u32 SYS_GetWirelessID(u32 chan);
+u32 SYS_GetFontEncoding();
+u32 SYS_InitFont(sys_fontheader *font_data);
+void SYS_GetFontTexture(s32 c,void **image,s32 *xpos,s32 *ypos,s32 *width);
+void SYS_GetFontTexel(s32 c,void *image,s32 pos,s32 stride,s32 *width);
+void SYS_ResetSystem(s32 reset,u32 reset_code,s32 force_menu);
+void SYS_RegisterResetFunc(sys_resetinfo *info);
+void SYS_UnregisterResetFunc(sys_resetinfo *info);
+void SYS_SwitchFiber(u32 arg0,u32 arg1,u32 arg2,u32 arg3,u32 pc,u32 newsp);
+
+void* SYS_GetArena1Lo();
+void SYS_SetArena1Lo(void *newLo);
+void* SYS_GetArena1Hi();
+void SYS_SetArena1Hi(void *newHi);
+u32 SYS_GetArena1Size();
+
+resetcallback SYS_SetResetCallback(resetcallback cb);
+
+u32 SYS_ResetButtonDown();
+
+
+u32 SYS_GetHollywoodRevision();
+void* SYS_GetArena2Lo();
+void SYS_SetArena2Lo(void *newLo);
+void* SYS_GetArena2Hi();
+void SYS_SetArena2Hi(void *newHi);
+u32 SYS_GetArena2Size();
+powercallback SYS_SetPowerCallback(powercallback cb);
+
+
+void kprintf(const char *str, ...);
+
+
+   }
+# 8 "d:/Projects/SaveGameManager/savegame-manager-gx/trunk/source/Memory/mem2.cpp" 2
+
+
+
+
+
+u32 MALLOC_MEM2 = 0;
+
+static CMEM2Alloc g_mem2gp;
+
+static bool g_bigGoesToMem2 = false;
+
+extern "C"
+{
+
+extern __typeof(malloc) __real_malloc;
+extern __typeof(calloc) __real_calloc;
+extern __typeof(realloc) __real_realloc;
+extern __typeof(memalign) __real_memalign;
+extern __typeof(free) __real_free;
+extern __typeof(malloc_usable_size) __real_malloc_usable_size;
+
+
+void MEM2_takeBigOnes(bool b)
+{
+ g_bigGoesToMem2 = b;
+}
+
+void MEM2_init(unsigned int mem2Size)
+{
+ g_mem2gp.init(mem2Size);
+}
+
+void MEM2_cleanup(void)
+{
+ g_mem2gp.cleanup();
+}
+
+void *MEM2_alloc(unsigned int s)
+{
+ return g_mem2gp.allocate(s);
+}
+
+void MEM2_free(void *p)
+{
+ g_mem2gp.release(p);
+}
+
+void *MEM2_realloc(void *p, unsigned int s)
+{
+ return g_mem2gp.reallocate(p, s);
+}
+
+unsigned int MEM2_usableSize(void *p)
+{
+ return CMEM2Alloc::usableSize(p);
+}
+
+unsigned int MEM2_freesize()
+{
+ return g_mem2gp.FreeSize();
+}
+
+void *MEM1_alloc(unsigned int s)
+{
+ return __real_malloc(s);
+}
+
+void *MEM1_memalign(unsigned int a, unsigned int s)
+{
+ return __real_memalign(a, s);
+}
+
+void MEM1_free(void *p)
+{
+ __real_free(p);
+}
+
+void *MEM1_realloc(void *p, unsigned int s)
+{
+ return __real_realloc(p, s);
+}
+
+void *__wrap_malloc(size_t size)
+{
+ void *p;
+ if ((SYS_GetArena1Lo() > ((void *) (0x81700000-size))) || (g_bigGoesToMem2 && size > 30720))
+ {
+  p = g_mem2gp.allocate(size);
+  if (p != 0) {
+   return p;
+  }
+  return __real_malloc(size);
+ }
+ p = __real_malloc(size);
+ if (p != 0) {
+  return p;
+ }
+ return g_mem2gp.allocate(size);
+}
+
+void *__wrap_calloc(size_t n, size_t size)
+{
+ void *p;
+ if ((SYS_GetArena1Lo() > ((void *) (0x81700000-size))) || (g_bigGoesToMem2 && size > 30720))
+ {
+  p = g_mem2gp.allocate(n * size);
+  if (p != 0)
+  {
+   memset(p, 0, n * size);
+   return p;
+  }
+  return __real_calloc(n, size);
+ }
+ p = __real_calloc(n, size);
+ if (p != 0) {
+  return p;
+ }
+ p = g_mem2gp.allocate(n * size);
+ if (p != 0) {
+  memset(p, 0, n * size);
+ }
+ return p;
+}
+
+void *__wrap_memalign(size_t a, size_t size)
+{
+ void *p;
+ if ((SYS_GetArena1Lo() > ((void *) (0x81700000-size))) || (g_bigGoesToMem2 && size > 30720))
+ {
+  if (a <= 32 && 32 % a == 0)
+  {
+   p = g_mem2gp.allocate(size);
+   if (p != 0) {
+    return p;
+   }
+  }
+  return __real_memalign(a, size);
+ }
+ p = __real_memalign(a, size);
+ if (p != 0 || a > 32 || 32 % a != 0) {
+  return p;
+ }
+
+ return g_mem2gp.allocate(size);
+}
+
+void __wrap_free(void *p)
+{
+ if(!p)
+  return;
+
+ if (((u32)p & 0x10000000) != 0)
+ {
+  g_mem2gp.release(p);
+ }
+ else
+ {
+  __real_free(p);
+ }
+}
+
+void *__wrap_realloc(void *p, size_t size)
+{
+ void *n;
+
+ if (((u32)p & 0x10000000) != 0 || (p == 0 && g_bigGoesToMem2 && size > 30720))
+ {
+  n = g_mem2gp.reallocate(p, size);
+  if (n != 0) {
+   return n;
+  }
+  n = __real_malloc(size);
+  if (n == 0) {
+   return 0;
+  }
+  if (p != 0)
+  {
+   memcpy(n, p, MEM2_usableSize(p) < size ? MEM2_usableSize(p) : size);
+   g_mem2gp.release(p);
+  }
+  return n;
+ }
+
+ n = __real_realloc(p, size);
+ if (n != 0) {
+  return n;
+ }
+ n = g_mem2gp.allocate(size);
+ if (n == 0) {
+  return 0;
+ }
+ if (p != 0)
+ {
+  memcpy(n, p, __real_malloc_usable_size(p) < size ? __real_malloc_usable_size(p) : size);
+  __real_free(p);
+ }
+ return n;
+}
+
+size_t __wrap_malloc_usable_size(void *p)
+{
+ if (((u32)p & 0x10000000) != 0)
+  return CMEM2Alloc::usableSize(p);
+ return __real_malloc_usable_size(p);
+}
+
+}

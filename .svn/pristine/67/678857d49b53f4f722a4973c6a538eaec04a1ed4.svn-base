@@ -1,0 +1,1526 @@
+# SaveGame Manager GX language source file.
+# tchinese.lang - r95
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-03 02:22+0200\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: Jane.H\n"
+"Language-Team: kavid, speedfly, Jane.H\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1 小時"
+
+msgid "1 min"
+msgstr "1 分鐘"
+
+msgid "10 mins"
+msgstr "10 分鐘"
+
+msgid "100 miis are installed!!!"
+msgstr ""
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 分鐘"
+
+msgid "3 mins"
+msgstr "3 分鐘"
+
+msgid "30 mins"
+msgstr "30 分鐘"
+
+msgid "3DS Mii transfer function"
+msgstr ""
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 分鐘"
+
+msgid "7z decompression failed:"
+msgstr ""
+
+msgid "Action cancelled."
+msgstr "操作取消"
+
+msgid "All"
+msgstr ""
+
+msgid "All Files"
+msgstr ""
+
+msgid "All Languages Files"
+msgstr ""
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr ""
+
+msgid "All translaters for language files updates"
+msgstr "翻譯者列表已更新"
+
+msgid "Apply"
+msgstr ""
+
+msgid "April"
+msgstr "4月"
+
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Settings"
+msgstr "音效設定"
+
+msgid "August"
+msgstr "8月"
+
+msgid "Author(s):"
+msgstr ""
+
+msgid "Auto Connect"
+msgstr ""
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Back to Loader"
+msgstr "返回Loader"
+
+msgid "Bad game ID"
+msgstr ""
+
+msgid "Be carrefull, present files can be overwritten"
+msgstr ""
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "非常感謝："
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "Block Audio Settings"
+msgstr ""
+
+msgid "Block Controls Settings"
+msgstr ""
+
+msgid "Block Custom Paths"
+msgstr ""
+
+msgid "Block Features Menu"
+msgstr ""
+
+msgid "Block Global Settings"
+msgstr ""
+
+msgid "Block Gui Settings"
+msgstr ""
+
+msgid "Block HBC Menu"
+msgstr ""
+
+msgid "Block Manage"
+msgstr ""
+
+msgid "Block Manage DataBin"
+msgstr ""
+
+msgid "Block Manage Emu Nand"
+msgstr ""
+
+msgid "Block ManageAll"
+msgstr ""
+
+msgid "Block Parental Settings"
+msgstr ""
+
+msgid "Block Reset Settings"
+msgstr ""
+
+msgid "Block SD Reload Button"
+msgstr ""
+
+msgid "Block Saves Download"
+msgstr ""
+
+msgid "Block Theme Settings"
+msgstr ""
+
+msgid "Block Title Launcher"
+msgstr ""
+
+msgid "Block Updates"
+msgstr ""
+
+msgid "Block(s)"
+msgstr ""
+
+msgid "Boot Browser"
+msgstr ""
+
+msgid "Browsed"
+msgstr "當前目錄"
+
+msgid "CRC of extracted file does not match. Wrong password?"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr ""
+
+#, c-format
+msgid "Can't create path: %s"
+msgstr ""
+
+msgid "Can't open file."
+msgstr ""
+
+msgid "Cancel"
+msgstr "取消"
+
+#, c-format
+msgid "Cannot close file %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot open file %s"
+msgstr ""
+
+msgid "Cannot write to destination."
+msgstr "無法寫入檔案"
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Click Button"
+msgstr ""
+
+msgid "Clock"
+msgstr "時鐘"
+
+msgid "Close"
+msgstr "關閉"
+
+#, c-format
+msgid "Coded by: %s"
+msgstr ""
+
+msgid "Coding:"
+msgstr "編碼中："
+
+msgid "Compress"
+msgstr ""
+
+msgid "Compress to:"
+msgstr ""
+
+msgid "Compressing..."
+msgstr ""
+
+msgid "Compression cancelled"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Connection to server timed out."
+msgstr ""
+
+msgid "Console"
+msgstr ""
+
+msgid "Console Locked"
+msgstr ""
+
+msgid "Console must be unlocked for this option."
+msgstr ""
+
+msgid "Controller Settings"
+msgstr ""
+
+msgid "Copy"
+msgstr "複製"
+
+msgid "Copy cancelled"
+msgstr "複製已取消"
+
+msgid "Copy to:"
+msgstr ""
+
+msgid "Copying..."
+msgstr ""
+
+msgid "Correct Password"
+msgstr ""
+
+msgid "Could not connect to the server."
+msgstr "無法連接到伺服器。"
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr ""
+
+msgid "Could not download file."
+msgstr "無法下載檔案。"
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not initialize network!"
+msgstr "無法啟動網路！"
+
+msgid "Could not load text file."
+msgstr ""
+
+msgid "Creator:"
+msgstr ""
+
+msgid "Credits"
+msgstr "感謝"
+
+msgid "Credits Volume"
+msgstr "音量調節"
+
+msgid "Custom"
+msgstr "自定義"
+
+msgid "Custom Font"
+msgstr "自訂字型"
+
+msgid "Custom Paths"
+msgstr "自訂路徑"
+
+msgid "Data.bin"
+msgstr ""
+
+msgid "Data.bin Path"
+msgstr ""
+
+msgid "Date:"
+msgstr ""
+
+msgid "December"
+msgstr "12月"
+
+msgid "Decompress"
+msgstr ""
+
+msgid "Decompress to:"
+msgstr ""
+
+msgid "Decompressing..."
+msgstr ""
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Default Settings"
+msgstr "初始化設定"
+
+msgid "Default Theme"
+msgstr ""
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete All"
+msgstr "全部刪除"
+
+msgid "Delete cancelled"
+msgstr "刪除已取消"
+
+msgid "Delete from Emu Nand"
+msgstr ""
+
+msgid "Delete from Wii"
+msgstr ""
+
+msgid "Delete from:"
+msgstr ""
+
+msgid "Deleting..."
+msgstr ""
+
+msgid "Design:"
+msgstr "設計："
+
+msgid "Device"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Do you want to apply it now?"
+msgstr ""
+
+msgid "Do you want to apply this theme?"
+msgstr ""
+
+msgid "Do you want to change the font?"
+msgstr ""
+
+msgid "Do you want to connect?"
+msgstr "是否連接？"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to download themes now ?"
+msgstr ""
+
+msgid "Do you want to download this theme?"
+msgstr ""
+
+msgid "Do you want to load the default theme?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "是否想要使用這語言？"
+
+msgid "Do you want to reboot now ?"
+msgstr "是否立刻重新啟動？"
+
+msgid "Do you want to select a theme now ?"
+msgstr ""
+
+msgid "Do you want to update now ?"
+msgstr "是否立刻更新？"
+
+msgid "Down Button"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Themes"
+msgstr ""
+
+msgid "Download cancelled"
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr ""
+
+msgid "Downloading Language Files:"
+msgstr ""
+
+msgid "Downloading all Languages Files:"
+msgstr ""
+
+msgid "Downloading file..."
+msgstr "檔案下載中，先去趟洗手間吧……"
+
+msgid "Downloading from"
+msgstr ""
+
+msgid "Downloading image:"
+msgstr ""
+
+msgid "Downloading pagelist:"
+msgstr ""
+
+msgid "Downloading saveslist:"
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "Dutch"
+msgstr "荷蘭語"
+
+msgid "ERROR: Can't set up theme."
+msgstr ""
+
+msgid "Emu"
+msgstr ""
+
+msgid "Emu Nand Path"
+msgstr ""
+
+msgid "Emu Nand browser"
+msgstr ""
+
+msgid "EmuMii"
+msgstr ""
+
+msgid "English"
+msgstr "英語"
+
+msgid "Error"
+msgstr "錯誤"
+
+#, c-format
+msgid "Error opening %s"
+msgstr ""
+
+#, c-format
+msgid "Error opening %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error received from %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error when downloading file: %i"
+msgstr ""
+
+msgid "Error while transfering data."
+msgstr ""
+
+msgid "Error:"
+msgstr ""
+
+msgid "Extract"
+msgstr "提取"
+
+msgid "Extract cancelled"
+msgstr "提取已取消"
+
+msgid "Extract error code:"
+msgstr ""
+
+msgid "Extract to Device"
+msgstr ""
+
+msgid "Extract to:"
+msgstr "提取到："
+
+msgid "Extracting files..."
+msgstr ""
+
+msgid "Extracting..."
+msgstr ""
+
+msgid "FaceLib database is corrupted."
+msgstr ""
+
+msgid "FaceLib database is missing."
+msgstr ""
+
+msgid "Failed to extract."
+msgstr ""
+
+msgid "Failed to get the Changelog."
+msgstr "獲取更新日誌失敗。"
+
+msgid "Failed to read file data."
+msgstr ""
+
+#, c-format
+msgid "Fatal error: %i."
+msgstr ""
+
+msgid "Features Menu"
+msgstr ""
+
+msgid "February"
+msgstr "2月"
+
+msgid "File"
+msgstr ""
+
+msgid "File is corrupt (CRC mismatch)."
+msgstr ""
+
+msgid "File is corrupt."
+msgstr ""
+
+msgid "File is too big."
+msgstr ""
+
+msgid "File not created."
+msgstr ""
+
+msgid "File uses too high of compression settings (dictionary size is too large)."
+msgstr ""
+
+msgid "File uses unsupported compression settings."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr ""
+
+msgid "Filesize is 0 Byte."
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Font Scale Factor"
+msgstr ""
+
+msgid "Fontpath changed."
+msgstr ""
+
+msgid "French"
+msgstr "法語"
+
+msgid "Full Shutdown"
+msgstr "完全關機"
+
+msgid "GC PAD BUTTON A"
+msgstr ""
+
+msgid "GC PAD BUTTON B"
+msgstr ""
+
+msgid "GC PAD BUTTON DOWN"
+msgstr ""
+
+msgid "GC PAD BUTTON LEFT"
+msgstr ""
+
+msgid "GC PAD BUTTON NONE"
+msgstr ""
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr ""
+
+msgid "GC PAD BUTTON START"
+msgstr ""
+
+msgid "GC PAD BUTTON UP"
+msgstr ""
+
+msgid "GC PAD BUTTON X"
+msgstr ""
+
+msgid "GC PAD BUTTON Y"
+msgstr ""
+
+msgid "GC PAD TRIGGER L"
+msgstr ""
+
+msgid "GC PAD TRIGGER R"
+msgstr ""
+
+msgid "GC PAD TRIGGER Z"
+msgstr ""
+
+msgid "GUI Settings"
+msgstr "圖形介面設定"
+
+msgid "GameTDB Path"
+msgstr ""
+
+msgid "GameTDB Titles"
+msgstr ""
+
+msgid "GameTDB Update"
+msgstr ""
+
+msgid "GameTDB not found."
+msgstr ""
+
+msgid "German"
+msgstr "德語"
+
+msgid "Getting Changelog..."
+msgstr "獲取更新日誌中..."
+
+msgid "Getting EmuNand Lists..."
+msgstr ""
+
+msgid "Getting Saves List..."
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "HOME Menu"
+msgstr "系統功能表"
+
+msgid "Home Button"
+msgstr ""
+
+msgid "Home Menu"
+msgstr "系統功能表"
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Launcher"
+msgstr ""
+
+msgid "Homebrew Path"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "ID:"
+msgstr ""
+
+msgid "Icon Update"
+msgstr "Icon圖示更新"
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "空閒關閉"
+
+#, c-format
+msgid "Incoming file %0.2fKB"
+msgstr ""
+
+#, c-format
+msgid "Incoming file %0.2fMB"
+msgstr ""
+
+msgid "Initializing Network"
+msgstr "啟動網路中"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Install cancelled"
+msgstr "安裝已取消"
+
+msgid "Install from:"
+msgstr ""
+
+msgid "Install to EmuNand"
+msgstr ""
+
+msgid "Install to Wii"
+msgstr ""
+
+msgid "Install to:"
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed Files"
+msgstr ""
+
+msgid "Installed Languages Files"
+msgstr ""
+
+msgid "Installing..."
+msgstr ""
+
+msgid "Italian"
+msgstr "義大利語"
+
+msgid "January"
+msgstr "1月"
+
+msgid "Japanese"
+msgstr "日語"
+
+msgid "July"
+msgstr "7月"
+
+msgid "June"
+msgstr "6月"
+
+msgid "Keyboard"
+msgstr ""
+
+msgid "Korean"
+msgstr "韓語"
+
+msgid "Language"
+msgstr "語言"
+
+msgid "Language Path changed."
+msgstr "語言檔路徑變更"
+
+msgid "Language Update"
+msgstr ""
+
+msgid "Language change:"
+msgstr ""
+
+msgid "Left Button"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+#, c-format
+msgid "Load file from: %s ?"
+msgstr ""
+
+msgid "Loader"
+msgstr ""
+
+msgid "Loading Data.bin Structure"
+msgstr ""
+
+msgid "Loading file:"
+msgstr "檔案讀取中:"
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Lock Console"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Loop Directory"
+msgstr ""
+
+msgid "Loop Music"
+msgstr ""
+
+msgid "Manage All"
+msgstr "管理全部"
+
+msgid "Manage All Miis"
+msgstr "管理每一個Mii"
+
+msgid "Manage All Saves"
+msgstr "管理每一個遊戲存檔"
+
+msgid "March"
+msgstr "3月"
+
+msgid "May"
+msgstr "5月"
+
+msgid "Meta Update"
+msgstr "Meta更新"
+
+msgid "Mii"
+msgstr "Mii"
+
+msgid "Mii Channel installed"
+msgstr ""
+
+msgid "Mii memory is full"
+msgstr ""
+
+msgid "Miis"
+msgstr "多Mii"
+
+msgid "Miis Path"
+msgstr "Mii路徑"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Move cancelled"
+msgstr "移動已取消"
+
+msgid "Move to:"
+msgstr ""
+
+msgid "Moving..."
+msgstr ""
+
+msgid "Music Volume"
+msgstr "音量"
+
+msgid "Network is not initiated."
+msgstr ""
+
+msgid "No"
+msgstr "否"
+
+msgid "No Language File found"
+msgstr ""
+
+msgid "No Mii Found in Emulated Nand"
+msgstr ""
+
+msgid "No Mii Found in Wii Nand"
+msgstr ""
+
+msgid "No Mii Found in this path"
+msgstr ""
+
+msgid "No Save Found in this directory"
+msgstr ""
+
+msgid "No Storage Device Found"
+msgstr ""
+
+msgid "No URL or Path specified."
+msgstr ""
+
+msgid "No data could be read."
+msgstr ""
+
+msgid "No network connection"
+msgstr "無網路連接"
+
+msgid "No new updates available"
+msgstr "無可用更新"
+
+msgid "No saves found on the site."
+msgstr ""
+
+msgid "No themes found on the site."
+msgstr ""
+
+msgid "No themes found."
+msgstr ""
+
+msgid "Not a valid URL"
+msgstr "不是有效的網址"
+
+msgid "Not a valid URL path"
+msgstr "不是有效的網址路徑"
+
+msgid "Not a valid domain"
+msgstr "不是有效的網域名稱"
+
+msgid "Not already installed in Wii"
+msgstr ""
+
+msgid "Not enough memory."
+msgstr "記憶體不足"
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr "11月"
+
+msgid "OFF"
+msgstr "關閉"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "ON"
+msgstr "開啟"
+
+msgid "October"
+msgstr "10月"
+
+msgid "Official Site:"
+msgstr "官方網址："
+
+msgid "OverWrite"
+msgstr "覆蓋"
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Parental Control"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password has been changed"
+msgstr ""
+
+msgid "Password is needed."
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path changed."
+msgstr ""
+
+msgid "Path:"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Please enter the password."
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Pointer Speed"
+msgstr ""
+
+msgid "Process canceled."
+msgstr ""
+
+msgid "Random Directory Music"
+msgstr ""
+
+#, c-format
+msgid "Read Error in %s"
+msgstr ""
+
+#, c-format
+msgid "Read Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Read error from %s in %s"
+msgstr ""
+
+msgid "Receiving file from:"
+msgstr ""
+
+msgid "Reload SD"
+msgstr ""
+
+msgid "Repair"
+msgstr ""
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset to default BGM?"
+msgstr ""
+
+msgid "Retry"
+msgstr "重試"
+
+msgid "Rev"
+msgstr "版本"
+
+msgid "Right Button"
+msgstr ""
+
+msgid "Rumble"
+msgstr "振動"
+
+msgid "SD Card removed."
+msgstr ""
+
+msgid "SD/USB"
+msgstr "SD卡/USB裝置"
+
+msgid "SFX Volume"
+msgstr "音效"
+
+msgid "Save Path"
+msgstr "儲存路徑"
+
+msgid "SaveGame"
+msgstr ""
+
+msgid "SaveGame Manager GX is protected"
+msgstr ""
+
+msgid "Saves"
+msgstr "多遊戲存檔"
+
+msgid "Saves Path"
+msgstr "存檔路徑"
+
+msgid "Screen Type"
+msgstr ""
+
+msgid "Screensaver"
+msgstr "螢幕保護"
+
+msgid "Screenshot Format"
+msgstr ""
+
+msgid "Screenshot Path"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+#, c-format
+msgid "Seek Error in %s"
+msgstr ""
+
+msgid "Select Device"
+msgstr ""
+
+msgid "Select Files"
+msgstr ""
+
+msgid "Select Languages"
+msgstr ""
+
+msgid "Select Mode"
+msgstr ""
+
+msgid "Select Theme"
+msgstr ""
+
+msgid "Select a source:"
+msgstr ""
+
+msgid "Select a target path."
+msgstr ""
+
+msgid "Select a type:"
+msgstr ""
+
+msgid "Select an action:"
+msgstr ""
+
+msgid "September"
+msgstr "9月"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Show Changelog"
+msgstr "顯示更新日誌"
+
+msgid "Show error log?"
+msgstr ""
+
+msgid "ShutDown Wii"
+msgstr "關閉Wii"
+
+msgid "Simple Chinese"
+msgstr "簡體中文"
+
+msgid "Size:"
+msgstr ""
+
+msgid "Sound Path"
+msgstr ""
+
+msgid "Sound Settings"
+msgstr ""
+
+msgid "Source and destination folders must be different"
+msgstr ""
+
+msgid "Spanish"
+msgstr "西班牙語"
+
+msgid "Special thanks to:"
+msgstr "特別感謝："
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Succesfully compressed"
+msgstr ""
+
+msgid "Succesfully copied"
+msgstr "複製成功"
+
+msgid "Succesfully decompressed"
+msgstr ""
+
+msgid "Succesfully deleted"
+msgstr "成功刪除"
+
+msgid "Succesfully downloaded"
+msgstr ""
+
+msgid "Succesfully extracted"
+msgstr "提取成功！"
+
+msgid "Succesfully installed"
+msgstr "存檔成功安裝"
+
+msgid "Succesfully moved"
+msgstr "移動成功"
+
+msgid "Successfully extracted theme."
+msgstr ""
+
+msgid "System error received"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "The .them file was not found in the zip."
+msgstr ""
+
+msgid "The new font is loaded."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Theme Downloader"
+msgstr ""
+
+msgid "Theme Menu"
+msgstr ""
+
+msgid "Theme Path"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Theme Title:"
+msgstr ""
+
+msgid "Themes by www.spiffy360.com"
+msgstr ""
+
+msgid "Time left:"
+msgstr ""
+
+msgid "Title Launcher"
+msgstr ""
+
+msgid "Tooltips"
+msgstr "提示"
+
+msgid "Trad Chinese"
+msgstr "繁體中文"
+
+msgid "Transfer failed"
+msgstr "傳輸失敗"
+
+msgid "Type:"
+msgstr ""
+
+msgid "URL is empty."
+msgstr "未輸入網址。"
+
+msgid "Unable to SetUID"
+msgstr "無法設定UID"
+
+msgid "Unable to compress datas"
+msgstr ""
+
+msgid "Unable to copy datas"
+msgstr ""
+
+msgid "Unable to decompress datas"
+msgstr ""
+
+msgid "Unable to delete datas"
+msgstr ""
+
+msgid "Unable to download file."
+msgstr ""
+
+msgid "Unable to find supported files."
+msgstr ""
+
+msgid "Unable to get NAND path"
+msgstr "無法讀取NAND路徑"
+
+msgid "Unable to load path."
+msgstr ""
+
+msgid "Unable to move datas"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlock Console"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Unsupported format, try to extract manually TempTheme.zip."
+msgstr ""
+
+msgid "Up Button"
+msgstr ""
+
+msgid "Update"
+msgstr "升級"
+
+msgid "Update Path"
+msgstr "更新路徑"
+
+msgid "Update Settings"
+msgstr "更新設定"
+
+msgid "Update failed"
+msgstr "更新失敗"
+
+msgid "Update files"
+msgstr ""
+
+msgid "Update successfully finished"
+msgstr "更新完成"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "更新到Rev%i可用版本"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Updating GameTDB..."
+msgstr ""
+
+msgid "Updating Language Files:"
+msgstr "升級語言檔如下："
+
+msgid "Use IOS58"
+msgstr ""
+
+msgid "Use System Font"
+msgstr ""
+
+msgid "Verifying file..."
+msgstr ""
+
+msgid "Version:"
+msgstr ""
+
+#, c-format
+msgid "Version: %s"
+msgstr ""
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr ""
+
+msgid "WPAD BUTTON 2"
+msgstr ""
+
+msgid "WPAD BUTTON A"
+msgstr ""
+
+msgid "WPAD BUTTON B"
+msgstr ""
+
+msgid "WPAD BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD BUTTON HOME"
+msgstr ""
+
+msgid "WPAD BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr ""
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr ""
+
+msgid "WPAD NONE BUTTON"
+msgstr ""
+
+msgid "Wii"
+msgstr "Wii"
+
+msgid "Wii Menu"
+msgstr "Wii主選單"
+
+msgid "Wii Settings"
+msgstr ""
+
+msgid "Wiiload Receive"
+msgstr ""
+
+#, c-format
+msgid "Write Error from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s. Disk is Full"
+msgstr ""
+
+#, c-format
+msgid "Write error to %s in %s"
+msgstr ""
+
+msgid "Writing files..."
+msgstr ""
+
+msgid "Wrong Password"
+msgstr ""
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "確定"
+
+msgid "but datas are corrupted."
+msgstr ""
+
+msgid "but datas are missing."
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr ""
+
+msgid "for Saves hosting"
+msgstr ""
+
+msgid "for Themes hosting"
+msgstr ""
+
+msgid "for design & sources"
+msgstr "設計及程式原始碼"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "很好的工具 LibWiiGui"
+
+msgid "for sources"
+msgstr "原始碼"
+
+msgid "for the SaveGame Manager sources"
+msgstr "編寫 SaveGame Manager 程式的原始碼"
+
+msgid "is already installed."
+msgstr "已安裝。"
+
+msgid "not set"
+msgstr ""
+
+msgid "on emulated nand"
+msgstr ""
+
+#~ msgid "Extract All Miis"
+#~ msgstr "提取每一個Mii"
+
+#~ msgid "Extract All Saves"
+#~ msgstr "提取每一個遊戲存檔"
+
+#~ msgid "Delete All Device Miis"
+#~ msgstr "刪除全部裝置Mii"
+
+#~ msgid "Delete All Miis"
+#~ msgstr "刪除全部Mii"
+
+#~ msgid "Extract All"
+#~ msgstr "全部提取"
+
+#~ msgid "Install All"
+#~ msgstr "全部安裝"
+
+#~ msgid "Install All Miis"
+#~ msgstr "安裝每一個Mii"
+
+#~ msgid "Install All Saves"
+#~ msgstr "安裝每一個遊戲存檔"
+
+#~ msgid "WiiTDB Path"
+#~ msgstr "WiiTDB路徑"
+
+#~ msgid "WiiTDB Titles"
+#~ msgstr "WiiTDB標題"
+
+#~ msgid "WiiTDB Update"
+#~ msgstr "WiiTDB更新"
+
+#~ msgid "for WiiTDB (WiiTitleDataBase)"
+#~ msgstr "WiiTDB(WiiTitleDataBase) "
+
+#~ msgid "Homebrew Channel"
+#~ msgstr "自製程式頻道"
+
+#~ msgid "JAP to EN"
+#~ msgstr "日語轉英語"
+
+#~ msgid "WiiTDB"
+#~ msgstr "WiiTDB"
+
+#~ msgid "WiiTDB Langue"
+#~ msgstr "WiiTDB語言"
+
+#~ msgid "WiiTDB Settings"
+#~ msgstr "WiiTDB設定"

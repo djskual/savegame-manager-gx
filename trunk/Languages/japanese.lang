@@ -1,0 +1,1667 @@
+# SaveGame Manager GX language source file.
+# r125
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-11 17:33+0200\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: hosigumayuugi\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1時間"
+
+msgid "1 min"
+msgstr "1分"
+
+msgid "10 mins"
+msgstr "10分"
+
+msgid "20 mins"
+msgstr "20分"
+
+msgid "3 mins"
+msgstr "3分"
+
+msgid "30 mins"
+msgstr "30分"
+
+msgid "5 mins"
+msgstr "5分"
+
+msgid "ASDFGHJKL:\"+"
+msgstr ""
+
+msgid "Add to Playlist"
+msgstr ""
+
+msgid "All"
+msgstr "全て"
+
+msgid "All Files"
+msgstr "全てのファイル"
+
+msgid "All Languages File"
+msgstr ""
+
+msgid "All Languages Files"
+msgstr "全ての言語ファイル"
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr "全ての機能のロックが解除されました"
+
+msgid "All translaters for language files updates"
+msgstr "全ての翻訳者様"
+
+msgid "Are you sure you want to reset?"
+msgstr "リセットしますか?"
+
+msgid "Are you sure?"
+msgstr "よろしいですか?"
+
+msgid "Audio"
+msgstr "音楽"
+
+msgid "Audio Settings"
+msgstr "音楽設定"
+
+msgid "Author(s):"
+msgstr "制作者:"
+
+msgid "Auto Connect"
+msgstr "自動接続"
+
+msgid "Back"
+msgstr "戻る"
+
+msgid "Back Button"
+msgstr "戻るボタン"
+
+msgid "Big thanks to:"
+msgstr "協力:"
+
+msgid "Black.Pearl Icon"
+msgstr "Black.Pearl製のアイコン"
+
+msgid "Block Audio Settings"
+msgstr "音楽設定を制限"
+
+msgid "Block Controls Settings"
+msgstr "操作設定を制限"
+
+msgid "Block Custom Paths"
+msgstr "パスの変更を制限"
+
+msgid "Block Features Menu"
+msgstr "機能メニューを制限"
+
+msgid "Block Global Settings"
+msgstr "基本設定を制限"
+
+msgid "Block Gui Settings"
+msgstr "GUI設定を制限"
+
+msgid "Block HBC Menu"
+msgstr "HBCメニューを制限"
+
+msgid "Block Manage"
+msgstr "管理を制限"
+
+msgid "Block Manage DataBin"
+msgstr "Data.binの管理を制限"
+
+msgid "Block Manage Emu Nand"
+msgstr "仮想NAND管理を制限"
+
+msgid "Block ManageAll"
+msgstr "一括管理を制限"
+
+msgid "Block Parental Settings"
+msgstr "使用制限を制限"
+
+msgid "Block Reset Settings"
+msgstr "設定の初期化を制限"
+
+msgid "Block SD Reload Button"
+msgstr "SD更新ボタンを制限"
+
+msgid "Block Saves Download"
+msgstr "セーブのダウンロードを制限"
+
+msgid "Block Theme Settings"
+msgstr "テーマ設定を制限"
+
+msgid "Block Title Launcher"
+msgstr "タイトルランチャーを制限"
+
+msgid "Block Updates"
+msgstr "更新を制限"
+
+msgid "Browse"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr "そのパスをブラウズできません"
+
+msgid "Can't load file"
+msgstr ""
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Cannot write to destination."
+msgstr "宛先に書き込めません"
+
+msgid "Cannot write to the file."
+msgstr ""
+
+msgid "Caps"
+msgstr ""
+
+msgid "Checking for new update"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Click Button"
+msgstr "クリックボタン"
+
+msgid "Clock"
+msgstr "時計"
+
+msgid "Clock Scale Factor"
+msgstr ""
+
+msgid "Close"
+msgstr "とじる"
+
+msgid "Coding:"
+msgstr "開発:"
+
+msgid "Config"
+msgstr "設定"
+
+msgid "Connection to server timed out."
+msgstr "サーバーへの接続がタイムアウトしました"
+
+msgid "Console"
+msgstr "コンソール"
+
+msgid "Console Locked"
+msgstr "コンソールをロックしました"
+
+msgid "Console must be unlocked for this option."
+msgstr "コンソールのロックを解除してください"
+
+msgid "Controller Settings"
+msgstr "操作設定"
+
+msgid "Correct Password"
+msgstr "正しいパスワードです"
+
+msgid "Could not connect to the server."
+msgstr "サーバーに接続できませんでした"
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr "パスを作成できません: %s"
+
+msgid "Could not download file."
+msgstr "ダウンロードできませんでした"
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not load file."
+msgstr ""
+
+msgid "Could not load text file."
+msgstr "テキストファイルを読み込めません"
+
+msgid "Could not parse directory."
+msgstr ""
+
+msgid "Credits"
+msgstr "提供･協力"
+
+msgid "Credits Volume"
+msgstr "提供･協力の音量"
+
+msgid "Custom Font"
+msgstr "フォント"
+
+msgid "Custom Paths"
+msgstr "パスの変更"
+
+msgid "Data.bin"
+msgstr "data.bin"
+
+msgid "Default"
+msgstr "デフォルト"
+
+msgid "Default Settings"
+msgstr "設定を初期化"
+
+msgid "Default Theme"
+msgstr "デフォルトのテーマ"
+
+msgid "Design:"
+msgstr "デザイン:"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Do you want to boot:"
+msgstr ""
+
+msgid "Do you want to change the font?"
+msgstr "フォントを変更しますか?"
+
+msgid "Do you want to download now?"
+msgstr "ダウンロードしますか?"
+
+msgid "Do you want to download themes now ?"
+msgstr "テーマをダウンロードしますか?"
+
+msgid "Do you want to load the default theme?"
+msgstr "デフォルトのテーマを読み込みますか?"
+
+msgid "Do you want to open this file in TextEditor?"
+msgstr ""
+
+msgid "Do you want to playback this file?"
+msgstr ""
+
+msgid "Do you want to reboot now ?"
+msgstr "再起動しますか?"
+
+msgid "Do you want to save changes?"
+msgstr ""
+
+msgid "Do you want to select a theme now ?"
+msgstr "テーマを選びますか?"
+
+msgid "Do you want to update now ?"
+msgstr "更新しますか?"
+
+msgid "Down Button"
+msgstr "下ボタン"
+
+msgid "Download"
+msgstr "ダウンロード"
+
+msgid "Download Themes"
+msgstr "テーマをダウンロード"
+
+msgid "Download failed."
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr "言語のダウンロード先:"
+
+msgid "Downloading Language Files:"
+msgstr "言語ファイルをダウンロード中:"
+
+msgid "Downloading all Language Files:"
+msgstr ""
+
+msgid "Downloading file..."
+msgstr "ダウンロード中です･･･"
+
+msgid "Downloading from"
+msgstr "ダウンロード中: "
+
+msgid "Downloading image:"
+msgstr "画像をダウンロード中:"
+
+msgid "Downloading pagelist:"
+msgstr "ページリストをダウンロード中"
+
+msgid "Downloading..."
+msgstr "ダウンロード中..."
+
+msgid "Enter"
+msgstr ""
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Error:"
+msgstr "エラー:"
+
+msgid "Exit"
+msgstr ""
+
+msgid "Exit to where?"
+msgstr ""
+
+msgid "Extracting files..."
+msgstr "ファイルを抽出中..."
+
+msgid "Failed to get the Changelog."
+msgstr "更新履歴の入手に失敗しました"
+
+msgid "Features Menu"
+msgstr "機能メニュー"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "File is too big."
+msgstr "ファイルが大きすぎます"
+
+msgid "File was edited."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr "ファイルサイズが%iバイトです"
+
+msgid "Filesize is 0 Byte."
+msgstr "ファイルサイズが0バイトです"
+
+msgid "Folder"
+msgstr "フォルダ"
+
+msgid "Font"
+msgstr "フォント"
+
+msgid "Font Scale Factor"
+msgstr "フォント倍率"
+
+msgid "Fontpath changed."
+msgstr "フォントのパスを変更しました"
+
+msgid "Full Menu"
+msgstr ""
+
+msgid "Full shutdown"
+msgstr ""
+
+msgid "GC Homebrew"
+msgstr ""
+
+msgid "GC PAD BUTTON A"
+msgstr "GCコンのAボタン"
+
+msgid "GC PAD BUTTON B"
+msgstr "GCコンのBボタン"
+
+msgid "GC PAD BUTTON DOWN"
+msgstr "GCコンの下ボタン"
+
+msgid "GC PAD BUTTON LEFT"
+msgstr "GCコンの左ボタン"
+
+msgid "GC PAD BUTTON NONE"
+msgstr "GCコンのボタン無し"
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr "GCコンの右ボタン"
+
+msgid "GC PAD BUTTON START"
+msgstr "GCコンのSTARTボタン"
+
+msgid "GC PAD BUTTON UP"
+msgstr "GCコンの上ボタン"
+
+msgid "GC PAD BUTTON X"
+msgstr "GCコンのXボタン"
+
+msgid "GC PAD BUTTON Y"
+msgstr "GCコンのYボタン"
+
+msgid "GC PAD TRIGGER L"
+msgstr "GCコンのLトリガー"
+
+msgid "GC PAD TRIGGER R"
+msgstr "GCコンのRトリガー"
+
+msgid "GC PAD TRIGGER Z"
+msgstr "GCコンのZトリガー"
+
+msgid "GUI Settings"
+msgstr "GUI設定"
+
+msgid "GameTDB Update"
+msgstr "GameTDBの更新"
+
+msgid "Getting Changelog..."
+msgstr "更新履歴を入手中です…"
+
+msgid "Global Settings"
+msgstr "基本設定"
+
+msgid "HOME Menu"
+msgstr "HOMEボタンメニュー"
+
+msgid "Home Button"
+msgstr "HOMEボタン"
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Channel"
+msgstr ""
+
+msgid "Homebrew Launcher"
+msgstr "Homebrewを起動"
+
+msgid "Hours"
+msgstr ""
+
+msgid "How do you want to change the path?"
+msgstr ""
+
+msgid "How do you want to load this language file?"
+msgstr ""
+
+msgid "How to Shutdown?"
+msgstr ""
+
+msgid "Icon Update"
+msgstr "アイコンの更新"
+
+msgid "Icon successfully downloaded."
+msgstr "アイコンをダウンロードしました"
+
+msgid "Installed"
+msgstr "インストール済み"
+
+msgid "Installed Files"
+msgstr "インストール済み"
+
+msgid "Installed Languages Files"
+msgstr "追加済み言語ファイル"
+
+msgid "Keyboard Del Delay"
+msgstr ""
+
+msgid "Lang."
+msgstr ""
+
+msgid "Language"
+msgstr "言語"
+
+msgid "Language Update"
+msgstr "言語の更新"
+
+msgid "Language change:"
+msgstr "言語の変更"
+
+msgid "Left Button"
+msgstr "左ボタン"
+
+msgid "Linebreak"
+msgstr ""
+
+msgid "Load"
+msgstr "読み込み"
+
+msgid "Loading file:"
+msgstr "読み込み中です"
+
+msgid "Lock Console"
+msgstr "コンソールをロック"
+
+msgid "Locked"
+msgstr "ロック中"
+
+msgid "Loop"
+msgstr ""
+
+msgid "Loop Playlist"
+msgstr ""
+
+msgid "Manage All"
+msgstr "全ての管理"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Music Loop Mode"
+msgstr ""
+
+msgid "Music Path"
+msgstr ""
+
+msgid "Music Player"
+msgstr ""
+
+msgid "Music Volume"
+msgstr "音量"
+
+msgid "Network initialising..."
+msgstr ""
+
+msgid "Network is not initiated."
+msgstr "ネットに接続していません"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "No Language File found"
+msgstr "言語ファイルが見つかりません"
+
+msgid "No URL or Path specified."
+msgstr "URLやパスが指定されていません"
+
+msgid "No network connection."
+msgstr ""
+
+msgid "No new updates available"
+msgstr "更新はありません"
+
+msgid "No themes found on the site."
+msgstr "テーマがサイトにありません"
+
+msgid "Not a valid URL"
+msgstr "無効なURLです"
+
+msgid "Not a valid URL path"
+msgstr "無効なURLパスです"
+
+msgid "Not a valid domain"
+msgstr "無効なドメインです"
+
+msgid "Not enough memory."
+msgstr "メモリが足りません"
+
+msgid "OFF"
+msgstr "オフ"
+
+msgid "OK"
+msgstr "はい"
+
+msgid "ON"
+msgstr "オン"
+
+msgid "Official Site:"
+msgstr "公式サイト:"
+
+msgid "OnThemeDownloaderFlyingButtonClicked"
+msgstr ""
+
+msgid "Parent Directory"
+msgstr "親ディレクトリ"
+
+msgid "Parental Control"
+msgstr "ペアレンタルコントール"
+
+msgid "Parse Directory"
+msgstr ""
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Password has been changed"
+msgstr "パスワードが変更されました"
+
+msgid "Password:"
+msgstr "パスワード"
+
+msgid "Path changed."
+msgstr "パスを変更しました"
+
+msgid "Path:"
+msgstr "パス:"
+
+msgid "Permission denied."
+msgstr "アクセスが拒否されました"
+
+msgid "Picture"
+msgstr "写真"
+
+msgid "Play Once"
+msgstr "一度だけ再生"
+
+msgid "Please wait..."
+msgstr "お待ちください..."
+
+msgid "Pointer Speed"
+msgstr "ポインタ速度"
+
+msgid "Possible unsupported format."
+msgstr ""
+
+msgid "QWERTYUIOP{}|"
+msgstr ""
+
+msgid "Quit Settings"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr ""
+
+msgid "Reload SD"
+msgstr "SDを更新"
+
+msgid "Remember Unlock"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Right Button"
+msgstr "右ボタン"
+
+msgid "Rumble"
+msgstr "振動"
+
+msgid "SFX Volume"
+msgstr "効果音の音量"
+
+msgid "SaveGame"
+msgstr "セーブ"
+
+msgid "SaveGame Manager GX is protected"
+msgstr "SaveGame Manager GXは保護されています"
+
+msgid "SaveGameGX Default Music"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "セーブ"
+
+msgid "Screensaver"
+msgstr "画面焼け軽減機能"
+
+msgid "Screenshot Format"
+msgstr "画面写真の形式"
+
+msgid "Screenshot Path"
+msgstr "画面写真のパス"
+
+msgid "Scroll Speed"
+msgstr ""
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Select Device"
+msgstr "デバイスを選択"
+
+msgid "Select Files"
+msgstr "ファイルを選択"
+
+msgid "Select Languages"
+msgstr "言語を選択"
+
+msgid "Select Mode"
+msgstr "モードを選択"
+
+msgid "Select Theme"
+msgstr "テーマを選択"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Shift"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr "更新履歴を見る"
+
+msgid "Show error log?"
+msgstr "エラーログを見ますか?"
+
+msgid "Shutdown Wii"
+msgstr ""
+
+msgid "Size:"
+msgstr "サイズ:"
+
+msgid "Soundblock Size"
+msgstr ""
+
+msgid "Soundblocks"
+msgstr ""
+
+msgid "Special thanks to:"
+msgstr "スペシャルサンクス:"
+
+msgid "Standard"
+msgstr "普通"
+
+msgid "Standard Icon"
+msgstr "普通のアイコン"
+
+msgid "Standby"
+msgstr ""
+
+msgid "System Default"
+msgstr ""
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "Text Editor"
+msgstr ""
+
+msgid "The buffer size is really high. If the app doesn't start after this delete your config files."
+msgstr ""
+
+msgid "The effect will take with next music load. It might break music playback."
+msgstr ""
+
+msgid "The new font could not be loaded."
+msgstr ""
+
+msgid "The new font is loaded."
+msgstr "フォントを読み込みました"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "Theme Downloader"
+msgstr "テーマをダウンロード"
+
+msgid "Theme Menu"
+msgstr "テーマメニュー"
+
+msgid "Theme Path"
+msgstr "テーマ"
+
+msgid "Theme Settings"
+msgstr "テーマ設定"
+
+msgid "Theme Title:"
+msgstr "テーマタイトル:"
+
+msgid "Themes by www.spiffy360.com"
+msgstr "テーマ配信:www.spiffy360.com"
+
+msgid "Tooltip Delay"
+msgstr ""
+
+msgid "Tooltips"
+msgstr "ヒントバルーン"
+
+msgid "Transfer failed"
+msgstr "転送に失敗しました"
+
+msgid "Type:"
+msgstr "タイプ:"
+
+msgid "URL is empty."
+msgstr "URLが空です"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Unlock Console"
+msgstr "コンソールをアンロック"
+
+msgid "Unlocked"
+msgstr "アンロック済み"
+
+msgid "Up Button"
+msgstr "上ボタン"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update Path"
+msgstr "GXの場所"
+
+msgid "Update Settings"
+msgstr "更新設定"
+
+msgid "Update failed"
+msgstr "更新に失敗しました"
+
+msgid "Update files"
+msgstr "更新ファイル"
+
+msgid "Update successfully finished"
+msgstr "更新しました"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Rev%iに更新されています"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Updating Language Files:"
+msgstr "言語を更新中です:"
+
+msgid "Use System Font"
+msgstr "システムフォントを使用"
+
+msgid "WARNING:"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr "Wiiリモコンの1ボタン"
+
+msgid "WPAD BUTTON 2"
+msgstr "Wiiリモコンの2ボタン"
+
+msgid "WPAD BUTTON A"
+msgstr "WiiリモコンのAボタン"
+
+msgid "WPAD BUTTON B"
+msgstr "WiiリモコンのBボタン"
+
+msgid "WPAD BUTTON DOWN"
+msgstr "Wiiリモコンの下ボタン"
+
+msgid "WPAD BUTTON HOME"
+msgstr "WiiリモコンのHOMEボタン"
+
+msgid "WPAD BUTTON LEFT"
+msgstr "Wiiリモコンの左ボタン"
+
+msgid "WPAD BUTTON MINUS"
+msgstr "Wiiリモコンのマイナスボタン"
+
+msgid "WPAD BUTTON PLUS"
+msgstr "Wiiリモコンのプラスボタン"
+
+msgid "WPAD BUTTON RIGHT"
+msgstr "Wiiリモコンの右ボタン"
+
+msgid "WPAD BUTTON UP"
+msgstr "Wiiリモコンの上ボタン"
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr "クラコンのAボタン"
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr "クラコンのBボタン"
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr "クラコンの下ボタン"
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr "クラコンのLボタン"
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr "クラコンのRボタン"
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr "クラコンのHOMEボタン"
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr "クラコンの左ボタン"
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr "クラコンのマイナスボタン"
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr "クラコンのプラスボタン"
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr "クラコンの右ボタン"
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr "クラコンの上ボタン"
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr "クラコンのXボタン"
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr "クラコンのYボタン"
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr "クラコンのZLボタン"
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr "クラコンのZRボタン"
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr "クラコンのボタン無し"
+
+msgid "WPAD NONE BUTTON"
+msgstr "クラコンのボタン無し"
+
+msgid "Warning:"
+msgstr ""
+
+msgid "Wii Homebrew"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Wiiメニューへ"
+
+msgid "Wiiload Receive"
+msgstr "Wiiload受信"
+
+msgid "Wrong Password"
+msgstr "間違ったパスワードです"
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "ZXCVBNM<>?"
+msgstr ""
+
+msgid "`1234567890-"
+msgstr ""
+
+msgid "asdfghjkl;'="
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr "…GameTDB(ゲーム名データベース)"
+
+msgid "for Saves hosting"
+msgstr "…セーブの保管"
+
+msgid "for Themes hosting"
+msgstr "…テーマの保管"
+
+msgid "for design & sources"
+msgstr "…デザインとソースを制作"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "…LibWiiGuiを制作"
+
+msgid "for sources"
+msgstr "…ソースを制作"
+
+msgid "for the SaveGame Manager sources"
+msgstr "…SaveGame Managerを制作"
+
+msgid "not set"
+msgstr "セットされていません"
+
+msgid "qwertyuiop[]\\"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "zxcvbnm,./"
+msgstr ""
+
+msgid "~!@#$%^&*()_"
+msgstr ""
+
+#~ msgid "Can't create path: %s"
+#~ msgstr "パスを作成できません: %s"
+
+#~ msgid "Do you want to apply it now?"
+#~ msgstr "適用しますか?"
+
+#~ msgid "Do you want to download this theme?"
+#~ msgstr "ダウンロードしますか?"
+
+#~ msgid "ERROR: Can't set up theme."
+#~ msgstr "エラー: テーマをセットできません"
+
+#~ msgid "Error when downloading file: %i"
+#~ msgstr "ダウンロードに失敗しました: %i"
+
+#~ msgid "Failed to extract."
+#~ msgstr "抽出できません"
+
+#~ msgid "Successfully extracted theme."
+#~ msgstr "テーマを抽出しました"
+
+#~ msgid "The .them file was not found in the zip."
+#~ msgstr ".themファイルが見つかりません"
+
+#~ msgid "Unsupported format, try to extract manually TempTheme.zip."
+#~ msgstr "非対応の形式なので手動でTempTheme.zipを解凍してください"
+
+#~ msgid "Could not initialize network!"
+#~ msgstr "接続できませんでした"
+
+#~ msgid "Time left:"
+#~ msgstr "残り時間:"
+
+#~ msgid "Rev"
+#~ msgstr "Rev."
+
+#~ msgid "Hour"
+#~ msgstr "時間"
+
+#~ msgid "Boot Browser"
+#~ msgstr "アプリ起動"
+
+#~ msgid "Keyboard"
+#~ msgstr "キーボード"
+
+#~ msgid "Screen Type"
+#~ msgstr "画面タイプ"
+
+#~ msgid "100 miis are installed!!!"
+#~ msgstr "100人のmiiがインストールされています!"
+
+#~ msgid "16/9"
+#~ msgstr "16:9"
+
+#~ msgid "3DS Mii transfer function"
+#~ msgstr "3DS Mii転送機能"
+
+#~ msgid "4/3"
+#~ msgstr "4:3"
+
+#~ msgid "7z decompression failed:"
+#~ msgstr "7z解凍に失敗:"
+
+#~ msgid "Action cancelled."
+#~ msgstr "アクションを中止しました"
+
+#~ msgid "Apply"
+#~ msgstr "適用"
+
+#~ msgid "April"
+#~ msgstr "4月"
+
+#~ msgid "August"
+#~ msgstr "8月"
+
+#~ msgid "Bad game ID"
+#~ msgstr "ゲームIDが変です"
+
+#~ msgid "Be carrefull, present files can be overwritten"
+#~ msgstr "既にあるファイルは上書きされるのでご注意ください"
+
+#~ msgid "BgMusic Loop"
+#~ msgstr "BGMを繰り返し再生"
+
+#~ msgid "BgMusic Path"
+#~ msgstr "BGMのパス"
+
+#~ msgid "Block(s)"
+#~ msgstr "ブロック"
+
+#~ msgid "Browsed"
+#~ msgstr "ブラウズ済み"
+
+#~ msgid "CRC of extracted file does not match. Wrong password?"
+#~ msgstr "ファイルのCRCが一致しません。(パスワードの間違い?)"
+
+#~ msgid "Can't open file."
+#~ msgstr "ファイルを開けません"
+
+#~ msgid "Cannot close file %s"
+#~ msgstr "ファイル%sを閉じられません"
+
+#~ msgid "Cannot open file %s"
+#~ msgstr "ファイル%sを開けません"
+
+#~ msgid "Change Play Path"
+#~ msgstr "再生パスを変更"
+
+#~ msgid "Coded by: %s"
+#~ msgstr "製作: %s"
+
+#~ msgid "Compress"
+#~ msgstr "圧縮"
+
+#~ msgid "Compress to:"
+#~ msgstr "圧縮先:"
+
+#~ msgid "Compressing..."
+#~ msgstr "圧縮中..."
+
+#~ msgid "Compression cancelled"
+#~ msgstr "圧縮を中止しました"
+
+#~ msgid "Copy"
+#~ msgstr "コピー"
+
+#~ msgid "Copy cancelled"
+#~ msgstr "コピーを中止しました"
+
+#~ msgid "Copy to:"
+#~ msgstr "コピー先:"
+
+#~ msgid "Copying..."
+#~ msgstr "コピー中..."
+
+#~ msgid "Creator:"
+#~ msgstr "製作者:"
+
+#~ msgid "Custom"
+#~ msgstr "カスタム"
+
+#~ msgid "Data.bin Path"
+#~ msgstr "data,binのパス"
+
+#~ msgid "Date:"
+#~ msgstr "日付:"
+
+#~ msgid "December"
+#~ msgstr "12月"
+
+#~ msgid "Decompress"
+#~ msgstr "解凍"
+
+#~ msgid "Decompress to:"
+#~ msgstr "解凍先:"
+
+#~ msgid "Decompressing..."
+#~ msgstr "解凍中です..."
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#~ msgid "Delete All"
+#~ msgstr "全て削除"
+
+#~ msgid "Delete cancelled"
+#~ msgstr "削除をキャンセルしました"
+
+#~ msgid "Delete from Emu Nand"
+#~ msgstr "仮想NANDから削除"
+
+#~ msgid "Delete from Wii"
+#~ msgstr "Wiiから削除"
+
+#~ msgid "Delete from:"
+#~ msgstr "削除元:"
+
+#~ msgid "Deleting..."
+#~ msgstr "削除中..."
+
+#~ msgid "Device"
+#~ msgstr "デバイス"
+
+#~ msgid "Do you want to apply this theme?"
+#~ msgstr "このテーマを適用しますか?"
+
+#~ msgid "Do you want to connect?"
+#~ msgstr "接続しますか?"
+
+#~ msgid "Do you want to load this language ?"
+#~ msgstr "この言語に設定しますか?"
+
+#~ msgid "Download cancelled"
+#~ msgstr "ダウンロードを中止しました"
+
+#~ msgid "Downloading all Languages Files:"
+#~ msgstr "全ての言語ファイルをダウンロード中:"
+
+#~ msgid "Downloading saveslist:"
+#~ msgstr "セーブリストをダウンロード中"
+
+#~ msgid "Duplicate"
+#~ msgstr "重複"
+
+#~ msgid "Dutch"
+#~ msgstr "オランダ語"
+
+#~ msgid "Emu"
+#~ msgstr "仮想"
+
+#~ msgid "Emu Nand Path"
+#~ msgstr "仮想NANDパス"
+
+#~ msgid "Emu Nand browser"
+#~ msgstr "仮想NANDブラウザ"
+
+#~ msgid "EmuMii"
+#~ msgstr "仮想Mii"
+
+#~ msgid "English"
+#~ msgstr "英語"
+
+#~ msgid "Error opening %s"
+#~ msgstr "%sを開けません"
+
+#~ msgid "Error opening %s in %s"
+#~ msgstr "%s(%s中)を開けません"
+
+#~ msgid "Error received from %s in %s"
+#~ msgstr "%s(%s中)から受け取れません"
+
+#~ msgid "Error while transfering data."
+#~ msgstr "データの転送に失敗しました"
+
+#~ msgid "Extract"
+#~ msgstr "抽出"
+
+#~ msgid "Extract cancelled"
+#~ msgstr "抽出をキャンセルしました"
+
+#~ msgid "Extract error code:"
+#~ msgstr "抽出エラーコード"
+
+#~ msgid "Extract to Device"
+#~ msgstr "デバイスに抽出"
+
+#~ msgid "Extract to:"
+#~ msgstr "抽出先:"
+
+#~ msgid "Extracting..."
+#~ msgstr "抽出中..."
+
+#~ msgid "FaceLib database is corrupted."
+#~ msgstr "FaceLibﾃﾞｰﾀﾍﾞｰｽが壊れています"
+
+#~ msgid "FaceLib database is missing."
+#~ msgstr "FaceLibﾃﾞｰﾀﾍﾞｰｽがありません"
+
+#~ msgid "Failed to read file data."
+#~ msgstr "ファイルデータの読み込みに失敗"
+
+#~ msgid "Fatal error: %i."
+#~ msgstr "致命的なエラー: %i"
+
+#~ msgid "February"
+#~ msgstr "2月"
+
+#~ msgid "File is corrupt (CRC mismatch)."
+#~ msgstr "ファイルが壊れています(CRC不一致)"
+
+#~ msgid "File is corrupt."
+#~ msgstr "ファイルが壊れています"
+
+#~ msgid "File not created."
+#~ msgstr "ファイルは策せされていません"
+
+#~ msgid "File uses too high of compression settings (dictionary size is too large)."
+#~ msgstr "ファイルのあ宿設定が高すぎます(辞書サイズが大きすぎます)"
+
+#~ msgid "File uses unsupported compression settings."
+#~ msgstr "非対応の圧縮設定です"
+
+#~ msgid "French"
+#~ msgstr "フランス語"
+
+#~ msgid "GameTDB Path"
+#~ msgstr "GameTDB"
+
+#~ msgid "GameTDB Titles"
+#~ msgstr "GameTDBのゲーム名"
+
+#~ msgid "GameTDB not found."
+#~ msgstr "GameTDBが見つかりません"
+
+#~ msgid "German"
+#~ msgstr "ドイツ語"
+
+#~ msgid "Getting EmuNand Lists..."
+#~ msgstr "仮想NANDリストを取得中..."
+
+#~ msgid "Getting Saves List..."
+#~ msgstr "セーブリストを取得中"
+
+#~ msgid "Home Menu"
+#~ msgstr "HOMEボタンメニューへ"
+
+#~ msgid "Homebrew Path"
+#~ msgstr "Homebrew"
+
+#~ msgid "ID:"
+#~ msgstr "ID:"
+
+#~ msgid "Incoming file %0.2fKB"
+#~ msgstr "%0.2fKB受信中"
+
+#~ msgid "Incoming file %0.2fMB"
+#~ msgstr "%0.2fMB受信中"
+
+#~ msgid "Initializing Network"
+#~ msgstr "接続中･･･"
+
+#~ msgid "Install"
+#~ msgstr "追加"
+
+#~ msgid "Install cancelled"
+#~ msgstr "追加をキャンセルしました"
+
+#~ msgid "Install from:"
+#~ msgstr "インストール元:"
+
+#~ msgid "Install to EmuNand"
+#~ msgstr "仮想NANDに追加"
+
+#~ msgid "Install to Wii"
+#~ msgstr "Wiiに追加"
+
+#~ msgid "Install to:"
+#~ msgstr "追加先:"
+
+#~ msgid "Installing..."
+#~ msgstr "インストール中"
+
+#~ msgid "Italian"
+#~ msgstr "イタリア語"
+
+#~ msgid "January"
+#~ msgstr "1月"
+
+#~ msgid "Japanese"
+#~ msgstr "日本語"
+
+#~ msgid "July"
+#~ msgstr "7月"
+
+#~ msgid "June"
+#~ msgstr "6月"
+
+#~ msgid "Korean"
+#~ msgstr "韓国語"
+
+#~ msgid "Language Path changed."
+#~ msgstr "言語のパスを変更しました"
+
+#~ msgid "Load file from: %s ?"
+#~ msgstr "%sからファイルを読み込みますか?"
+
+#~ msgid "Loading Data.bin Structure"
+#~ msgstr "data.binの構造を読み込み中"
+
+#~ msgid "Loading standard music."
+#~ msgstr "標準の音楽を読み込みます"
+
+#~ msgid "Loop Directory"
+#~ msgstr "フォルダ内でループ"
+
+#~ msgid "Loop Music"
+#~ msgstr "音楽をループ"
+
+#~ msgid "Manage All Miis"
+#~ msgstr "全てのMiiを管理"
+
+#~ msgid "Manage All Saves"
+#~ msgstr "全てのセーブを管理"
+
+#~ msgid "March"
+#~ msgstr "3月"
+
+#~ msgid "May"
+#~ msgstr "5月"
+
+#~ msgid "Mii Channel installed"
+#~ msgstr "似顔絵ﾁｬﾈﾙはｲﾝｽﾄｰﾙ済み"
+
+#~ msgid "Mii memory is full"
+#~ msgstr "Miiメモリが満タンです"
+
+#~ msgid "Miis"
+#~ msgstr "Mii"
+
+#~ msgid "Miis Path"
+#~ msgstr "Mii"
+
+#~ msgid "Move"
+#~ msgstr "移動"
+
+#~ msgid "Move cancelled"
+#~ msgstr "移動を中止しました"
+
+#~ msgid "Move to:"
+#~ msgstr "移動先:"
+
+#~ msgid "Moving..."
+#~ msgstr "移動中..."
+
+#~ msgid "No Mii Found in Emulated Nand"
+#~ msgstr "仮想NANDにMiiが見つかりません"
+
+#~ msgid "No Mii Found in Wii Nand"
+#~ msgstr "Wii NANDにMiiが見つかりません"
+
+#~ msgid "No Mii Found in this path"
+#~ msgstr "Miiが見つかりません"
+
+#~ msgid "No Save Found in this directory"
+#~ msgstr "セーブが見つかりません"
+
+#~ msgid "No data could be read."
+#~ msgstr "データが読み込めません"
+
+#~ msgid "No network connection"
+#~ msgstr "接続されていません"
+
+#~ msgid "No saves found on the site."
+#~ msgstr "サイトにセーブがありません"
+
+#~ msgid "No themes found."
+#~ msgstr "テーマが見つかりません"
+
+#~ msgid "Not already installed in Wii"
+#~ msgstr "Wiiに追加されていません"
+
+#~ msgid "Not supported format!"
+#~ msgstr "非対応の形式です!"
+
+#~ msgid "November"
+#~ msgstr "11月"
+
+#~ msgid "October"
+#~ msgstr "10月"
+
+#~ msgid "OverWrite"
+#~ msgstr "上書き"
+
+#~ msgid "Password is needed."
+#~ msgstr "パスワードが必要です"
+
+#~ msgid "Play Next"
+#~ msgstr "次を再生"
+
+#~ msgid "Play Previous"
+#~ msgstr "前を再生"
+
+#~ msgid "Playing Music:"
+#~ msgstr "再生中の音楽:"
+
+#~ msgid "Please enter the password."
+#~ msgstr "パスワードを入力してください"
+
+#~ msgid "Process canceled."
+#~ msgstr "プロセスを中止しました"
+
+#~ msgid "Random Directory Music"
+#~ msgstr "ランダムにフォルダを再生"
+
+#~ msgid "Read Error in %s"
+#~ msgstr "%sの読み込み失敗"
+
+#~ msgid "Read Error in file: %s"
+#~ msgstr "ファイルの読み込み失敗: %s"
+
+#~ msgid "Read error from %s in %s"
+#~ msgstr "%s(%s中)の読み込み失敗"
+
+#~ msgid "Receiving file from:"
+#~ msgstr "ファイル受信元:"
+
+#~ msgid "Repair"
+#~ msgstr "修復"
+
+#~ msgid "Reset BgMusic"
+#~ msgstr "BGMを初期化"
+
+#~ msgid "Reset to default BGM?"
+#~ msgstr "BGMをデフォルトに戻しますか?"
+
+#~ msgid "Retry"
+#~ msgstr "再試行"
+
+#~ msgid "SD Card removed."
+#~ msgstr "SDカードが取り外されました"
+
+#~ msgid "SD/USB"
+#~ msgstr "SDまたはUSB"
+
+#~ msgid "Save Path"
+#~ msgstr "パスを保存"
+
+#~ msgid "Saves"
+#~ msgstr "セーブ"
+
+#~ msgid "Seek Error in %s"
+#~ msgstr "%sのシークエラー"
+
+#~ msgid "Select a source:"
+#~ msgstr "ソースを選択:"
+
+#~ msgid "Select a target path."
+#~ msgstr "ターゲットパスを選んでください"
+
+#~ msgid "Select a type:"
+#~ msgstr "タイプを選択:"
+
+#~ msgid "Select an action:"
+#~ msgstr "行動を選択:"
+
+#~ msgid "September"
+#~ msgstr "9月"
+
+#~ msgid "Simple Chinese"
+#~ msgstr "簡体字中国語"
+
+#~ msgid "Sound Path"
+#~ msgstr "サウンドのパス"
+
+#~ msgid "Sound Settings"
+#~ msgstr "サウンド設定"
+
+#~ msgid "Source and destination folders must be different"
+#~ msgstr "送信元と宛先は異なっていないといけません"
+
+#~ msgid "Spanish"
+#~ msgstr "スペイン語"
+
+#~ msgid "Succesfully compressed"
+#~ msgstr "圧縮しました"
+
+#~ msgid "Succesfully copied"
+#~ msgstr "コピーしました"
+
+#~ msgid "Succesfully decompressed"
+#~ msgstr "解凍しました"
+
+#~ msgid "Succesfully deleted"
+#~ msgstr "削除しました"
+
+#~ msgid "Succesfully downloaded"
+#~ msgstr "ダウンロードしました"
+
+#~ msgid "Succesfully extracted"
+#~ msgstr "抽出しました"
+
+#~ msgid "Succesfully installed"
+#~ msgstr "追加しました"
+
+#~ msgid "Succesfully moved"
+#~ msgstr "移動しました"
+
+#~ msgid "System error received"
+#~ msgstr "システムエラーを受け取りました"
+
+#~ msgid "Title Launcher"
+#~ msgstr "タイトルランチャー"
+
+#~ msgid "Trad Chinese"
+#~ msgstr "繁体字中国語"
+
+#~ msgid "Unable to SetUID"
+#~ msgstr "UIDをセットできません"
+
+#~ msgid "Unable to compress datas"
+#~ msgstr "データを圧縮できません"
+
+#~ msgid "Unable to copy datas"
+#~ msgstr "データをコピーできません"
+
+#~ msgid "Unable to decompress datas"
+#~ msgstr "データを解凍できません"
+
+#~ msgid "Unable to delete datas"
+#~ msgstr "データを削除できません"
+
+#~ msgid "Unable to download file."
+#~ msgstr "ダウンロードできません"
+
+#~ msgid "Unable to find supported files."
+#~ msgstr "対応するファイルが見つかりません"
+
+#~ msgid "Unable to get NAND path"
+#~ msgstr "NANDパスを入手できません"
+
+#~ msgid "Unable to load path."
+#~ msgstr "パスを読み込めません"
+
+#~ msgid "Unable to move datas"
+#~ msgstr "データを移動できません"
+
+#~ msgid "Updating GameTDB..."
+#~ msgstr "GameTDBを更新中..."
+
+#~ msgid "Use IOS58"
+#~ msgstr "IOS58を使う"
+
+#~ msgid "Verifying file..."
+#~ msgstr "ファイルを検証中..."
+
+#~ msgid "Version:"
+#~ msgstr "バージョン"
+
+#~ msgid "Version: %s"
+#~ msgstr "バージョン: %s"
+
+#~ msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+#~ msgstr "警告: インストールするにはWiiにセーブがないといけません!!"
+
+#~ msgid "Wii Settings"
+#~ msgstr "Wii設定"
+
+#~ msgid "Write Error from %s to %s"
+#~ msgstr "%sから%sまで書き込みエラー"
+
+#~ msgid "Write Error in file: %s"
+#~ msgstr "ファイルの書き込みエラー: %s"
+
+#~ msgid "Write Error in file: %s. Disk is Full"
+#~ msgstr "ファイルの書き込みエラー: %s 容量が足りません"
+
+#~ msgid "Write error to %s in %s"
+#~ msgstr "%s(%s中)の書き込みエラー"
+
+#~ msgid "Writing files..."
+#~ msgstr "ファイルを書き込み中..."
+
+#~ msgid "but datas are corrupted."
+#~ msgstr "ですがデータが壊れています"
+
+#~ msgid "but datas are missing."
+#~ msgstr "ですがデータがありません"
+
+#~ msgid "is already installed."
+#~ msgstr "は既に追加されています"
+
+#~ msgid "on emulated nand"
+#~ msgstr ":仮想NAND"
+
+#~ msgid "No Storage Device Found"
+#~ msgstr "ストレージデバイスが見つかりません"
+
+#~ msgid "Back to Loader"
+#~ msgstr "ローダーへ戻る"
+
+#~ msgid "Full Shutdown"
+#~ msgstr "シャットダウン"
+
+#~ msgid "Idle Shutdown"
+#~ msgstr "スタンバイ"
+
+#~ msgid "Loader"
+#~ msgstr "ローダー"
+
+#~ msgid "ShutDown Wii"
+#~ msgstr "Wiiの電源を切る"
+
+#~ msgid "Meta Update"
+#~ msgstr "meta.xmlの更新"

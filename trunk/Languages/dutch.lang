@@ -1,0 +1,1058 @@
+# SaveGame Manager GX language source file.
+#
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-11 17:33+0200\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1 uur"
+
+msgid "1 min"
+msgstr "1 minuut"
+
+msgid "10 mins"
+msgstr "10 minuten"
+
+msgid "20 mins"
+msgstr "20 minuten"
+
+msgid "3 mins"
+msgstr "3 minuten"
+
+msgid "30 mins"
+msgstr "30 minuten"
+
+msgid "5 mins"
+msgstr "5 minuten"
+
+msgid "ASDFGHJKL:\"+"
+msgstr ""
+
+msgid "Add to Playlist"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All Files"
+msgstr ""
+
+msgid "All Languages File"
+msgstr ""
+
+msgid "All Languages Files"
+msgstr ""
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr ""
+
+msgid "All translaters for language files updates"
+msgstr "Alle vertalers van de taalbestanden"
+
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "Audio"
+msgstr ""
+
+msgid "Audio Settings"
+msgstr ""
+
+msgid "Author(s):"
+msgstr ""
+
+msgid "Auto Connect"
+msgstr ""
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Veel dank aan:"
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "Block Audio Settings"
+msgstr ""
+
+msgid "Block Controls Settings"
+msgstr ""
+
+msgid "Block Custom Paths"
+msgstr ""
+
+msgid "Block Features Menu"
+msgstr ""
+
+msgid "Block Global Settings"
+msgstr ""
+
+msgid "Block Gui Settings"
+msgstr ""
+
+msgid "Block HBC Menu"
+msgstr ""
+
+msgid "Block Manage"
+msgstr ""
+
+msgid "Block Manage DataBin"
+msgstr ""
+
+msgid "Block Manage Emu Nand"
+msgstr ""
+
+msgid "Block ManageAll"
+msgstr ""
+
+msgid "Block Parental Settings"
+msgstr ""
+
+msgid "Block Reset Settings"
+msgstr ""
+
+msgid "Block SD Reload Button"
+msgstr ""
+
+msgid "Block Saves Download"
+msgstr ""
+
+msgid "Block Theme Settings"
+msgstr ""
+
+msgid "Block Title Launcher"
+msgstr ""
+
+msgid "Block Updates"
+msgstr ""
+
+msgid "Browse"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr ""
+
+msgid "Can't load file"
+msgstr ""
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Cannot write to destination."
+msgstr "Kan niet naar doel schrijven."
+
+msgid "Cannot write to the file."
+msgstr ""
+
+msgid "Caps"
+msgstr ""
+
+msgid "Checking for new update"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Click Button"
+msgstr ""
+
+msgid "Clock"
+msgstr "Klok"
+
+msgid "Clock Scale Factor"
+msgstr ""
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Coding:"
+msgstr "Programmeurs:"
+
+msgid "Config"
+msgstr ""
+
+msgid "Connection to server timed out."
+msgstr ""
+
+msgid "Console"
+msgstr ""
+
+msgid "Console Locked"
+msgstr ""
+
+msgid "Console must be unlocked for this option."
+msgstr ""
+
+msgid "Controller Settings"
+msgstr ""
+
+msgid "Correct Password"
+msgstr ""
+
+msgid "Could not connect to the server."
+msgstr "Kan niet verbinden met de server."
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr ""
+
+msgid "Could not download file."
+msgstr ""
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not load file."
+msgstr ""
+
+msgid "Could not load text file."
+msgstr ""
+
+msgid "Could not parse directory."
+msgstr ""
+
+msgid "Credits"
+msgstr "Credits"
+
+msgid "Credits Volume"
+msgstr ""
+
+msgid "Custom Font"
+msgstr "Lettertypes"
+
+msgid "Custom Paths"
+msgstr ""
+
+msgid "Data.bin"
+msgstr ""
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Default Settings"
+msgstr "Basis instellingen"
+
+msgid "Default Theme"
+msgstr ""
+
+msgid "Design:"
+msgstr "Design:"
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Do you want to boot:"
+msgstr ""
+
+msgid "Do you want to change the font?"
+msgstr ""
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to download themes now ?"
+msgstr ""
+
+msgid "Do you want to load the default theme?"
+msgstr ""
+
+msgid "Do you want to open this file in TextEditor?"
+msgstr ""
+
+msgid "Do you want to playback this file?"
+msgstr ""
+
+msgid "Do you want to reboot now ?"
+msgstr ""
+
+msgid "Do you want to save changes?"
+msgstr ""
+
+msgid "Do you want to select a theme now ?"
+msgstr ""
+
+msgid "Do you want to update now ?"
+msgstr ""
+
+msgid "Down Button"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Themes"
+msgstr ""
+
+msgid "Download failed."
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr ""
+
+msgid "Downloading Language Files:"
+msgstr ""
+
+msgid "Downloading all Language Files:"
+msgstr ""
+
+msgid "Downloading file..."
+msgstr "Bestand downloaden..."
+
+msgid "Downloading from"
+msgstr ""
+
+msgid "Downloading image:"
+msgstr ""
+
+msgid "Downloading pagelist:"
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Enter"
+msgstr ""
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "Error:"
+msgstr ""
+
+msgid "Exit"
+msgstr ""
+
+msgid "Exit to where?"
+msgstr ""
+
+msgid "Extracting files..."
+msgstr ""
+
+msgid "Failed to get the Changelog."
+msgstr ""
+
+msgid "Features Menu"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "File is too big."
+msgstr ""
+
+msgid "File was edited."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr ""
+
+msgid "Filesize is 0 Byte."
+msgstr ""
+
+msgid "Folder"
+msgstr ""
+
+msgid "Font"
+msgstr ""
+
+msgid "Font Scale Factor"
+msgstr ""
+
+msgid "Fontpath changed."
+msgstr ""
+
+msgid "Full Menu"
+msgstr ""
+
+msgid "Full shutdown"
+msgstr ""
+
+msgid "GC Homebrew"
+msgstr ""
+
+msgid "GC PAD BUTTON A"
+msgstr ""
+
+msgid "GC PAD BUTTON B"
+msgstr ""
+
+msgid "GC PAD BUTTON DOWN"
+msgstr ""
+
+msgid "GC PAD BUTTON LEFT"
+msgstr ""
+
+msgid "GC PAD BUTTON NONE"
+msgstr ""
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr ""
+
+msgid "GC PAD BUTTON START"
+msgstr ""
+
+msgid "GC PAD BUTTON UP"
+msgstr ""
+
+msgid "GC PAD BUTTON X"
+msgstr ""
+
+msgid "GC PAD BUTTON Y"
+msgstr ""
+
+msgid "GC PAD TRIGGER L"
+msgstr ""
+
+msgid "GC PAD TRIGGER R"
+msgstr ""
+
+msgid "GC PAD TRIGGER Z"
+msgstr ""
+
+msgid "GUI Settings"
+msgstr "GUI instellingen"
+
+msgid "GameTDB Update"
+msgstr ""
+
+msgid "Getting Changelog..."
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "HOME Menu"
+msgstr "HOME menu"
+
+msgid "Home Button"
+msgstr ""
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Channel"
+msgstr "Homebrew Channel"
+
+msgid "Homebrew Launcher"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "How do you want to change the path?"
+msgstr ""
+
+msgid "How do you want to load this language file?"
+msgstr ""
+
+msgid "How to Shutdown?"
+msgstr ""
+
+msgid "Icon Update"
+msgstr ""
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed Files"
+msgstr ""
+
+msgid "Installed Languages Files"
+msgstr ""
+
+msgid "Keyboard Del Delay"
+msgstr ""
+
+msgid "Lang."
+msgstr ""
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Language Update"
+msgstr ""
+
+msgid "Language change:"
+msgstr ""
+
+msgid "Left Button"
+msgstr ""
+
+msgid "Linebreak"
+msgstr ""
+
+msgid "Load"
+msgstr ""
+
+msgid "Loading file:"
+msgstr ""
+
+msgid "Lock Console"
+msgstr ""
+
+msgid "Locked"
+msgstr ""
+
+msgid "Loop"
+msgstr ""
+
+msgid "Loop Playlist"
+msgstr ""
+
+msgid "Manage All"
+msgstr ""
+
+msgid "Mii"
+msgstr ""
+
+msgid "Music Loop Mode"
+msgstr ""
+
+msgid "Music Path"
+msgstr ""
+
+msgid "Music Player"
+msgstr ""
+
+msgid "Music Volume"
+msgstr "Muziekvolume"
+
+msgid "Network initialising..."
+msgstr ""
+
+msgid "Network is not initiated."
+msgstr ""
+
+msgid "No"
+msgstr "Nee"
+
+msgid "No Language File found"
+msgstr ""
+
+msgid "No URL or Path specified."
+msgstr ""
+
+msgid "No network connection."
+msgstr ""
+
+msgid "No new updates available"
+msgstr ""
+
+msgid "No themes found on the site."
+msgstr ""
+
+msgid "Not a valid URL"
+msgstr "Geen geldige URL"
+
+msgid "Not a valid URL path"
+msgstr "Geen geldige URL path"
+
+msgid "Not a valid domain"
+msgstr "Ongeldig domein"
+
+msgid "Not enough memory."
+msgstr "Onvoldoende geheugen."
+
+msgid "OFF"
+msgstr "UIT"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "ON"
+msgstr "AAN"
+
+msgid "Official Site:"
+msgstr "Officiële site:"
+
+msgid "OnThemeDownloaderFlyingButtonClicked"
+msgstr ""
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Parental Control"
+msgstr ""
+
+msgid "Parse Directory"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password has been changed"
+msgstr ""
+
+msgid "Password:"
+msgstr ""
+
+msgid "Path changed."
+msgstr ""
+
+msgid "Path:"
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Picture"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Please wait..."
+msgstr ""
+
+msgid "Pointer Speed"
+msgstr ""
+
+msgid "Possible unsupported format."
+msgstr ""
+
+msgid "QWERTYUIOP{}|"
+msgstr ""
+
+msgid "Quit Settings"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr ""
+
+msgid "Reload SD"
+msgstr ""
+
+msgid "Remember Unlock"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Right Button"
+msgstr ""
+
+msgid "Rumble"
+msgstr "Trillen"
+
+msgid "SFX Volume"
+msgstr "SFX Volume"
+
+msgid "SaveGame"
+msgstr ""
+
+msgid "SaveGame Manager GX is protected"
+msgstr ""
+
+msgid "SaveGameGX Default Music"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "Savegame directory"
+
+msgid "Screensaver"
+msgstr "Screensaver"
+
+msgid "Screenshot Format"
+msgstr ""
+
+msgid "Screenshot Path"
+msgstr ""
+
+msgid "Scroll Speed"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Select Device"
+msgstr ""
+
+msgid "Select Files"
+msgstr ""
+
+msgid "Select Languages"
+msgstr ""
+
+msgid "Select Mode"
+msgstr ""
+
+msgid "Select Theme"
+msgstr ""
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Shift"
+msgstr ""
+
+msgid "Show Changelog"
+msgstr ""
+
+msgid "Show error log?"
+msgstr ""
+
+msgid "Shutdown Wii"
+msgstr ""
+
+msgid "Size:"
+msgstr ""
+
+msgid "Soundblock Size"
+msgstr ""
+
+msgid "Soundblocks"
+msgstr ""
+
+msgid "Special thanks to:"
+msgstr "Extra dank aan:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Standby"
+msgstr ""
+
+msgid "System Default"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Text Editor"
+msgstr ""
+
+msgid "The buffer size is really high. If the app doesn't start after this delete your config files."
+msgstr ""
+
+msgid "The effect will take with next music load. It might break music playback."
+msgstr ""
+
+msgid "The new font could not be loaded."
+msgstr ""
+
+msgid "The new font is loaded."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Theme Downloader"
+msgstr ""
+
+msgid "Theme Menu"
+msgstr ""
+
+msgid "Theme Path"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "Theme Title:"
+msgstr ""
+
+msgid "Themes by www.spiffy360.com"
+msgstr ""
+
+msgid "Tooltip Delay"
+msgstr ""
+
+msgid "Tooltips"
+msgstr "Tool tips"
+
+msgid "Transfer failed"
+msgstr "Verplaatsing mislukt"
+
+msgid "Type:"
+msgstr ""
+
+msgid "URL is empty."
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlock Console"
+msgstr ""
+
+msgid "Unlocked"
+msgstr ""
+
+msgid "Up Button"
+msgstr ""
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Update Path"
+msgstr ""
+
+msgid "Update Settings"
+msgstr ""
+
+msgid "Update failed"
+msgstr ""
+
+msgid "Update files"
+msgstr ""
+
+msgid "Update successfully finished"
+msgstr ""
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr ""
+
+msgid "Updates"
+msgstr ""
+
+msgid "Updating Language Files:"
+msgstr "Taalbestanden updaten:"
+
+msgid "Use System Font"
+msgstr ""
+
+msgid "WARNING:"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr ""
+
+msgid "WPAD BUTTON 2"
+msgstr ""
+
+msgid "WPAD BUTTON A"
+msgstr ""
+
+msgid "WPAD BUTTON B"
+msgstr ""
+
+msgid "WPAD BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD BUTTON HOME"
+msgstr ""
+
+msgid "WPAD BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr ""
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr ""
+
+msgid "WPAD NONE BUTTON"
+msgstr ""
+
+msgid "Warning:"
+msgstr ""
+
+msgid "Wii Homebrew"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Wii menu"
+
+msgid "Wiiload Receive"
+msgstr ""
+
+msgid "Wrong Password"
+msgstr ""
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "ZXCVBNM<>?"
+msgstr ""
+
+msgid "`1234567890-"
+msgstr ""
+
+msgid "asdfghjkl;'="
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr ""
+
+msgid "for Saves hosting"
+msgstr ""
+
+msgid "for Themes hosting"
+msgstr ""
+
+msgid "for design & sources"
+msgstr "voor design & broncode."
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "voor zijn fantastische LibWiiGui tool."
+
+msgid "for sources"
+msgstr "voor de broncode."
+
+msgid "for the SaveGame Manager sources"
+msgstr "voor de broncode van savegame manager."
+
+msgid "not set"
+msgstr ""
+
+msgid "qwertyuiop[]\\"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "zxcvbnm,./"
+msgstr ""
+
+msgid "~!@#$%^&*()_"
+msgstr ""
+
+#~ msgid "Could not initialize network!"
+#~ msgstr "Kan het netwerk niet initialiseren!"
+
+#~ msgid "Rev"
+#~ msgstr "Rev"
+
+#~ msgid "16/9"
+#~ msgstr "16:9"
+
+#~ msgid "4/3"
+#~ msgstr "4:3"
+
+#~ msgid "Action cancelled."
+#~ msgstr "Actie geannuleerd."
+
+#~ msgid "Do you want to connect?"
+#~ msgstr "Wil u verbinden?"
+
+#~ msgid "Do you want to load this language ?"
+#~ msgstr "Wil u deze taal gebruiken?"
+
+#~ msgid "Home Menu"
+#~ msgstr "Home Menu"
+
+#~ msgid "Initializing Network"
+#~ msgstr "Initialiseren van het netwerk"
+
+#~ msgid "Install"
+#~ msgstr "Installeren"
+
+#~ msgid "Language Path changed."
+#~ msgstr "Path van de Taal veranderd."
+
+#~ msgid "No network connection"
+#~ msgstr "Geen netwerkverbinding"
+
+#~ msgid "Retry"
+#~ msgstr "Opnieuw proberen"
+
+#~ msgid "SD/USB"
+#~ msgstr "SD/USB"
+
+#~ msgid "Save Path"
+#~ msgstr "Savegame directory"
+
+#~ msgid "Succesfully extracted"
+#~ msgstr "Back-up succesvol."
+
+#~ msgid "Succesfully installed"
+#~ msgstr "Installatie in orde."
+
+#~ msgid "Unable to SetUID"
+#~ msgstr "Functie mislukt: SetUID"
+
+#~ msgid "Unable to get NAND path"
+#~ msgstr "Kan NAND path niet vinden."
+
+#~ msgid "Wii"
+#~ msgstr "Wii"
+
+#~ msgid "Full Shutdown"
+#~ msgstr "Volledig afsluiten"
+
+#~ msgid "Idle Shutdown"
+#~ msgstr "Standby"

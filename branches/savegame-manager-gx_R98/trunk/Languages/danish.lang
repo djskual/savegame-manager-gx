@@ -1,0 +1,808 @@
+# SaveGame Manager GX language source file.
+# Danish.lang - r94
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: Fox888\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr ""
+
+#, c-format
+msgid "%d files available"
+msgstr "%d Filer tilgænglig"
+
+msgid "1 hour"
+msgstr "1 time"
+
+msgid "1 min"
+msgstr ""
+
+msgid "10 mins"
+msgstr "10 Min"
+
+msgid "12 Hours"
+msgstr "12 timer"
+
+msgid "16/9"
+msgstr ""
+
+msgid "20 mins"
+msgstr "20 min"
+
+msgid "24 Hours"
+msgstr "24 timer"
+
+msgid "3 mins"
+msgstr "3 min"
+
+msgid "30 mins"
+msgstr "30 min"
+
+msgid "4/3"
+msgstr ""
+
+msgid "5 mins"
+msgstr "5 Min"
+
+msgid "Action cancelled."
+msgstr "Handling afbrudt."
+
+msgid "All Language files updated."
+msgstr "Alle sprog filer er opdateret."
+
+msgid "All translaters for language files updates"
+msgstr "Alle oversætter for sprogFiler"
+
+msgid "April"
+msgstr ""
+
+msgid "Are you sure ?"
+msgstr "Er du sikker?"
+
+msgid "Audio Settings"
+msgstr "Lyd indstillinger"
+
+msgid "August"
+msgstr ""
+
+msgid "Auto Update"
+msgstr "Auto Opdater"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid "Back to Loader"
+msgstr "Tilbage til loader"
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "Stor tak til:"
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "BootMethod"
+msgstr "Boot-metode"
+
+msgid "Browse Miis"
+msgstr "Gennemse Miis"
+
+msgid "Browse SD"
+msgstr "Gennemse SD"
+
+msgid "Browse Saves"
+msgstr "Gennemse Saves"
+
+msgid "Browse USB"
+msgstr "Gennemse USB"
+
+msgid "Browsed"
+msgstr ""
+
+msgid "Can not open the file"
+msgstr "Kan ikke åbne filen"
+
+msgid "Can't create the Mii file."
+msgstr "Kan ikke skabe Mii fil."
+
+msgid "Can't load file"
+msgstr "Kan ikke indlæse fil"
+
+msgid "Can't open the Nand Mii file."
+msgstr "Kan ikke åbne Mii Nand fil."
+
+msgid "Can't read the Nand Mii file."
+msgstr "Kan ikke læse Mii Nand fil."
+
+msgid "Cancel"
+msgstr "Annuller"
+
+msgid "Cancelled"
+msgstr "Anulleret"
+
+msgid "Cannot write to destination."
+msgstr "Kan ikke skrive til destinationen."
+
+msgid "Caps"
+msgstr ""
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Clock"
+msgstr "Ur"
+
+msgid "Close"
+msgstr "Luk"
+
+msgid "Coding:"
+msgstr "Kodning:"
+
+msgid "Confirm"
+msgstr "Bekræft"
+
+msgid "Copy"
+msgstr "Kopier"
+
+msgid "Copy cancelled"
+msgstr "Kopier annulleret"
+
+msgid "Copying Save"
+msgstr "Kopiere Save"
+
+msgid "Could not connect to the server."
+msgstr "Kunne ikke forbinde til server."
+
+msgid "Could not download file."
+msgstr "Kunne ikke downloade fil."
+
+msgid "Could not initialize network!"
+msgstr "Kunne ikke initalisere netværk!"
+
+msgid "Credits"
+msgstr "Tak til"
+
+msgid "Credits Volume"
+msgstr ""
+
+msgid "Custom"
+msgstr "brugerdefineret"
+
+msgid "Custom Font"
+msgstr "Brugerdefineret font"
+
+msgid "Custom Paths"
+msgstr "Brugerdefineret sti"
+
+msgid "December"
+msgstr ""
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Default Settings"
+msgstr "Standardindstillinger"
+
+msgid "Delete"
+msgstr "Slet"
+
+msgid "Delete All"
+msgstr "Slet alle"
+
+msgid "Delete All Device Miis"
+msgstr "Slet alle Miis i enheden"
+
+msgid "Delete All Miis"
+msgstr "Slet alle Miis"
+
+msgid "Delete cancelled"
+msgstr "Sletning annulleret"
+
+msgid "Deleting All Nand Mii..."
+msgstr "Sletter alle Nand Mii..."
+
+msgid "Deleting All device Miis..."
+msgstr "Sletter alle Miis i enheden..."
+
+msgid "Deleting Save"
+msgstr "Sletter Save"
+
+msgid "Design:"
+msgstr ""
+
+msgid "Devices"
+msgstr "Enheder"
+
+msgid "Directory Loop"
+msgstr ""
+
+msgid "Display the report?"
+msgstr "Vis report?"
+
+msgid "Do you want to connect?"
+msgstr "Vil du forbinde?"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "Vil du indlæse dette sprog?"
+
+msgid "Do you want to reboot now ?"
+msgstr "Vil du genstarte nu?"
+
+msgid "Do you want to update now ?"
+msgstr "Vil du opdater nu?"
+
+msgid "Downloading file..."
+msgstr "Downloader fil..."
+
+msgid "Duplicate"
+msgstr "Kopier"
+
+msgid "Dutch"
+msgstr "Hollandsk"
+
+msgid "English"
+msgstr "Engelsk"
+
+msgid "Error"
+msgstr "Fejl"
+
+msgid "Error encountered:"
+msgstr "Fejl opstået:"
+
+msgid "Errors encountered:"
+msgstr "Flere fejl opstået:"
+
+msgid "Exit"
+msgstr "Luk"
+
+msgid "Extract"
+msgstr "Gem"
+
+msgid "Extract All"
+msgstr "Gem Alle"
+
+msgid "Extract All Miis"
+msgstr "Gem alle Miis"
+
+msgid "Extract All Saves"
+msgstr "Gem alle Saves"
+
+msgid "Extract cancelled"
+msgstr "Gem anulleret"
+
+msgid "Extract to:"
+msgstr "Gem i:"
+
+msgid "Extracting All..."
+msgstr "Gemmer alle..."
+
+msgid "Extracting Save"
+msgstr "Gemmer Save"
+
+msgid "Failed to get the Changelog."
+msgstr "Fejlede at hente Changelog."
+
+msgid "February"
+msgstr "Februar"
+
+msgid "Filesize is empty."
+msgstr "Fil er tom."
+
+msgid "Font changed"
+msgstr "Font ændret"
+
+msgid "French"
+msgstr "Fransk"
+
+msgid "From:"
+msgstr "Fra:"
+
+msgid "Full Shutdown"
+msgstr "Sluk Alt"
+
+msgid "GUI Settings"
+msgstr "GUI-indstillinger"
+
+msgid "German"
+msgstr "Tysk"
+
+msgid "Getting Changelog..."
+msgstr "Henter changelog..."
+
+msgid "Go Back"
+msgstr "Tilbage"
+
+msgid "HOME Menu"
+msgstr ""
+
+msgid "Home Menu"
+msgstr ""
+
+msgid "Homebrew Channel"
+msgstr "Homebrew Kanal"
+
+msgid "Icon Update"
+msgstr "Opdater icon"
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "Pause"
+
+msgid "InfoWindow"
+msgstr "Info-Vindue"
+
+msgid "Initializing Network"
+msgstr "Initalisere Netværk"
+
+msgid "Install"
+msgstr "Installér"
+
+msgid "Install All"
+msgstr "Installér Alle"
+
+msgid "Install All Miis"
+msgstr "Installer alle Miis"
+
+msgid "Install All Saves"
+msgstr "Installer alle Saves"
+
+msgid "Install cancelled"
+msgstr "Installering annulleret"
+
+msgid "Installing All..."
+msgstr "Installere alle..."
+
+msgid "Installing Save"
+msgstr "Installere Save"
+
+msgid "Italian"
+msgstr "Italiensk"
+
+msgid "JAP to EN"
+msgstr "JAP til EN"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "Japanese"
+msgstr "Japansk"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "Korean"
+msgstr "Koreansk"
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Language Path changed."
+msgstr "Sti til sprog ændret."
+
+msgid "Later"
+msgstr "Senere"
+
+msgid "Loading file:"
+msgstr "Indlæser fil:"
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Manage All"
+msgstr "Administrér alle"
+
+msgid "Manage All Miis"
+msgstr "Administrér alle Miis"
+
+msgid "Manage All Saves"
+msgstr "Administrér alle Saves"
+
+msgid "March"
+msgstr "Marts"
+
+msgid "May"
+msgstr "Maj"
+
+msgid "Meta Update"
+msgstr "Opdater Meta"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii memory is full."
+msgstr "Mii-hukommelse er fuld."
+
+msgid "Miis"
+msgstr ""
+
+msgid "Miis Path"
+msgstr "Sti til Miis"
+
+msgid "Move"
+msgstr "Flyt"
+
+msgid "Move cancelled"
+msgstr "Flyt annulleret"
+
+msgid "Moving Save"
+msgstr "Flytter Save"
+
+msgid "Music Volume"
+msgstr "Musiklydstyrke"
+
+msgid "Nand"
+msgstr ""
+
+msgid "No"
+msgstr "Nej"
+
+msgid "No Mii found in Wii memory."
+msgstr "Ingen Mii fundet i Wii-hukommelse"
+
+msgid "No Mii found in this folder."
+msgstr "Fandt ingen Mii i denne mappe."
+
+msgid "No SaveGame found in Wii."
+msgstr "Ingen Savegame fundet i Wiien."
+
+msgid "No SaveGame found in this folder."
+msgstr "Ingen Savegames fundet i denne mappe."
+
+msgid "No network connection"
+msgstr "Ingen netforbindelse"
+
+msgid "No new updates available"
+msgstr "Ingen nye opdateringer tilgængelig"
+
+msgid "Not a valid URL"
+msgstr "Ikke en gyldig URL"
+
+msgid "Not a valid URL path"
+msgstr "Ikke en gyldig URL-sti"
+
+msgid "Not a valid domain"
+msgstr "Ikke et gyldig domæne"
+
+msgid "Not enough memory."
+msgstr "Ikke nok hukommelse."
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "OFF"
+msgstr "Fra"
+
+msgid "OK"
+msgstr ""
+
+msgid "ON"
+msgstr "Til"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "Official Site:"
+msgstr "Officiel Side:"
+
+msgid "OverWrite"
+msgstr "Overskriv"
+
+msgid "Path Changed"
+msgstr "Sti ændret"
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Random Play"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr "Genstart fejlede"
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr "Nulstil indstillinger"
+
+msgid "Retry"
+msgstr "Forsøg igen"
+
+msgid "Rev"
+msgstr ""
+
+msgid "Rumble"
+msgstr ""
+
+msgid "SD"
+msgstr ""
+
+msgid "SD/USB"
+msgstr ""
+
+msgid "SFX Volume"
+msgstr "SFX Lydstryke"
+
+msgid "Save Path"
+msgstr "Sti til at gemme"
+
+msgid "Saves"
+msgstr ""
+
+msgid "Saves Path"
+msgstr "Sti til saves"
+
+msgid "Screen Size"
+msgstr "Skærm-Str."
+
+msgid "Screensaver"
+msgstr "Pauseskærm"
+
+msgid "September"
+msgstr ""
+
+msgid "Settings"
+msgstr "Indstillinger"
+
+msgid "Shortcuts"
+msgstr "Genveje"
+
+msgid "Show Changelog"
+msgstr "Vis changelog"
+
+msgid "ShutDown Wii"
+msgstr "Sluk Wiien"
+
+msgid "Simple Chinese"
+msgstr "Simpel Kinesisk"
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "Du kan ikke kopiere til samme sti"
+
+msgid "Sorry, you can't move to the same path"
+msgstr "Du kan ikke flytte til den samme sti"
+
+msgid "Spanish"
+msgstr "Spansk"
+
+msgid "Special thanks to:"
+msgstr "Special tak til:"
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Stored in Wii's Nand?"
+msgstr "Gem i Wii´s Nand?"
+
+msgid "Succesfully copied"
+msgstr "Kopiering lykkedes"
+
+msgid "Succesfully deleted"
+msgstr "Sletning lykkedes"
+
+msgid "Succesfully done"
+msgstr "Færdig"
+
+msgid "Succesfully extracted"
+msgstr "Gem lykkes"
+
+msgid "Succesfully installed"
+msgstr "Installering lykkedes"
+
+msgid "Succesfully moved"
+msgstr "Flytning lykkedes"
+
+msgid "Title Loop"
+msgstr ""
+
+msgid "To:"
+msgstr "Til:"
+
+msgid "Tooltips"
+msgstr "Værktøjstip"
+
+msgid "Trad Chinese"
+msgstr "Trad Kinesisk"
+
+msgid "Transfer cancelled."
+msgstr "Overførelse annulleret."
+
+msgid "Transfer failed"
+msgstr "Overførelse fejlede"
+
+msgid "URL is empty."
+msgstr "URL er tom."
+
+msgid "USB"
+msgstr ""
+
+msgid "Unable to SetUID"
+msgstr "Kunne ikke sætte UID"
+
+msgid "Unable to copy data"
+msgstr "Kunne ikke kopier data"
+
+msgid "Unable to copy the selected Mii"
+msgstr "Kunne ikke kopiere den valgte Mii"
+
+msgid "Unable to copy this SaveGame"
+msgstr "Kunne ikke kopiere dette Savegame"
+
+msgid "Unable to create Mii list."
+msgstr "Kunne ikke oprette Mii-list."
+
+msgid "Unable to create Wii Saves list."
+msgstr "Kunne ikke oprette Wii-Saves liste."
+
+msgid "Unable to delete data"
+msgstr "Kunne ikke slette data"
+
+msgid "Unable to delete the selected Mii"
+msgstr "Kunne ikke slette valgte Mii"
+
+msgid "Unable to delete this SaveGame"
+msgstr "Kunne ikke slette dette Savegame"
+
+msgid "Unable to extract the selected Mii"
+msgstr "Kunne ikke gemme den valgte Mii"
+
+msgid "Unable to find device."
+msgstr "Kunne ikke finde enhed."
+
+msgid "Unable to get NAND path"
+msgstr "Kunne ikke få NAND-sti"
+
+msgid "Unable to install the selected Mii"
+msgstr "Kunne ikke installer den valgte Mii"
+
+msgid "Unable to move the selected Mii"
+msgstr "Kunne ikke flytte den valgte Mii"
+
+msgid "Unable to move this SaveGame"
+msgstr "Kunne ikke flytte Dette Savegame"
+
+msgid "Update"
+msgstr "Opdater"
+
+msgid "Update Path"
+msgstr "Sti til opdatering"
+
+msgid "Update Settings"
+msgstr "Opdateringsindstillinger"
+
+msgid "Update all Language Files to:"
+msgstr "Opdater alle sprog filer til:"
+
+msgid "Update failed"
+msgstr "Opdatering fejlede"
+
+msgid "Update successfully finished"
+msgstr "Opdatering lykkedes"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Opdatering til Rev%i tilgænglig"
+
+msgid "Updates"
+msgstr "Opdateringer"
+
+msgid "Updating Language Files:"
+msgstr "Opdatere Sprogfiler:"
+
+msgid "Updating WiiTDB"
+msgstr "Opdatere WiiTDB"
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "ADVARSEL: Alle eksisterende Miis i Wiien vil blive overskrevet når Miis installeres!!!"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr "ADVARSEL: Alle eksisterende Miis i Wii´s hukommelse vil blive slettet !!!"
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr "ADVARSEL: Alle eksisterende Miis i denne sti vil blive slettet !!!"
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "ADVARSEL: Alle eksisterende Miis i denne sti vil blive overskrevet når du gemmer Miis!!!"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "ADVARSEL: Alle eksisterende saves i Wiien vil blive overskrevet når saves installeres!!!"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "ADVARSEL: Alle eksisterende saves i denne sti vil blive overskrevet når du gemmer saves!!!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr "ADVARSEL: Dette gamle SaveGame Manager GX save er ikke længere understøttet siden rev87!!!"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "ADVARSEL: Du skal i forvejen have et save af dette spil installeret i Wiien for at installere denne save!!!"
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr ""
+
+msgid "WiiTDB"
+msgstr ""
+
+msgid "WiiTDB Langue"
+msgstr "WiiTDB sprog"
+
+msgid "WiiTDB Path"
+msgstr "Sti til WiiTDB"
+
+msgid "WiiTDB Settings"
+msgstr "WiiTDB indstillinger"
+
+msgid "WiiTDB Titles"
+msgstr "WiiTDB titler"
+
+msgid "WiiTDB Update"
+msgstr "Opdater WiiTDB"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "Du behøver cIOS 249 fra Waninkoko installert, få at bruge dette prg."
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "Du behøver cIOS 249 rev 9 eller højere installert, få at bruge dette prg."
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr ""
+
+msgid "for design & sources"
+msgstr ""
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "for hans fantastiske værktøj LibWiiGui"
+
+msgid "for sources"
+msgstr ""
+
+msgid "for the SaveGame Manager sources"
+msgstr ""
+
+msgid "is already installed."
+msgstr "Er allerede installeret."

@@ -1,0 +1,266 @@
+# SaveGame Manager GX theme source file.
+# don't delete/change this line (é).
+# ONLY the value before the '-' char needs to be entered in msgstr ""
+# not the complete text.
+# It is important that the image folder is defined for the images to load.
+# The image folder should be in the same folder as the .them file and include the theme images.
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-07 03:17+0200\n"
+"PO-Revision-Date: 2009-10-01 01:00+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Theme-Title: Example\n"
+"Image-Folder: Example\n"
+"Last-Themer: Example\n"
+"Theme-Team: Example\n"
+"Theme-Version: Example\n"
+
+msgid "r=0 g=0 b=0 a=255 - mainbrowser entry text color"
+msgstr ""
+
+msgid "384 - mainbrowser list separator pos x"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - checkbox cross color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - checkbox extern border color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - checkbox intern background color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard spec buttons text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - keyboard buttons text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - option browser entry text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - prompt windows text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - prompt languageSelect list text color"
+msgstr ""
+
+msgid "r=138 g=138 b=138 a=240 - clock color"
+msgstr ""
+
+msgid "left - clock align hor"
+msgstr ""
+
+msgid "top - clock align ver"
+msgstr ""
+
+msgid "275 - clock pos x"
+msgstr ""
+
+msgid "340 - clock pos y"
+msgstr ""
+
+msgid "-30 - manageAll btn tooltip pos y"
+msgstr ""
+
+msgid "24 - manageAll btn tooltip pos x"
+msgstr ""
+
+msgid "255 - tooltip alpha"
+msgstr ""
+
+msgid "16 - manageAll btn pos x"
+msgstr ""
+
+msgid "355 - managAll btn pos y"
+msgstr ""
+
+msgid "-30 - settings btn tooltip pos y"
+msgstr ""
+
+msgid "65 - settings btn tooltip pos x"
+msgstr ""
+
+msgid "371 - settings btn pos y"
+msgstr ""
+
+msgid "64 - settings btn pos x"
+msgstr ""
+
+msgid "-30 - homebrew btn tooltip pos y"
+msgstr ""
+
+msgid "-65 - homebrew btn tooltip pos x"
+msgstr ""
+
+msgid "371 - homebrew btn pos y"
+msgstr ""
+
+msgid "489 - homebrew btn pos x"
+msgstr ""
+
+msgid "-24 - music btn tooltip pos x"
+msgstr ""
+
+msgid "-30 - music btn tooltip pos y"
+msgstr ""
+
+msgid "355 - music btn pos y"
+msgstr ""
+
+msgid "576 - music btn pos x"
+msgstr ""
+
+msgid "-30 - sd card btn tooltip pos y"
+msgstr ""
+
+msgid "15 - sd card btn tooltip pos x"
+msgstr ""
+
+msgid "160 - sd card btn pos x"
+msgstr ""
+
+msgid "395 - sd card btn pos y"
+msgstr ""
+
+msgid "center - taskbar align hor"
+msgstr ""
+
+msgid "top - taskbar align ver"
+msgstr ""
+
+msgid "0 - taskbar pos x"
+msgstr ""
+
+msgid "10 - taskbar pos y"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - credits windows text color"
+msgstr ""
+
+msgid "17 - device menu text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - device menu text color"
+msgstr ""
+
+msgid "40 - homemenu title text size"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - homemenu main text color"
+msgstr ""
+
+msgid "30 - homemenu main text size"
+msgstr ""
+
+msgid "28 - homemenu close text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - homemenu close text color"
+msgstr ""
+
+msgid "26 - homemenu main button text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - homemenu main button text color"
+msgstr ""
+
+msgid "30 - homemenu settings text size"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - homemenu settings text color"
+msgstr ""
+
+msgid "30 - homemenu settings button text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - homemenu settings button text color"
+msgstr ""
+
+msgid "22 - homemenu battery text size"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - homemenu battery text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - select browser adress text color"
+msgstr ""
+
+msgid "20 - progressbar text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - progressbar text color"
+msgstr ""
+
+msgid "22 - prompt windows message text size"
+msgstr ""
+
+msgid "20 - prompt windows button text size"
+msgstr ""
+
+msgid "26 - prompt windows title text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - screensaver background color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - search buttons text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=160 - search window color"
+msgstr ""
+
+msgid "r=255 g=255 b=255 a=255 - search bar color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - search bar text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - flyingbutton menu title text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - flyingbutton menu mainbutton text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - settings menu title text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - settings menu back button text color"
+msgstr ""
+
+msgid "center - settings menu back button align hor"
+msgstr ""
+
+msgid "top - settings menu back button align ver"
+msgstr ""
+
+msgid "-195 - settings menu back button pos x"
+msgstr ""
+
+msgid "400 - settings menu back button pos y"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - MusicPlayer played title text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - MusicPlayer play list text color"
+msgstr ""
+
+msgid "22 - text reader filename text size"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - text reader filename text color"
+msgstr ""
+
+msgid "r=0 g=0 b=0 a=255 - text reader file text color"
+msgstr ""
+
+msgid "1 - Enable tooltips: 0 for off and 1 for on"
+msgstr ""

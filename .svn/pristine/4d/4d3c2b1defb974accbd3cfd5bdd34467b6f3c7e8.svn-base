@@ -1,0 +1,942 @@
+R125:
+
+* Added Controllers Mapping (from WiiXplorer)
+* Added Controllers Settings Menu to allow you to change the mapping
+* Added Controllers Settings Menu to Parental control
+* Added SdPort Class to auto detect sd card eject/insert
+
+R124:
+
+* Fixed Issue 158
+* Fixed CustomPath create problem
+* Fixed SearchBar for Emulated Saves Browser
+* Added Fix_EmuDB() fonction to allow you to fix or create the FaceLib file inside your emulated nand path
+* Added Emulated Mii Browser to browser your miis inside your emulated nand path
+* Added Emulated Mii Window to allow you to manage your miis installed inside your emulated nand path 
+* Added InstallMiiToEmu() fonction to FileMiiWindow, to install a mii from device to your emulated nand path
+* Added InstallMii() fonction to MiiWindow, to install a mii from your real nand to your emulated nand path
+* Added DeleteEmuSave() fonction to EmuSaveWindow, to install a save from your emulated nand path
+* Changed ManageAll Window to add all new saves and miis emulated nand fonctions
+
+R123:
+
+* Fixed a widescreen problem with icons in List mode (Issue 156)
+* Fixed a problem with the Icon mode for emulated nand (Issue 157)
+* Fixed a problem with Warning message refresh in manage windows
+* Fixed bug in aif and wav decoding (thx dimok)
+* Added EmuSaveWindow to manage your saves from your emulated nand path
+* Added "Block Manage Emulated Nand" to Parental Control Settings Menu
+* Added InstallEmu() to install saves from your emulated nand path to the real nand (of course, the save need to already exist on the real nand)
+* Added ExtractEmu() to extract saves from your emulated nand path to your storage device
+* Added fonction to install a data.bin in your emulated nand path
+* Added fonction to install a save from your real nand to your emulated nand path
+* Added fonction to install a save from your storage device to your emulated nand path
+* Fixed Linux compile errors
+* Changed font character texture to I4 which uses half as much memory (less cache memory) (thx dimok)
+
+Branches:
+* Updated libpng to 1.5.9
+* Updated libjpeg to 8d
+* Updated zlib to 1.2.6
+* Updated libgd to SVN and make it use interlace on libpng (thx dimok)
+
+------------------------------------------------
+R122:
+
+* Fixed some navigation problems in manage windows (Issue 154)
+* Fixed USB multipartition problem (Issue 155)
+* Added USB Multipartition support in SelectBrowser
+* Added ScrollWide effect to GuiText
+* Added a warning message in manage window if the save you want to manage is not installed in the Wii
+* Fixed a problem with EmuNand list count
+* Changed filebrowser to don't detect saves installed on EmuNand as extracted saves
+
+Forwarder:
+* Speed up the process
+
+------------------------------------------------
+R121:
+
+* Added Emulated Nand Browser. Only if the app is running under Real Nand. You can set your emulated nand path in the "custom path settings menu" and enabled/disabled the browser in the "features settings menu". At this stage, you can only browse your files, and not manage...
+* Fixed problem to extract big files (Issue 151)
+* Fixed HomebrewBrowser problem if meta.xml had no <app> tag, or if <long_description> tag is empty (Issue 150)
+* Changed a bit the StartUp process (Issue 152)
+* Changed NEEK running detection to v4
+
+Branches:
+* Updated libntfs to 2012-1-15 (rev11)
+* Updated libuneekfs to 1.0.7
+
+------------------------------------------------
+R120:
+
+* Changed the Taskbar layout
+* Added USB HDD multipartition support
+* Fixed Mii::Fix_DB() problem if the 3ds transfert fonction is enabled
+* Added a prompt to enable the 3DS transfert while Mii::Fix_DB()
+* Fixed bug in aiff sound playback (thx dimok)
+* Moved Mem2_Init() after video init
+* Changed NEEK running detection
+
+Branches:
+* Added libuneekfs 1.0.6 (thx odbc)
+
+------------------------------------------------
+R119:
+
+* Added Class Nand and Class Tools
+* Reworked lot of fonctions to use those new classes
+* Reworked old mii_installer fonction as a new class Mii
+* Fixed Random freeze while browsing save on wiisave.com
+* Fixed browser's freeze if no mii or savegame are installed in the nand
+* Lot of sources changes, clean and  sort
+* Added a Mii::FixDB() fonction on startup (fix Facelib file and miichannel's datas):
+	1) On Real Nand:
+		* If Facelib datas are corrupted, the app will fix the file, but all miis will be loses
+		* If the MiiChannel's datas are set to ask to begin with create a mii, the app will fix datas to avoid this problem. You can now install Miis from my app before use the MiiChannel and never have to create a new Mii manually.
+	2) On Emulated Nand (uneek):
+		* If Facelib are not installed, the app will install this one. You can now manage Miis without a MiiChannel installed. Nice for games like Mario Kart...
+		* If the MiiChannel is installed and datas are not installed or with bad set, the app will create and fix datas.
+	3) The app need a mii_db.bin file to fix FaceLib, there are 2 ways:
+		* If your wii is not connected to internet, download on google site and copy the file in your config folder (http://savegame-manager-gx.googlecode.com/files/mii_db.bin)
+		* If your wii is connected to internet, the mii_db.bin file is not found on storage device and the app is set to auto_connect, the app will download the file.
+
+------------------------------------------------
+R118:
+
+* Removed buggy focus system completely (it was never working correct)
+* Added support to control screen pointer with gc pad, nunchuk or classic controller. you are always able to control as long as the corresponding wii control does not point to the screen (e.g. wiimote 1 not pointing to screen -> gcpad/nunchuk/classic controller 1 can control pointer 1). A speed factor is added to the gui option (thx dimok)
+* Added Numpad text theme and is applied with keyboard theme entries
+* Added flush of homebrew memory before launching app_booter
+
+------------------------------------------------
+R117:
+
+* Added Data.bin extraction (official nintendo format) from nand to storage device only if the app is running under real nand.
+* Added custom path to select where must be extracted your data.bin by default (sd:/private/wii/title)
+* Added Keys class to find some Wii keys
+* Changed the animation behavior of icons (thanks antidote)
+* Some little changes in fileops, DirList and IosLoader::GetIosInfo()
+* Fixed false loading of custom dip module on d2x cIOS (thx dimok)
+* Converted all ogg sounds from 44.1 khz to 48 khz (thx dimok)
+* Fixed bad memory deallocation in data.bin fonctions to avoid corrupted datas
+
+Branches:
+* Added libseeprom (a library that provides filesystem access to the Wii's SEEPROM)
+* Added libotp (a library that provides filesystem access to the Wii's OTP)
+* Updated libext2fs to 1.0.4 r19
+
+------------------------------------------------
+R116:
+
+* Removed all functions related to the "index.sgmgx" file (perhaps a future emulated nand saves support...)
+* Fixed ExtractAllMiis() code dump.
+* Fixed GameTDB url.
+
+------------------------------------------------
+R115:
+
+* Fixed problem to find some saves on wiisave.com
+* Added a progress bar while the startup process
+* Fixed a navigation problem in manage prompts
+* Changed some grafics (code aligned to this changes)
+* minor optimization - make LIMIT not evaluate stuff like "atoi(...+strlen(stuff))" 3 times (thx giantpune)
+* Some minor clean ups
+
+Branches:
+* Updated libext2fs to 1.0.3 r17
+
+------------------------------------------------
+R114:
+
+* Changed illegal fat charaters fix and added a fonction to change old extracted filename while installing the save
+* Added new illegal fat charaters fix to extract a data.bin to storage device fonction
+* Fixed a problem who corrupt file datas while extracting a data.bin to a custom path
+* Fixed freeze for Wii with no internet connection (thanks to http://gbatemp.net/t301061-how-to-fix-the-connection-issue-while-running-in-ahbprot-mode)
+* Added ES AHBPROT patch to keep AHBPROT flag enabled while an IOS reload
+* Changed everything from WiiTDB to GameTDB (using new host and name)
+* Added quick switch between system font and old font (fixed memory leak in font change) (thx dimok)
+
+------------------------------------------------
+R113:
+
+* Added Download Save Fonctions to download saves from www.wiisave.com
+* Added DownloadSave button in Files/Saves/DataBin management windows
+* Added DownloadSave entry to Parental Control Restrictions
+* Added www.wiisave.com to credits and meta.xml
+* Changed zip files management in WiiTDB update fonctions
+* Fixed some memory leak in data.bin fonctions (thx giantpune)
+
+------------------------------------------------
+R112:
+
+* Added Data.bin support. Now, you can only decrypt a data.bin, and install in Nand or write on SD/HDD.
+* Added fonctions to move or delete data.bin on SD/HDD
+* Fixed Linux compile
+* lot of sources clean
+
+------------------------------------------------
+R111:
+
+* Fixed a crash if browsing a folder with file with no extension
+* Fixed Theme Downloader to download themes
+* Removed AppBooter sources, you can find those on WiiXplorer repository
+
+------------------------------------------------
+R110:
+
+* Added ListMode to NandMiiBrowser and NandSaveBrowser (Issue 127)
+* Updated to newest ehcmodule by rodries (thx!)
+* Added necessary source code to support both USB ports at once and copying files from one to another (WORKS ONLY WITH HERMES). It is disabled right now because of weird crash caused by the ehcimodule when copying from one usb port to another which can corrupt partitions. Will be enabled when the issue is resolved. Right now only usb port 0 is active.
+* Added use of the internal Wii System Menu font (thx to giantpune and r-win)
+* Changed default Font Scale to 0.95 to fit with the new font. If you disabled the system font, you should set scale factor to 1.000
+* Properly sync video after flush to avoid possible green flash
+* Using new app_booter (see below)
+* Moved argument command line also to mem2 to avoid overwrite of it
+* Reload back to entry ios when starting homebrew instead of starting it in cIOS
+* Converted every 4 spaces to a tab to make the source consistent on those
+
+AppBooter changes:
+* Reduced size of app_booter from 100KB to 1KB by striping libogc and using parts of savezelda code by TT (thx!)
+* Improved performance with the change above
+* Added argument passing for elf files as well
+* Clear bss located in mem1 when launching dols (thx oggzee)
+
+Forwarder changes:
+* Using new app_booter method
+* Properly sync video after flush to avoid possible green flash
+
+------------------------------------------------
+R109:
+
+* Improved FileBrowser speed up when open a folder containing lot of save files
+* Added new DeviceBrowser Layout (Choose List or Icon display in taskbar)
+* Added savetypes icons in the listbrowser
+* Fixed code dump on reload font (Issue 124)
+
+Branches:
+* Updated libfat to 1.0.10
+
+------------------------------------------------
+R108:
+
+* Added ScreenShot (hold Nunchuk button Z and press C)
+* Added some strings replacement for clean chanlog text
+* Added Language files update settings (you can now update meta, icon, wiitdb, lang without a new rev available)
+* Added SDReload Button on MainWindow
+* Fixed Titlte Launcher startup code dump (Issue 114)(thx pplucky for tests)
+* Fixed infinite loop when updating icon (Issue 118)
+* Fixed MoveSave and CopySave fonctions
+* Changed WiiTDB settings menu by Features menu
+* Changed some images position in ProgressWindow
+
+Forwarder:
+* Added comments line detection in meta.xml
+* Sources Clean
+
+------------------------------------------------
+R107:
+
+* Fixed usb probrem (Issue 111)
+* Reworked the filebrowser.h/.cpp
+* Some fixes in settings screens navigation
+* Completly recoded the TitleBrowser (Issue 110)
+* Completly recoded the gui_optionbrowser
+* Added Parental Control Restrictions (Issue 113)
+* Removed Libmxml use. Changed everything to use TinyXML (modified by dimok)
+* Fixed Theme Downloader to list the themes
+* Removed compile warnings for devkitPPC R23
+
+------------------------------------------------
+R106:
+
+* Added an automatic resource list generation script which is executed when files are added/removed (Thanks Dimok)
+* Added an own class for the HomebrewPrompt
+* Added booting with arguments from meta.xml for homebrews
+* Added an argument receiver from meta.xml to the app: "-ios=xxx". The ios is the boot IOS on startup.
+* Fixed Homebrew Browser duplicate buttons for apps with more than one dol in the app folder
+* Fixed lot of problems with USB HDD (need feedback)
+* Fixed the "GoogleCode" AutoUpdate problem (one more time...)
+
+NOTE: You will need to update to this revision manually. Due to a few changes from Google on the GoogleCode site, the autoupdater doesn't work anymore. This is fixed in the new revision for future releases.
+
+NOTE2: Here, lines needed to add argument in your meta:
+  <arguments>
+    <arg>-ios=xxx</arg>
+  </arguments>
+
+
+------------------------------------------------
+R105:
+
+* Improved HomebrewList creation speed up
+* Improved CheckSave fonction speed up
+* Fixed ThemeReload code dump
+* Completely reworked fileops file (now using DirList)
+
+------------------------------------------------
+R104:
+
+* forgot to commit some files
+
+------------------------------------------------
+R103:
+
+* Fixed a problem with pageIndicators in FlyingButtonMenu
+* Fixed "Racket Sports" savegame extract
+* Fixed bug where you can't leave an empty directory by clicking ".." (thx dimok)
+* Changes in nandtitle search
+* Added detection of cIOS d2x and show infos about it on CreditsWindow
+* Added squareroot sign to CheckBox
+
+Branches:
+* Updated libext2fs to v1.0.2 (rev15)
+* Updated libntfs to 2011-4-12 (rev10)
+
+------------------------------------------------
+R102:
+
+* Sources Clean (missing files will be committed with next rev)
+
+------------------------------------------------
+R101:
+
+* Fixed CodeDump problems (report please)
+* Prepared sources for devkitPPC rev23
+* Linux case sensitive compile error fixed (perhaps...)
+
+* Themes Changes:
+- Settings title Color added as "flyingbutton menu title text color"
+- Settings button text color added as "flyingbutton menu mainbutton text color"
+- Page indicator text color added as "flyingbutton menu title text color"
+- Theme Downloader title Color added as "flyingbutton menu title text color"
+- Theme Downloader button text color added as "flyingbutton menu mainbutton text color"
+- Theme Menu title Color added as "flyingbutton menu title text color"
+- Theme Menubutton text color added as "flyingbutton menu mainbutton text color"
+- Tooltip text color added as "tooltip text color"
+- Settings option browser entry test color added as "optionbrowser entry text color"
+- Text Reader filename text color added as "text reader filename text color"
+- Text Reader file text color added as "text reader file text color"
+- Home Menu main buttons text color added as "homemenu main button text color"
+- SelectBrowser adress text color added as "select browser adress text color"
+- SelectBrowser entry text color added as "select browser entry text color"
+- Keyboard text color added as "keyboard text color"
+- Keyboard buttons text color added as "keyboard buttons text color"
+- Keyboard special buttons text color added as "keyboard spec buttons text color"
+- CheckBox cross color added as "checkbox cross color"
+- CheckBox extern border color added as "checkbox extern border color"
+- CheckBox intern background color added as "checkbox intern background color"
+- Disabled mask color added as "disabled mask color"
+
+*Images reworked:
+- button_close.png
+- button_close_over.png
+- button_valid.png
+- button_valid_over.png
+- button_wifi.png
+- button_wifi_over.png
+
+------------------------------------------------
+R100:
+
+* Application completely recoded!!!
+* Forwarder Recoded
+* look here: http://code.google.com/p/savegamegx/source/list until rev32 for
+change log 
+
+------------------------------------------------
+R99:
+
+* icon.png files commit (sorry...)
+
+------------------------------------------------
+R98:
+
+* Added libfat 1.0.9 to libs branches
+* Added a make.sh file in libs branches to compile all those libraries in one click
+* A new icon.png (icon2.png), you can now choose in update settings which icon you want to download. (thanks Black.Pearl for this png)
+* Sources Sort
+
+------------------------------------------------
+R97:
+
+* Reworked the whole sound system. Supported formats AIF/MP3/OGG/BNS/WAV now with no file size limit (streaming)
+* Changed button click/over sounds to wav from raw pcm
+* Added BgMusic Class, you can now set your own Background music in the Sound Settings Window
+  - Click on BgMusic Path button to set your background music
+  - Click on BgMusic Loop button to set the music play type:
+      1 - PlayOnce: play the selected sound one time,
+      2 - Loop: play the selected sound in an infinite loop,
+      3 - RandomPlay: play randomly sounds contained in the selected file's folder,
+      4 - DirectoryLoop: play sounds contained in the selected file's folder in an infinite loop.
+  - Click on Reset BgMusic button to reload default music
+
+------------------------------------------------
+R96:
+
+* Changed gui_imageData to the one from WiiXplorer
+* Now the app can load more image type using libgd (hope that will help for future MiiRender...)
+* Added Resources Class
+* Added SimpleGuiTrigger shortcut
+* Added MainWindow Class
+* Adjusted all sources to this new class
+* Added some libraries sources to branches
+
+------------------------------------------------
+R95:
+
+* Removed old filebrowser sources
+* Adjusted WiiTDB path selection on new filebrowser
+* Changed PromptWindow and ProgressWindow in class
+* Rewrote ShortCut class in the same way of PromptWindow
+* Sources sort and clean
+
+------------------------------------------------
+R94:
+
+* Increased compile warning output with -Wextra and fixed all remaining compile warnings
+* libzip, libfat & libpngu are now included in the precompiled required libogc instead of sources
+* Removed libisfs from sources
+* Added some libraries sources to branches
+* Sources sort and clean
+
+------------------------------------------------
+R93:
+
+* Completely changed the SettingMenu in Class
+* Rewrote Language & File Select prompts in the same way of Custom Path Select prompt
+* Rewrote HomeMenu in Class
+* Added app_booter sources to branches
+
+------------------------------------------------
+R92:
+
+* Fixed WiiTDB load bug (reworked new usbloaderGx WiiTDB class, thx Dimok)
+* Changed WiiTDB update fonction to save a unzipped wiitdb.xml
+
+------------------------------------------------
+R91:
+
+* Fixed the corrupted saves problem if game is loaded with cIOS222
+
+------------------------------------------------
+R90:
+
+* Added a fonction to get saves blocksize on devices
+* Fixed the "can't acces nand path" error in manage all saves process
+* Fixed reboot code dump after a custom font selection
+* Fixed compile error for libogc rev4455
+
+------------------------------------------------
+R89:
+
+WARNING:
+Old Saves extracted with SaveGame Manager GX are not supported anymore (another time...sorry).
+
+* Completely changed the way of savegames extract/install process (just 1 index file instead of 1 by file)
+
+------------------------------------------------
+R88:
+
+* Compile warnings fixed for devkitPPC R22
+
+------------------------------------------------
+R87:
+
+* Completely changed the way of savegames extract/install process (Tales of Symphonia fix)
+* Removed old waninkoko savegame_copydata() fonction
+* Changed the WiiTDB link (smaller file) (http://wiitdb.com/wiitdb.zip?LANG=TITLESONLY)
+* Some source clean and little fixes
+
+WARNING:
+Old Saves extracted with SaveGame Manager GX are not supported anymore
+If you want to support old saves:
+
+* create a file named "banner.bin.sgmgx_index"
+* open this file and write inside "banner.bin"
+* put this file on your SD in the same folder of your banner file:
+	/savegames/00010000xxxxxxxx/banner.bin
+	/savegames/00010000xxxxxxxx/banner.bin.sgmgx_index
+	...
+* repeat for each file:
+	/savegames/00010000xxxxxxxx/01.dat
+	/savegames/00010000xxxxxxxx/01.dat.sgmgx_index
+	/savegames/00010000xxxxxxxx/PROFILE
+	/savegames/00010000xxxxxxxx/PROFILE.sgmgx_index
+	...
+
+Take care to name correctly the file (respect case) in your .sgmgx_index file cause the wii will use this to create the file on the nand with the good character case!!!
+
+------------------------------------------------
+R86:
+
+* Removed libmii
+* Rewrited CreateMiiList() to get directly mii info
+* Some fonctions modified to match with this change
+* Fixed the refresh bug of the miiBrowser
+
+------------------------------------------------
+R85:
+
+* Fixed the "GoogleCode" AutoUpdate problem (one more time...)
+
+NOTE: You will need to update to this revision manually. Due to a few changes from Google on the GoogleCode site, the autoupdater doesn't work anymore. This is fixed in the new revision for future releases.
+
+------------------------------------------------
+R84:
+
+* Removed PowerMenu
+* Added PowerMenu in HomeMenu
+* Changed the Power Button on MainMenu by a Home Button
+* Added a ShortCuts Window, that allow you to display saves browsers or mii browsers (Nand save/mii browser and Device default save/mii path)
+* Wii button is now linked to the ShortCuts Window
+
+------------------------------------------------
+R83:
+
+* Fixed invalid characters for filenames while extract/install miis or saves (Harry Potter fix)
+* Fixed the Mii name and creator utf-16 problem if name length is 10 characters
+* Fixed a problem with B button's navigation at startup if BootMethod is on "Mii" or "Wii"
+* Added a progress window while meta.xml, icon.png and wiitdb.zip are updating
+* Changed "WiiTdb" texts to "WiiTDB" to match with real name of the database
+* Some other littles fixes
+
+------------------------------------------------
+R82:
+
+* Added a message to inform you when an error happend while the extract/install All Saves/Miis process
+* Added ErrorLog Class to create manageAll process error log file (you are prompted to display this file after the process if an error is encountered)
+* Fixed RemoveFolder() fonction if the folder path is not derminated by "/"
+* Added ManageThrobber as Class
+* Now you can change between displayed browsers by pressing B button
+* Added WiiTDB to Credits
+* Added Credits music volume to the sound settings
+* Added AllNandMii delete() and AllDeviceMiiDelete() fonctions to delete all miis in wii or from a folder on your storage device.
+* Some little fix & sources clean
+
+Forwader:
+- Using IOS58 for the USB2 now
+- Proper shutdown of the USB device at the end
+
+------------------------------------------------
+R81:
+
+* Added WiiTDB Support for SaveGame Titles:
+ - Support .xml/.zip formats
+ - Added WiiTDB Settings in SettingsPrompt
+ - Update the WiiTDB directly from WiiTDB Settings
+ - Added Update WiiTDB option in UpdateSettings to update WiiTdb.zip with the .dol
+ - Required WiiTDB download link: "http://wiitdb.com/wiitdb.zip?LANG=NONE" (if your Wii is not connected)
+
+Forwarder:
+* USB2.0 support added if cIOS202 is installed
+
+------------------------------------------------
+R80:
+
+* fix compiling under linux ( case-sensitivity in path names )
+
+------------------------------------------------
+R79:
+
+* Added Mii in ManageAll window (you can now extract install your miis in one go)
+* Added a choice in ManageAll window to select the path where/from extract/install your Saves/Miis
+* Added MiiProgress Window to show you mii's informations during InstallingAll/ExtractingAll
+
+------------------------------------------------
+R78:
+
+* Added mii's birtday, mii's gender and mii's favorite color in ManageMiiPrompt
+* Fixed some bugs in ManageMiiPrompt's navigation
+* Fixed the "GoogleCode" AutoUpdate problem
+
+NOTE: You will need to update to this revision manually. Due to a few changes from Google on the GoogleCode site, the autoupdater doesn't work anymore. This is fixed in the new revision for future releases.
+
+------------------------------------------------
+R77:
+
+* Added a MiiManagePrompt, for now, that display mii's name, creator name and buttons with available actions
+
+------------------------------------------------
+R76:
+
+* Fixed problem with freeze in Setting Screen
+* Added Mii bootmethod in Settings
+* Added ability to change Browsed Storage Device in CustomPathBrowser if more than 1 storage device are connected
+
+Forwarder:
+* Changed dol boot method
+
+------------------------------------------------
+R75:
+
+* Forgot to add comments
+
+------------------------------------------------
+R74:
+
+* Added ability to select where extract a SaveGame & a Mii (default config path, browsed path or custom path)
+* Added a CustomPath browser to browse through your device, then select or create the path where you want to extract
+* Added a SaveCopy() & a SaveMove() fonctions to copy/move the selected SaveGame to an other directory
+* Added a CopyMii() & a MoveMii() fonctions to copy/move the selected Mii to an other directory (for now, MoveMii() is not used)
+
+Forwarder:
+* Added a forwarder sources in branches, you can use it to make some channels
+
+------------------------------------------------
+R73:
+
+* Added DeleteDeviceMii() to delete Mii on storage device
+* Added DeleteNandMii() to delete Mii on Wii's Nand
+* Fixed problem of detection of already installed mii when there are some empty mii in the nand mii file
+
+------------------------------------------------
+R72:
+
+* Fixed the start up problem if less than 4 saves installed in wii
+* Added icon for not installed saves in manage window
+* Fixed utf-16 name and subname for not installed saves
+* Added a miibrowser refresh after install a mii
+
+------------------------------------------------
+R71:
+
+* fixed long utf-16 mii name problems
+* fixed problem with reboot after update app in updateSettingPrompt
+
+------------------------------------------------
+R70:
+
+* fixed utf-16 mii name display
+* fixed the freeze when enter in setting path and no config file on device, or new custom path in app and first run with the old config file
+* fixed the code dump if the extract pass are not set in configfile (now the default path work)
+* perhaps fixed the problem to run app under sneek (thx to report)
+* some sources sort
+
+------------------------------------------------
+R69:
+
+* Added Mii support
+* perhaps fixed the prob about wii save list display if less than 6 saves installed in your wii (thx to report)
+* added Miis saves default custom path in setting
+* Lot of sources sort and clean
+
+------------------------------------------------
+R68:
+
+* Added a TitleWindow under the WiiSave List to display the name of the selected save
+* Added a setting to enable or disable the TitleWindow
+* Fixed the google AutoUpdate problem (thanks Dimok)
+
+NOTE: You will need to update to this revision manually. Due to a few changes from google on the googlecode site the autoupdater doesn't work anymore. This is fixed in the new revision for future releases.
+
+------------------------------------------------
+R67:
+
+* Completely fixed the Wii UTF-16 Name and Subname display.
+
+------------------------------------------------
+R66:
+
+* Redone the fonction to get the SaveList in c++
+now the savelist info are available more easily everywere in the app.
+
+------------------------------------------------
+R65:
+
+* Added AllManageWindow (click on old switsh button to acces this fonction)
+* little changes in UpdateSettingPrompt (check for update if you activate the autoUpdate option)
+* fixed gui_banner compile warnings
+* some other little fixes and sources clean
+* some clean in translate strings
+
+------------------------------------------------
+R64:
+
+* Added Reboot fonction (used after update or font change)
+
+------------------------------------------------
+R63:
+
+* Added AutoConnect option in update settings (if autoconnect is enabled, the app will look automatically for new update on startup)
+
+------------------------------------------------
+R62:
+
+* lot of fix in ManageWindow navigation
+* added ManageProgress
+* some sources clean
+
+------------------------------------------------
+R61:
+
+* lot of changes in ManageWindow
+* added left/right navigation
+
+------------------------------------------------
+R60:
+
+* BIG BIG changes in SaveManagePrompt, Renamed in ManageWindow. Now construct on class, i can manage buttons and window separately
+* fixed the problem with gui_text
+
+Notes:
+More changes in mind (like left/right navigation in manageWindow) but not time for now so i release this working version ;)
+
+------------------------------------------------
+R59:
+
+* Added a ShowLog fonction (from WiiXplorer) to download and display the 6 last ChangeLog of SaveGame Manager GX (file is save in your UpdatPath)
+* Modified DeviceBrowser and Menu to display .log file (new icon added)
+* Some fix on WindowsProgress, TextReader and gui_text
+
+------------------------------------------------
+R58:
+
+* Added a TextReader for future use
+
+------------------------------------------------
+R57:
+
+* Added new button in settings prompt about updates
+* Added new custom path option: Update Path
+* Added update fonction with settings about meta and icon in update settings
+
+Warning: Delete your old config file !!!
+
+------------------------------------------------
+R56:
+
+* Added a Warning Message in SaveManage Prompt to explain why u can't install if the save is not already installed in Wii
+* Added a new ScrollText effect (SCROLLFULL) to manage this message
+* Now you can change the ScreenSize without reboot the app
+* Added LastBrowsedPath to NAVINFO to store the lastest browsed path in DeviceBrowser (not used for now)
+* Added LastDeviceFirstItem and LastDeviceItemSelected to NAVINFO to return in DeviceBrowser where you leave it (not used for now)
+* Changed the NAVINFO update way
+* Added Refresh to nav info to allow refresh browser after an extraction
+* Created some fonction in menu_loop to clean up menu.cpp (SaveInstall(), SaveExtract(), ...)
+* Added SaveDelete() fonction to delete save on device
+
+------------------------------------------------
+R55:
+
+* Added SaveGameManagePrompt
+* added LastWiiSaveSelected in NAVINFO to return to the last selected save in wiisave list
+* added LastWiiSaveFirstItem in NAVINFO to display save list were you leave it
+* many changes in gui_savebrowser.cpp and menu.cpp to use those new parametres
+* some navigation fixes
+* titleid added to SaveList and DeviceBrowser
+* Throbber img and speed fixed
+* Language files updated
+
+------------------------------------------------
+R54:
+
+* perhaps fixed the start up code dump encountered by some people with sdhc (please report)
+* added title ID to SaveList and BrowserInfo (for later use...)
+* some sources clean up
+
+------------------------------------------------
+R53:
+
+* changed gui_savebrowser to display save banner instead title
+* main menu now display the 2 browsers (switch by press B or Switch button)
+* some navigation fix
+
+------------------------------------------------
+R52:
+
+* added classes and functions needed to generate and display TPLs from save banners (thx pune)
+* added a typedef NAVINFO to store info about navigation between devices and menus
+* many change in browse way, now the last browsed path still in memory and when you back from anywhere, you get your browser where you leave it
+
+------------------------------------------------
+R51:
+
+* added NandBlockSize() fonction to get the blocksize of save in the wii nand
+* added blocksize to savegame struct & devicebrowserinfo for later use (for now, if the save is not installed on the nand, the returned blocksize is 0)
+
+------------------------------------------------
+R50:
+
+* Updated to DevkitPro R21
+
+------------------------------------------------
+R49:
+
+* added getNandName() fonction to get the real wii utf-16 encoding (will see later for utf-16 fix)
+* added subname to savegame struct for later use
+* added getTitleSubName() fonction to get subname for save on device
+* added subname to browserdevice struct for later use
+* The device browser display now only directories and saves (other files are not needed)
+* the language files are now downloaded on google instead of my server
+
+------------------------------------------------
+R48:
+
+* Added a new icon if the save on device is not installed on Wii
+
+------------------------------------------------
+R47:
+
+* Changed the way of device class (now use a struct instead of temporary file)
+* Changed the way of Settings class (now use a struct instead of always save and reload cfg file)
+* SaveList is now created in mainmenu() at start up for faster menu refresh
+* fixed the savebrowser length
+* Makefile tweaks for faster compile on Windows (image convert printout removed)(thx Dimok)
+
+------------------------------------------------
+R46:
+
+* just some sort in sources
+
+------------------------------------------------
+R45:
+
+* Reverted to rev34 (please, all people having trouble with code dump, report if the app boot or if acces correctly to settings now)
+* Moved r44+ last work in branches for later use
+
+NOTE:
+So the work will restart on the first working version
+(now will try to get more stable app)
+
+------------------------------------------------
+R44+:
+
+* Added a not installed icon to devicebrowser
+* ...
+
+------------------------------------------------
+R44:
+
+* Added SaveIcon to SaveManage prompt (displayed only if save already installed on wii)
+* Many changes in SaveManage prompt
+* Now you can choice where extract saves (defaultpath, browsedPath)
+* Added Delete Save in device (not in wii)
+* the browser is now refresh after extract or delete
+
+------------------------------------------------
+R43:
+
+* Changed the way to get name and subname (more stable, but for now, utf-8 support is break)
+* added a sort save files in device browser (now sorted by alphabetical displayname)
+
+------------------------------------------------
+R42:
+
+* Now, the blocksize is always get from the nand (so the blocksize is now working for device but if youhave already a save install on the wii).
+* added a GetSubName fonction
+* added the Subname in SaveManagePrompt
+
+------------------------------------------------
+R41:
+
+* Added a SaveGamePrompt to display information about the save (still to add the icon)
+* added the wiiblock size to the savegame struct
+* added the getfoldersize fonction to get the savesize on device
+* languages files updated
+
+note: the getfoldersize fonction is not completely working for now
+
+------------------------------------------------
+R40:
+
+* Changed some things in DeviceBrowser to restore is fonctionality following the WiiSavebrowser changes
+* Giantpune added to meta.xml ;)
+
+------------------------------------------------
+R39:
+
+* New Browser Layout working for wii browser
+* Switch browsing between the 2 browser by press B or click Switch button.
+
+------------------------------------------------
+R38:
+
+* Giantpune added to Credits, Thx man
+* Started to implement the new browser layout (not completly working for now).
+
+------------------------------------------------
+R37:
+
+* add functions to get the size of save data from the nand (not used for
+anything yet, but at least its there)
+
+------------------------------------------------
+R36:
+
+*add subfolder create before trying to extract a save
+*fix building on linux machines (case sensitivity)
+*fix bug in the list length
+*added classes and functions needd to generate and display TPLs from
+save banners
+*changed the savebrowser to display those banners for nand saves only
+right now
+
+------------------------------------------------
+
+R35:
+
+* added left and right scroll on wiisavebroser (page/page)
+* fixed some issue with scrollbar on wiisavebroser
+* started to implement a detection of wich save type is selected in WiiBrowser(don't work for now)
+
+------------------------------------------------
+R34:
+
+* Added Extract and Install fonction (So, the app is fonctional)
+* icon_save.png changed (more wii-ish)
+
+------------------------------------------------
+R33:
+
+* Device Browser modified to found saves and display as a file with a save icon
+
+------------------------------------------------
+R32:
+
+* wii browser changed to just list the saves files found in the wii files system
+* fixed a problem with usb detection.
+
+------------------------------------------------
+R31:
+
+* Started to implement SaveGame Manager fonctions (Not Working for now)
+
+------------------------------------------------
+R30:
+
+* reverted to cIOS 249 (to correctly browse isfs (wii))
+* fixed usb device load under cIOS 249
+
+------------------------------------------------
+R29:
+
+* Reboot PromptWindows added when living settings if screen settings modified
+* Press B button in SaveGameBrowser to go to parent directory
+* Cosmetics changes in GuiSaveBrowser (now 9 items instead of 8 are listed).
+
+------------------------------------------------
+R28:
+
+* reverted to ios36 to allow usbbrowse (need to find a fix to browse with cios249)
+* Widescreen fixed (now you need to reboot by yourself after changed this setting)
+
+------------------------------------------------
+R27:
+
+* Added forgotten files in r26
+
+------------------------------------------------
+R26:
+
+* Proper use of ogglib (vorbisidec) no more tremor (thx to Dimok)
+* Little sort of sources
+* You can now quit WiimoteSettings by press B button
+
+Notes:
+To compile this new rev you need the libvorbis.zip located in download page.
+Go in <your_path>\devkitPro\libogc\include\
+Then rename the folder "tremor" like you want (like this you can rollback to compile others app like USB Loader GX)
+Copy the content of the downloaded file to <your_path>\devkitPro\libogc\
+
+Or you can just download and install the new libogc on download page.

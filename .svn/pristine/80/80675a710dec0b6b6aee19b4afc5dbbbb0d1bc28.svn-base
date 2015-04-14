@@ -1,0 +1,808 @@
+# SaveGame Manager GX language source file.
+# tchinese.lang - r95
+# don't delete this line (é).
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-06 02:39+0100\n"
+"PO-Revision-Date: 2009-07-18 15:18+0200\n"
+"Last-Translator: Jane.H\n"
+"Language-Team: kavid, speedfly, Jane.H\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " "
+msgstr ""
+
+#, c-format
+msgid "%d files available"
+msgstr "%d 個檔案可用"
+
+msgid "1 hour"
+msgstr "1 小時"
+
+msgid "1 min"
+msgstr "1 分鐘"
+
+msgid "10 mins"
+msgstr "10 分鐘"
+
+msgid "12 Hours"
+msgstr "12小時"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 分鐘"
+
+msgid "24 Hours"
+msgstr "24小時"
+
+msgid "3 mins"
+msgstr "3 分鐘"
+
+msgid "30 mins"
+msgstr "30 分鐘"
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 分鐘"
+
+msgid "Action cancelled."
+msgstr "操作取消"
+
+msgid "All Language files updated."
+msgstr "語言檔已更新"
+
+msgid "All translaters for language files updates"
+msgstr "翻譯者列表已更新"
+
+msgid "April"
+msgstr "4月"
+
+msgid "Are you sure ?"
+msgstr "是否確認？"
+
+msgid "Audio Settings"
+msgstr "音效設定"
+
+msgid "August"
+msgstr "8月"
+
+msgid "Auto Update"
+msgstr "自動更新"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Back to Loader"
+msgstr "返回Loader"
+
+msgid "BgMusic Loop"
+msgstr ""
+
+msgid "BgMusic Path"
+msgstr ""
+
+msgid "Big thanks to:"
+msgstr "非常感謝："
+
+msgid "Black.Pearl"
+msgstr ""
+
+msgid "Black.Pearl Icon"
+msgstr ""
+
+msgid "BootMethod"
+msgstr "啟動方式"
+
+msgid "Browse Miis"
+msgstr "瀏覽 Mii"
+
+msgid "Browse SD"
+msgstr "瀏覽 SD"
+
+msgid "Browse Saves"
+msgstr "瀏覽存檔"
+
+msgid "Browse USB"
+msgstr "瀏覽 USB"
+
+msgid "Browsed"
+msgstr "當前目錄"
+
+msgid "Can not open the file"
+msgstr "無法開啟檔案"
+
+msgid "Can't create the Mii file."
+msgstr "無法建立Mii檔案。"
+
+msgid "Can't load file"
+msgstr "無法讀取檔案"
+
+msgid "Can't open the Nand Mii file."
+msgstr "無法開啟Nand中的Mii檔案。"
+
+msgid "Can't read the Nand Mii file."
+msgstr "無法讀取Nand中的Mii檔案。"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cancelled"
+msgstr "已取消"
+
+msgid "Cannot write to destination."
+msgstr "無法寫入檔案"
+
+msgid "Caps"
+msgstr "大寫"
+
+msgid "Change Play Path"
+msgstr ""
+
+msgid "Clock"
+msgstr "時鐘"
+
+msgid "Close"
+msgstr "關閉"
+
+msgid "Coding:"
+msgstr "編碼中："
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Copy"
+msgstr "複製"
+
+msgid "Copy cancelled"
+msgstr "複製已取消"
+
+msgid "Copying Save"
+msgstr "正在複製存檔。"
+
+msgid "Could not connect to the server."
+msgstr "無法連接到伺服器。"
+
+msgid "Could not download file."
+msgstr "無法下載檔案。"
+
+msgid "Could not initialize network!"
+msgstr "無法啟動網路！"
+
+msgid "Credits"
+msgstr "感謝"
+
+msgid "Credits Volume"
+msgstr "音量調節"
+
+msgid "Custom"
+msgstr "自定義"
+
+msgid "Custom Font"
+msgstr "自訂字型"
+
+msgid "Custom Paths"
+msgstr "自訂路徑"
+
+msgid "December"
+msgstr "12月"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Default Settings"
+msgstr "初始化設定"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete All"
+msgstr "全部刪除"
+
+msgid "Delete All Device Miis"
+msgstr "刪除全部裝置Mii"
+
+msgid "Delete All Miis"
+msgstr "刪除全部Mii"
+
+msgid "Delete cancelled"
+msgstr "刪除已取消"
+
+msgid "Deleting All Nand Mii..."
+msgstr "正在刪除全部Nand Mii..."
+
+msgid "Deleting All device Miis..."
+msgstr "正在刪除全部裝置Mii..."
+
+msgid "Deleting Save"
+msgstr "刪除遊戲記錄"
+
+msgid "Design:"
+msgstr "設計："
+
+msgid "Devices"
+msgstr "裝置"
+
+msgid "Directory Loop"
+msgstr ""
+
+msgid "Display the report?"
+msgstr "顯示報告？"
+
+msgid "Do you want to connect?"
+msgstr "是否連接？"
+
+msgid "Do you want to download now?"
+msgstr ""
+
+msgid "Do you want to load this language ?"
+msgstr "是否想要使用這語言？"
+
+msgid "Do you want to reboot now ?"
+msgstr "是否立刻重新啟動？"
+
+msgid "Do you want to update now ?"
+msgstr "是否立刻更新？"
+
+msgid "Downloading file..."
+msgstr "檔案下載中，先去趟洗手間吧……"
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "Dutch"
+msgstr "荷蘭語"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Error encountered:"
+msgstr "錯誤衝突："
+
+msgid "Errors encountered:"
+msgstr "錯誤衝突："
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Extract"
+msgstr "提取"
+
+msgid "Extract All"
+msgstr "全部提取"
+
+msgid "Extract All Miis"
+msgstr "提取每一個Mii"
+
+msgid "Extract All Saves"
+msgstr "提取每一個遊戲存檔"
+
+msgid "Extract cancelled"
+msgstr "提取已取消"
+
+msgid "Extract to:"
+msgstr "提取到："
+
+msgid "Extracting All..."
+msgstr "全部提取..."
+
+msgid "Extracting Save"
+msgstr "存檔提取中"
+
+msgid "Failed to get the Changelog."
+msgstr "獲取更新日誌失敗。"
+
+msgid "February"
+msgstr "2月"
+
+msgid "Filesize is empty."
+msgstr "檔案大小是空。"
+
+msgid "Font changed"
+msgstr "字型已更改"
+
+msgid "French"
+msgstr "法語"
+
+msgid "From:"
+msgstr "來自："
+
+msgid "Full Shutdown"
+msgstr "完全關機"
+
+msgid "GUI Settings"
+msgstr "圖形介面設定"
+
+msgid "German"
+msgstr "德語"
+
+msgid "Getting Changelog..."
+msgstr "獲取更新日誌中..."
+
+msgid "Go Back"
+msgstr "返回"
+
+msgid "HOME Menu"
+msgstr "系統功能表"
+
+msgid "Home Menu"
+msgstr "系統功能表"
+
+msgid "Homebrew Channel"
+msgstr "自製程式頻道"
+
+msgid "Icon Update"
+msgstr "Icon圖示更新"
+
+msgid "Icon successfully downloaded."
+msgstr ""
+
+msgid "Idle Shutdown"
+msgstr "空閒關閉"
+
+msgid "InfoWindow"
+msgstr "資訊視窗"
+
+msgid "Initializing Network"
+msgstr "啟動網路中"
+
+msgid "Install"
+msgstr "安裝"
+
+msgid "Install All"
+msgstr "全部安裝"
+
+msgid "Install All Miis"
+msgstr "安裝每一個Mii"
+
+msgid "Install All Saves"
+msgstr "安裝每一個遊戲存檔"
+
+msgid "Install cancelled"
+msgstr "安裝已取消"
+
+msgid "Installing All..."
+msgstr "安裝全部..."
+
+msgid "Installing Save"
+msgstr "安裝遊戲存檔中"
+
+msgid "Italian"
+msgstr "義大利語"
+
+msgid "JAP to EN"
+msgstr "日語轉英語"
+
+msgid "January"
+msgstr "1月"
+
+msgid "Japanese"
+msgstr "日語"
+
+msgid "July"
+msgstr "7月"
+
+msgid "June"
+msgstr "6月"
+
+msgid "Korean"
+msgstr "韓語"
+
+msgid "Language"
+msgstr "語言"
+
+msgid "Language Path changed."
+msgstr "語言檔路徑變更"
+
+msgid "Later"
+msgstr "稍候"
+
+msgid "Loading file:"
+msgstr "檔案讀取中:"
+
+msgid "Loading standard music."
+msgstr ""
+
+msgid "Manage All"
+msgstr "管理全部"
+
+msgid "Manage All Miis"
+msgstr "管理每一個Mii"
+
+msgid "Manage All Saves"
+msgstr "管理每一個遊戲存檔"
+
+msgid "March"
+msgstr "3月"
+
+msgid "May"
+msgstr "5月"
+
+msgid "Meta Update"
+msgstr "Meta更新"
+
+msgid "Mii"
+msgstr "Mii"
+
+msgid "Mii memory is full."
+msgstr "Mii記憶體已滿。"
+
+msgid "Miis"
+msgstr "多Mii"
+
+msgid "Miis Path"
+msgstr "Mii路徑"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Move cancelled"
+msgstr "移動已取消"
+
+msgid "Moving Save"
+msgstr "正在移動存檔"
+
+msgid "Music Volume"
+msgstr "音量"
+
+msgid "Nand"
+msgstr "Nand記憶體"
+
+msgid "No"
+msgstr "否"
+
+msgid "No Mii found in Wii memory."
+msgstr "Wii記憶體中沒有找到Mii。"
+
+msgid "No Mii found in this folder."
+msgstr "這檔案夾中沒有Mii。"
+
+msgid "No SaveGame found in Wii."
+msgstr "wii中沒有找到遊戲存檔。"
+
+msgid "No SaveGame found in this folder."
+msgstr "這檔案夾中沒有發現遊戲存檔。"
+
+msgid "No network connection"
+msgstr "無網路連接"
+
+msgid "No new updates available"
+msgstr "無可用更新"
+
+msgid "Not a valid URL"
+msgstr "不是有效的網址"
+
+msgid "Not a valid URL path"
+msgstr "不是有效的網址路徑"
+
+msgid "Not a valid domain"
+msgstr "不是有效的網域名稱"
+
+msgid "Not enough memory."
+msgstr "記憶體不足"
+
+msgid "Not supported format!"
+msgstr ""
+
+msgid "November"
+msgstr "11月"
+
+msgid "OFF"
+msgstr "關閉"
+
+msgid "OK"
+msgstr "確定"
+
+msgid "ON"
+msgstr "開啟"
+
+msgid "October"
+msgstr "10月"
+
+msgid "Official Site:"
+msgstr "官方網址："
+
+msgid "OverWrite"
+msgstr "覆蓋"
+
+msgid "Path Changed"
+msgstr "路徑已改變"
+
+msgid "Play Next"
+msgstr ""
+
+msgid "Play Once"
+msgstr ""
+
+msgid "Play Previous"
+msgstr ""
+
+msgid "Playing Music:"
+msgstr ""
+
+msgid "Random Play"
+msgstr ""
+
+msgid "Reboot failed"
+msgstr "重新啟動失敗"
+
+msgid "Reset BgMusic"
+msgstr ""
+
+msgid "Reset Settings"
+msgstr "重置設定"
+
+msgid "Retry"
+msgstr "重試"
+
+msgid "Rev"
+msgstr "版本"
+
+msgid "Rumble"
+msgstr "振動"
+
+msgid "SD"
+msgstr "SD卡"
+
+msgid "SD/USB"
+msgstr "SD卡/USB裝置"
+
+msgid "SFX Volume"
+msgstr "音效"
+
+msgid "Save Path"
+msgstr "儲存路徑"
+
+msgid "Saves"
+msgstr "多遊戲存檔"
+
+msgid "Saves Path"
+msgstr "存檔路徑"
+
+msgid "Screen Size"
+msgstr "螢幕大小"
+
+msgid "Screensaver"
+msgstr "螢幕保護"
+
+msgid "September"
+msgstr "9月"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Shortcuts"
+msgstr "快捷方式"
+
+msgid "Show Changelog"
+msgstr "顯示更新日誌"
+
+msgid "ShutDown Wii"
+msgstr "關閉Wii"
+
+msgid "Simple Chinese"
+msgstr "簡體中文"
+
+msgid "Sorry, you can't copy to the same path"
+msgstr "抱歉，你不能複製到相同路徑"
+
+msgid "Sorry, you can't move to the same path"
+msgstr "抱歉，你不能移動到相同路徑"
+
+msgid "Spanish"
+msgstr "西班牙語"
+
+msgid "Special thanks to:"
+msgstr "特別感謝："
+
+msgid "Standard"
+msgstr ""
+
+msgid "Standard Icon"
+msgstr ""
+
+msgid "Stored in Wii's Nand?"
+msgstr "儲存到Wii Nand中？"
+
+msgid "Succesfully copied"
+msgstr "複製成功"
+
+msgid "Succesfully deleted"
+msgstr "成功刪除"
+
+msgid "Succesfully done"
+msgstr "成功完成"
+
+msgid "Succesfully extracted"
+msgstr "提取成功！"
+
+msgid "Succesfully installed"
+msgstr "存檔成功安裝"
+
+msgid "Succesfully moved"
+msgstr "移動成功"
+
+msgid "Title Loop"
+msgstr ""
+
+msgid "To:"
+msgstr "到:"
+
+msgid "Tooltips"
+msgstr "提示"
+
+msgid "Trad Chinese"
+msgstr "繁體中文"
+
+msgid "Transfer cancelled."
+msgstr "取消傳輸"
+
+msgid "Transfer failed"
+msgstr "傳輸失敗"
+
+msgid "URL is empty."
+msgstr "未輸入網址。"
+
+msgid "USB"
+msgstr "USB裝置"
+
+msgid "Unable to SetUID"
+msgstr "無法設定UID"
+
+msgid "Unable to copy data"
+msgstr "無法複製資料"
+
+msgid "Unable to copy the selected Mii"
+msgstr "無法複製已選擇的Mii"
+
+msgid "Unable to copy this SaveGame"
+msgstr "無法複製這遊戲存檔"
+
+msgid "Unable to create Mii list."
+msgstr "無法建立Mii清單。"
+
+msgid "Unable to create Wii Saves list."
+msgstr "無法建立存檔列表"
+
+msgid "Unable to delete data"
+msgstr "資料無法刪除"
+
+msgid "Unable to delete the selected Mii"
+msgstr "無法刪除已選擇的Mii"
+
+msgid "Unable to delete this SaveGame"
+msgstr "無法刪除這遊戲存檔"
+
+msgid "Unable to extract the selected Mii"
+msgstr "無法提起所選的Mii"
+
+msgid "Unable to find device."
+msgstr "找不到裝置"
+
+msgid "Unable to get NAND path"
+msgstr "無法讀取NAND路徑"
+
+msgid "Unable to install the selected Mii"
+msgstr "無法安裝所選的Mii"
+
+msgid "Unable to move the selected Mii"
+msgstr "無法移動已選擇的Mii"
+
+msgid "Unable to move this SaveGame"
+msgstr "無法移動這遊戲存檔"
+
+msgid "Update"
+msgstr "升級"
+
+msgid "Update Path"
+msgstr "更新路徑"
+
+msgid "Update Settings"
+msgstr "更新設定"
+
+msgid "Update all Language Files to:"
+msgstr "更新所有語言檔到："
+
+msgid "Update failed"
+msgstr "更新失敗"
+
+msgid "Update successfully finished"
+msgstr "更新完成"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "更新到Rev%i可用版本"
+
+msgid "Updates"
+msgstr "更新"
+
+msgid "Updating Language Files:"
+msgstr "升級語言檔如下："
+
+msgid "Updating WiiTDB"
+msgstr "正在更新WiiTDB"
+
+msgid "WARNING: All existing Miis in Wii will be overwritten by installed Miis !!!"
+msgstr "警告：在Wii主機中所有現存的Mii將會被所安裝的Mii覆蓋！！！"
+
+msgid "WARNING: All existing Miis in the Wii's memory will be deleted !!!"
+msgstr "警告：在Wii主機記憶體中所有現存的Mii將會被刪除！！！"
+
+msgid "WARNING: All existing Miis in this path will be deleted !!!"
+msgstr "警告：在這路徑所有現存的Mii將會被刪除！！！"
+
+msgid "WARNING: All existing Miis in this path will be overwritten by extracted Miis !!!"
+msgstr "警告：在這路徑所有現存的的Mii將會被所解壓縮的Mii覆蓋！！！"
+
+msgid "WARNING: All existing saves in Wii will be overwritten by installed saves !!!"
+msgstr "警告：在Wii主機中所有現存的遊戲存檔將會被所安裝存檔覆蓋！！！"
+
+msgid "WARNING: All existing saves in this path will be overwritten by extracted saves !!!"
+msgstr "警告：在這路徑所有現存的遊戲存檔將會被解壓縮的存檔覆蓋!!!"
+
+msgid "WARNING: This old SaveGame Manager GX Save format is not anymore supported since revision 87!!!"
+msgstr "警告：自87版本之後不支持舊SaveGame Manager GX的存檔格式！！！"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr "警告：你必須在Wii玩過遊戲且有遊戲存檔才可安裝這遊戲存檔！！！"
+
+msgid "Wii"
+msgstr "Wii"
+
+msgid "Wii Menu"
+msgstr "Wii主選單"
+
+msgid "WiiTDB"
+msgstr "WiiTDB"
+
+msgid "WiiTDB Langue"
+msgstr "WiiTDB語言"
+
+msgid "WiiTDB Path"
+msgstr "WiiTDB路徑"
+
+msgid "WiiTDB Settings"
+msgstr "WiiTDB設定"
+
+msgid "WiiTDB Titles"
+msgstr "WiiTDB標題"
+
+msgid "WiiTDB Update"
+msgstr "WiiTDB更新"
+
+msgid "Yes"
+msgstr "確定"
+
+msgid "You need to install a cIOS 249 from Waninkoko to use this app."
+msgstr "必須安裝Waninkoko的cIOS 249 才可以使用這程式"
+
+msgid "You need to install a cIOS 249 rev 9 or higher to use this app."
+msgstr "必須安裝cIOS 249 rev 9 或以上版本才可以執行這程式。"
+
+msgid "for WiiTDB (WiiTitleDataBase)"
+msgstr "WiiTDB(WiiTitleDataBase) "
+
+msgid "for design & sources"
+msgstr "設計及程式原始碼"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "很好的工具 LibWiiGui"
+
+msgid "for sources"
+msgstr "原始碼"
+
+msgid "for the SaveGame Manager sources"
+msgstr "編寫 SaveGame Manager 程式的原始碼"
+
+msgid "is already installed."
+msgstr "已安裝。"

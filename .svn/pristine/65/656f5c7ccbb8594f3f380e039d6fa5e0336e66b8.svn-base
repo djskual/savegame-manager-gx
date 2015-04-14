@@ -1,0 +1,1547 @@
+# SaveGame Manager GX language source file.
+# r112
+# don't delete this line (é)
+msgid ""
+msgstr ""
+"Project-Id-Version: SaveGame Manager GX\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-03 02:22+0200\n"
+"PO-Revision-Date: 2011-12-09 17:29\n"
+"Last-Translator: ASTUR2000\n"
+"Language-Team: HC Translatión Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "1 hour"
+msgstr "1 hora"
+
+msgid "1 min"
+msgstr "1 min"
+
+msgid "10 mins"
+msgstr "10 mins"
+
+msgid "100 miis are installed!!!"
+msgstr "¡¡100 Miis tan allugaos!!"
+
+msgid "16/9"
+msgstr "16:9"
+
+msgid "20 mins"
+msgstr "20 mins"
+
+msgid "3 mins"
+msgstr "3 mins"
+
+msgid "30 mins"
+msgstr "30 mins"
+
+msgid "3DS Mii transfer function"
+msgstr ""
+
+msgid "4/3"
+msgstr "4:3"
+
+msgid "5 mins"
+msgstr "5 min"
+
+msgid "7z decompression failed:"
+msgstr ""
+
+msgid "Action cancelled."
+msgstr "Aición atayada."
+
+msgid "All"
+msgstr "Too"
+
+msgid "All Files"
+msgstr "Tolos archivos"
+
+msgid "All Languages Files"
+msgstr "Toles llingues"
+
+msgid "All the features of SaveGame Manager GX are unlocked."
+msgstr "Toles opciones de SaveGame Manager GX tan desbloquiaes."
+
+msgid "All translaters for language files updates"
+msgstr "Tolos tornadores poles llingues"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "Are you sure you want to reset?"
+msgstr "¿De xuru quiés reaniciar?"
+
+msgid "Are you sure?"
+msgstr "¿De xuru?"
+
+msgid "Audio"
+msgstr "Soníu"
+
+msgid "Audio Settings"
+msgstr "Axustes Soníu"
+
+msgid "August"
+msgstr "Agostu"
+
+msgid "Author(s):"
+msgstr "Autor(es):"
+
+msgid "Auto Connect"
+msgstr "Auto-coneutar"
+
+msgid "Back"
+msgstr "Tornar"
+
+msgid "Back Button"
+msgstr ""
+
+msgid "Back to Loader"
+msgstr "Tornal pal HBC"
+
+msgid "Bad game ID"
+msgstr ""
+
+msgid "Be carrefull, present files can be overwritten"
+msgstr ""
+
+msgid "BgMusic Loop"
+msgstr "Son fondu rep."
+
+msgid "BgMusic Path"
+msgstr "Son fondu"
+
+msgid "Big thanks to:"
+msgstr "Munches gracies a:"
+
+msgid "Black.Pearl Icon"
+msgstr "Fustax Black.Pearl"
+
+msgid "Block Audio Settings"
+msgstr "Bloquiar axustes soníu"
+
+msgid "Block Controls Settings"
+msgstr ""
+
+msgid "Block Custom Paths"
+msgstr "Bloquiar cartafueyos pers."
+
+msgid "Block Features Menu"
+msgstr "Bloquiar opciones menú"
+
+msgid "Block Global Settings"
+msgstr "Bloquiar axustes globales"
+
+msgid "Block Gui Settings"
+msgstr "Bloquiar axustes GUI"
+
+msgid "Block HBC Menu"
+msgstr "Bloquiar menú HBC"
+
+msgid "Block Manage"
+msgstr "Bloquiar alministración"
+
+msgid "Block Manage DataBin"
+msgstr "Bloquiar alministrar DataBin"
+
+msgid "Block Manage Emu Nand"
+msgstr ""
+
+msgid "Block ManageAll"
+msgstr "Bloquiar alministrar too"
+
+msgid "Block Parental Settings"
+msgstr "Bloquiar axustes parentales"
+
+msgid "Block Reset Settings"
+msgstr "Bloquiar reaniciar axustes"
+
+msgid "Block SD Reload Button"
+msgstr "Bloquiar botón recargar SD"
+
+msgid "Block Saves Download"
+msgstr ""
+
+msgid "Block Theme Settings"
+msgstr "Bloquiar axustes Temes"
+
+msgid "Block Title Launcher"
+msgstr "Bloquiar executador Titles"
+
+msgid "Block Updates"
+msgstr "Bloquiar anovaciones"
+
+msgid "Block(s)"
+msgstr "bloquiáu(os)"
+
+msgid "Boot Browser"
+msgstr ""
+
+msgid "Browsed"
+msgstr "Restoláo"
+
+msgid "CRC of extracted file does not match. Wrong password?"
+msgstr ""
+
+msgid "Can't browse that path."
+msgstr "Nun pue restolase esi cartafueyu"
+
+#, c-format
+msgid "Can't create path: %s"
+msgstr "Nun pue ciase'l cartafueyu: %s"
+
+msgid "Can't open file."
+msgstr ""
+
+msgid "Cancel"
+msgstr "Atayar"
+
+#, c-format
+msgid "Cannot close file %s"
+msgstr ""
+
+#, c-format
+msgid "Cannot open file %s"
+msgstr ""
+
+msgid "Cannot write to destination."
+msgstr "Nun pue escribise al destín"
+
+msgid "Change Play Path"
+msgstr "Camudar cartafueyu reproducción"
+
+msgid "Click Button"
+msgstr ""
+
+msgid "Clock"
+msgstr "Reló"
+
+msgid "Close"
+msgstr "Zarrar"
+
+#, c-format
+msgid "Coded by: %s"
+msgstr "Programao por: %s"
+
+msgid "Coding:"
+msgstr "Programación:"
+
+msgid "Compress"
+msgstr ""
+
+msgid "Compress to:"
+msgstr ""
+
+msgid "Compressing..."
+msgstr ""
+
+msgid "Compression cancelled"
+msgstr ""
+
+msgid "Config"
+msgstr ""
+
+msgid "Connection to server timed out."
+msgstr "La conexón col sividor superose."
+
+msgid "Console"
+msgstr "Consola"
+
+msgid "Console Locked"
+msgstr "Consola bloquiada"
+
+msgid "Console must be unlocked for this option."
+msgstr "La consola tien de tar desbloquiada pa esta opción."
+
+msgid "Controller Settings"
+msgstr ""
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Copy cancelled"
+msgstr "Copia atayada"
+
+msgid "Copy to:"
+msgstr "Copiar a:"
+
+msgid "Copying..."
+msgstr "Copiando..."
+
+msgid "Correct Password"
+msgstr "Conseña coreuta"
+
+msgid "Could not connect to the server."
+msgstr "Nun pue coneutase'l sirvidor"
+
+#, c-format
+msgid "Could not create path: %s"
+msgstr "Nun pudo criase'l cartafueyu: %s"
+
+msgid "Could not download file."
+msgstr "Nun pue descargase l'archivu"
+
+msgid "Could not extract file:"
+msgstr ""
+
+msgid "Could not initialize network!"
+msgstr "¡Nun pue aniciase la rede!"
+
+msgid "Could not load text file."
+msgstr "Nun pue cargase l'archivu testu."
+
+msgid "Creator:"
+msgstr "Criador:"
+
+msgid "Credits"
+msgstr "Creitos"
+
+msgid "Credits Volume"
+msgstr "Volume creitos"
+
+msgid "Custom"
+msgstr "Personalizao"
+
+msgid "Custom Font"
+msgstr "Otra fonte"
+
+msgid "Custom Paths"
+msgstr "Otru cartafueyu"
+
+msgid "Data.bin"
+msgstr ""
+
+msgid "Data.bin Path"
+msgstr ""
+
+msgid "Date:"
+msgstr "Data:"
+
+msgid "December"
+msgstr "Avientu"
+
+msgid "Decompress"
+msgstr "Estrayer"
+
+msgid "Decompress to:"
+msgstr "Estrayer a:"
+
+msgid "Decompressing..."
+msgstr "Estrayendo..."
+
+msgid "Default"
+msgstr "Per defeutu"
+
+msgid "Default Settings"
+msgstr "Axustes aniciales"
+
+msgid "Default Theme"
+msgstr "Tema per defeutu"
+
+msgid "Delete"
+msgstr "Esniciar"
+
+msgid "Delete All"
+msgstr "Esniciar too"
+
+msgid "Delete cancelled"
+msgstr "Desaniciu atayáu"
+
+msgid "Delete from Emu Nand"
+msgstr ""
+
+msgid "Delete from Wii"
+msgstr "Esniciar dende Wii"
+
+msgid "Delete from:"
+msgstr "Esniciar dende:"
+
+msgid "Deleting..."
+msgstr "Esniciando..."
+
+msgid "Design:"
+msgstr "Diseñu:"
+
+msgid "Device"
+msgstr "Preséu"
+
+msgid "Disabled"
+msgstr "Apagáu"
+
+msgid "Do you want to apply it now?"
+msgstr "¿Quiés aplicalo agora?"
+
+msgid "Do you want to apply this theme?"
+msgstr "¿Quies poner esti tema?"
+
+msgid "Do you want to change the font?"
+msgstr "¿Quiés camudar la fonte?"
+
+msgid "Do you want to connect?"
+msgstr "¿Quiés coneutate?"
+
+msgid "Do you want to download now?"
+msgstr "¿Quiés baxalo agora?"
+
+msgid "Do you want to download themes now ?"
+msgstr "¿Quies baxar temes agora?"
+
+msgid "Do you want to download this theme?"
+msgstr "¿Quiés baxar esti tema agora?"
+
+msgid "Do you want to load the default theme?"
+msgstr "¿Quiés cargar el tema per defeutu?"
+
+msgid "Do you want to load this language ?"
+msgstr "¿Quiés camudar la llingua?"
+
+msgid "Do you want to reboot now ?"
+msgstr "¿Quiés reaniciar agora?"
+
+msgid "Do you want to select a theme now ?"
+msgstr "¿Quiés esbillar un tema agora?"
+
+msgid "Do you want to update now ?"
+msgstr "¿Quiés anovar agora?"
+
+msgid "Down Button"
+msgstr ""
+
+msgid "Download"
+msgstr "Baxar"
+
+msgid "Download Themes"
+msgstr "Baxar temes"
+
+msgid "Download cancelled"
+msgstr ""
+
+msgid "Download/Update Languages Files to:"
+msgstr "Baxar/anovar llingues a:"
+
+msgid "Downloading Language Files:"
+msgstr "Baxando llingues:"
+
+msgid "Downloading all Languages Files:"
+msgstr "Baxando toles llingues:"
+
+msgid "Downloading file..."
+msgstr "Baxando archivu..."
+
+msgid "Downloading from"
+msgstr ""
+
+msgid "Downloading image:"
+msgstr "Baxando imax:"
+
+msgid "Downloading pagelist:"
+msgstr "Baxando llista páxina:"
+
+msgid "Downloading saveslist:"
+msgstr ""
+
+msgid "Downloading..."
+msgstr "Baxando..."
+
+msgid "Duplicate"
+msgstr "Desdobláu"
+
+msgid "Dutch"
+msgstr "Holandés"
+
+msgid "ERROR: Can't set up theme."
+msgstr "Erru: Nun pue ponese'l tema"
+
+msgid "Emu"
+msgstr ""
+
+msgid "Emu Nand Path"
+msgstr ""
+
+msgid "Emu Nand browser"
+msgstr ""
+
+msgid "EmuMii"
+msgstr ""
+
+msgid "English"
+msgstr "Inglés"
+
+msgid "Error"
+msgstr "Erru"
+
+#, c-format
+msgid "Error opening %s"
+msgstr ""
+
+#, c-format
+msgid "Error opening %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error received from %s in %s"
+msgstr ""
+
+#, c-format
+msgid "Error when downloading file: %i"
+msgstr "Erru entrín baxasti l'archivu: %i"
+
+msgid "Error while transfering data."
+msgstr "Erru entrín tresferies datos."
+
+msgid "Error:"
+msgstr "Erru:"
+
+msgid "Extract"
+msgstr "Estrayer"
+
+msgid "Extract cancelled"
+msgstr "Estraición atayada"
+
+msgid "Extract error code:"
+msgstr ""
+
+msgid "Extract to Device"
+msgstr ""
+
+msgid "Extract to:"
+msgstr "Estrayer a:"
+
+msgid "Extracting files..."
+msgstr "Estrayendo archivos..."
+
+msgid "Extracting..."
+msgstr "Estrayendo..."
+
+msgid "FaceLib database is corrupted."
+msgstr ""
+
+msgid "FaceLib database is missing."
+msgstr ""
+
+msgid "Failed to extract."
+msgstr "Fallu pa estrayer."
+
+msgid "Failed to get the Changelog."
+msgstr ""
+
+msgid "Failed to read file data."
+msgstr ""
+
+#, c-format
+msgid "Fatal error: %i."
+msgstr ""
+
+msgid "Features Menu"
+msgstr "Traces Menú"
+
+msgid "February"
+msgstr "Febreru"
+
+msgid "File"
+msgstr "Archivu"
+
+msgid "File is corrupt (CRC mismatch)."
+msgstr ""
+
+msgid "File is corrupt."
+msgstr ""
+
+msgid "File is too big."
+msgstr "Esti archivu ye pergrande"
+
+msgid "File not created."
+msgstr ""
+
+msgid "File uses too high of compression settings (dictionary size is too large)."
+msgstr ""
+
+msgid "File uses unsupported compression settings."
+msgstr ""
+
+#, c-format
+msgid "Filesize is %i Byte."
+msgstr "El grandor ye %i Byte."
+
+msgid "Filesize is 0 Byte."
+msgstr "El grando ye 0 Byte."
+
+msgid "Folder"
+msgstr "Cartafueyu"
+
+msgid "Font"
+msgstr "Fonte"
+
+msgid "Font Scale Factor"
+msgstr ""
+
+msgid "Fontpath changed."
+msgstr "Cartafueyu fonte camudáu."
+
+msgid "French"
+msgstr "Francés"
+
+msgid "Full Shutdown"
+msgstr "Apagar"
+
+msgid "GC PAD BUTTON A"
+msgstr ""
+
+msgid "GC PAD BUTTON B"
+msgstr ""
+
+msgid "GC PAD BUTTON DOWN"
+msgstr ""
+
+msgid "GC PAD BUTTON LEFT"
+msgstr ""
+
+msgid "GC PAD BUTTON NONE"
+msgstr ""
+
+msgid "GC PAD BUTTON RIGHT"
+msgstr ""
+
+msgid "GC PAD BUTTON START"
+msgstr ""
+
+msgid "GC PAD BUTTON UP"
+msgstr ""
+
+msgid "GC PAD BUTTON X"
+msgstr ""
+
+msgid "GC PAD BUTTON Y"
+msgstr ""
+
+msgid "GC PAD TRIGGER L"
+msgstr ""
+
+msgid "GC PAD TRIGGER R"
+msgstr ""
+
+msgid "GC PAD TRIGGER Z"
+msgstr ""
+
+msgid "GUI Settings"
+msgstr "Axustes GUI"
+
+msgid "GameTDB Path"
+msgstr ""
+
+msgid "GameTDB Titles"
+msgstr ""
+
+msgid "GameTDB Update"
+msgstr ""
+
+msgid "GameTDB not found."
+msgstr ""
+
+msgid "German"
+msgstr "Alemán"
+
+msgid "Getting Changelog..."
+msgstr "Baxando llista cambeos"
+
+msgid "Getting EmuNand Lists..."
+msgstr ""
+
+msgid "Getting Saves List..."
+msgstr "Lleendo llista atroxaos..."
+
+msgid "Global Settings"
+msgstr "Axustes globales"
+
+msgid "HOME Menu"
+msgstr "Menú HOME"
+
+msgid "Home Button"
+msgstr ""
+
+msgid "Home Menu"
+msgstr "Menú Home"
+
+msgid "Homebrew"
+msgstr ""
+
+msgid "Homebrew Launcher"
+msgstr ""
+
+msgid "Homebrew Path"
+msgstr "Cartafueyu Homebrew"
+
+msgid "Hour"
+msgstr "Hora"
+
+msgid "ID:"
+msgstr ""
+
+msgid "Icon Update"
+msgstr "Anovar fustax"
+
+msgid "Icon successfully downloaded."
+msgstr "Fustax baxáu esín torga dala."
+
+msgid "Idle Shutdown"
+msgstr "Ivernar"
+
+#, c-format
+msgid "Incoming file %0.2fKB"
+msgstr "Archivu entrante %0.2fKB"
+
+#, c-format
+msgid "Incoming file %0.2fMB"
+msgstr "Archivu entrante %0.2fKB"
+
+msgid "Initializing Network"
+msgstr "Aniciando rede"
+
+msgid "Install"
+msgstr "Allugar"
+
+msgid "Install cancelled"
+msgstr "Allugación atayada"
+
+msgid "Install from:"
+msgstr "Allugar dende:"
+
+msgid "Install to EmuNand"
+msgstr ""
+
+msgid "Install to Wii"
+msgstr ""
+
+msgid "Install to:"
+msgstr ""
+
+msgid "Installed"
+msgstr "Allugáu"
+
+msgid "Installed Files"
+msgstr "Archivos allugaos"
+
+msgid "Installed Languages Files"
+msgstr "Llingues allugaes"
+
+msgid "Installing..."
+msgstr "Allugando..."
+
+msgid "Italian"
+msgstr "Italianu"
+
+msgid "January"
+msgstr "Xineru"
+
+msgid "Japanese"
+msgstr "Xapones"
+
+msgid "July"
+msgstr "Xunetu"
+
+msgid "June"
+msgstr "Xunu"
+
+msgid "Keyboard"
+msgstr "Tecláu"
+
+msgid "Korean"
+msgstr "Coreanu"
+
+msgid "Language"
+msgstr "Llingua"
+
+msgid "Language Path changed."
+msgstr "Cartafueyu llingues camudáu"
+
+msgid "Language Update"
+msgstr "Anovación llingua"
+
+msgid "Language change:"
+msgstr "Camudar llingua:"
+
+msgid "Left Button"
+msgstr ""
+
+msgid "Load"
+msgstr "Cargar"
+
+#, c-format
+msgid "Load file from: %s ?"
+msgstr "¿Cargar archivu dende: %s?"
+
+msgid "Loader"
+msgstr "Cargador"
+
+msgid "Loading Data.bin Structure"
+msgstr "Cargando estructura Data.bin"
+
+msgid "Loading file:"
+msgstr "Cargando archivu:"
+
+msgid "Loading standard music."
+msgstr "Cargando música estandar"
+
+msgid "Lock Console"
+msgstr "Bloquiar consola"
+
+msgid "Locked"
+msgstr "Bloquiáu"
+
+msgid "Loop Directory"
+msgstr ""
+
+msgid "Loop Music"
+msgstr ""
+
+msgid "Manage All"
+msgstr "Alministrar too"
+
+msgid "Manage All Miis"
+msgstr "Alministrar tolos Miis"
+
+msgid "Manage All Saves"
+msgstr "Alministrar tolos saves"
+
+msgid "March"
+msgstr "Marzu"
+
+msgid "May"
+msgstr "Mayu"
+
+msgid "Meta Update"
+msgstr "Anovar Meta.xml"
+
+msgid "Mii"
+msgstr ""
+
+msgid "Mii Channel installed"
+msgstr ""
+
+msgid "Mii memory is full"
+msgstr "Memoria Mii enllena"
+
+msgid "Miis"
+msgstr "Miis"
+
+msgid "Miis Path"
+msgstr "Destín Miis"
+
+msgid "Move"
+msgstr "Ximelgar"
+
+msgid "Move cancelled"
+msgstr "Ximielga atayada"
+
+msgid "Move to:"
+msgstr "Ximelgar a:"
+
+msgid "Moving..."
+msgstr "Ximelgando..."
+
+msgid "Music Volume"
+msgstr "Volume"
+
+msgid "Network is not initiated."
+msgstr "Rede ensin aniciar"
+
+msgid "No"
+msgstr "Non"
+
+msgid "No Language File found"
+msgstr "Llingues non atopaes"
+
+msgid "No Mii Found in Emulated Nand"
+msgstr ""
+
+msgid "No Mii Found in Wii Nand"
+msgstr ""
+
+msgid "No Mii Found in this path"
+msgstr "Mii dalu atopáu nesti cartafueyu"
+
+msgid "No Save Found in this directory"
+msgstr "Atruxáu dalu atopáu nesti cartafueyu"
+
+msgid "No Storage Device Found"
+msgstr "Ensin preséu p'atroxar"
+
+msgid "No URL or Path specified."
+msgstr "URL o cartafueyu ensin especificar."
+
+msgid "No data could be read."
+msgstr "Los datos nun puen lleese"
+
+msgid "No network connection"
+msgstr "Nun hai conexón de rede"
+
+msgid "No new updates available"
+msgstr "Nun hai anovaciones"
+
+msgid "No saves found on the site."
+msgstr ""
+
+msgid "No themes found on the site."
+msgstr "Ensin temes nesti sitiu."
+
+msgid "No themes found."
+msgstr "Temes non atopaos."
+
+msgid "Not a valid URL"
+msgstr "URL non válidu"
+
+msgid "Not a valid URL path"
+msgstr "URL cartafueyu non válidu"
+
+msgid "Not a valid domain"
+msgstr "Dominiu non válidu"
+
+msgid "Not already installed in Wii"
+msgstr ""
+
+msgid "Not enough memory."
+msgstr "Nun hay enforma memoria"
+
+msgid "Not supported format!"
+msgstr "¡Formatu ensin soporte!"
+
+msgid "November"
+msgstr "Payares"
+
+msgid "OFF"
+msgstr "Apagáo"
+
+msgid "OK"
+msgstr "Val"
+
+msgid "ON"
+msgstr "Enceso"
+
+msgid "October"
+msgstr "Ochobre"
+
+msgid "Official Site:"
+msgstr "Sitiu oficial:"
+
+msgid "OverWrite"
+msgstr "Sustituyir"
+
+msgid "Parent Directory"
+msgstr ""
+
+msgid "Parental Control"
+msgstr "Control parental"
+
+msgid "Password"
+msgstr "Conseña"
+
+msgid "Password has been changed"
+msgstr "Conseña camudada"
+
+msgid "Password is needed."
+msgstr ""
+
+msgid "Password:"
+msgstr "Conseña:"
+
+msgid "Path changed."
+msgstr "Cartafueyu camudáu."
+
+msgid "Path:"
+msgstr "Cartafueyu:"
+
+msgid "Permission denied."
+msgstr "Permisu denegáu."
+
+msgid "Picture"
+msgstr "Semeya"
+
+msgid "Play Next"
+msgstr "Reproducir siguiente"
+
+msgid "Play Once"
+msgstr "Reproducir una vegada"
+
+msgid "Play Previous"
+msgstr "Reproducir postrer"
+
+msgid "Playing Music:"
+msgstr "Resproduciendo son:"
+
+msgid "Please enter the password."
+msgstr ""
+
+msgid "Please wait..."
+msgstr "Aspere..."
+
+msgid "Pointer Speed"
+msgstr ""
+
+msgid "Process canceled."
+msgstr ""
+
+msgid "Random Directory Music"
+msgstr "Cartafueyu son al debalu"
+
+#, c-format
+msgid "Read Error in %s"
+msgstr ""
+
+#, c-format
+msgid "Read Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Read error from %s in %s"
+msgstr ""
+
+msgid "Receiving file from:"
+msgstr "Recibiendo archivu dende:"
+
+msgid "Reload SD"
+msgstr "Anovar SD"
+
+msgid "Repair"
+msgstr ""
+
+msgid "Reset BgMusic"
+msgstr "Anovar Son fondu"
+
+msgid "Reset to default BGM?"
+msgstr "¿Anovar al BGM per defeutu?"
+
+msgid "Retry"
+msgstr "Reintentar"
+
+msgid "Rev"
+msgstr "Rev."
+
+msgid "Right Button"
+msgstr ""
+
+msgid "Rumble"
+msgstr "Vibrador"
+
+msgid "SD Card removed."
+msgstr ""
+
+msgid "SD/USB"
+msgstr ""
+
+msgid "SFX Volume"
+msgstr "Volume SFX"
+
+msgid "Save Path"
+msgstr "Atroxar cartafueyu"
+
+msgid "SaveGame"
+msgstr ""
+
+msgid "SaveGame Manager GX is protected"
+msgstr "SaveGame Manager GX ta protexíu"
+
+msgid "Saves"
+msgstr "Atroxaos"
+
+msgid "Saves Path"
+msgstr "Cartafueyos atroxaos"
+
+msgid "Screen Type"
+msgstr "Mena de pantalla"
+
+msgid "Screensaver"
+msgstr "Curiapantalles"
+
+msgid "Screenshot Format"
+msgstr "Formatu captura"
+
+msgid "Screenshot Path"
+msgstr "Cartafueyu captures"
+
+msgid "Search"
+msgstr "Guetar"
+
+#, c-format
+msgid "Seek Error in %s"
+msgstr ""
+
+msgid "Select Device"
+msgstr ""
+
+msgid "Select Files"
+msgstr "Esbillar archivos"
+
+msgid "Select Languages"
+msgstr "Esbillar llingues"
+
+msgid "Select Mode"
+msgstr ""
+
+msgid "Select Theme"
+msgstr "Esbillar tema"
+
+msgid "Select a source:"
+msgstr ""
+
+msgid "Select a target path."
+msgstr ""
+
+msgid "Select a type:"
+msgstr "Esbilla un tipu:"
+
+msgid "Select an action:"
+msgstr "Esbilla una aición:"
+
+msgid "September"
+msgstr "Setiembre"
+
+msgid "Settings"
+msgstr "Axustes"
+
+msgid "Show Changelog"
+msgstr "Amosar llista cambeos"
+
+msgid "Show error log?"
+msgstr "¿Amosar log d'erru?"
+
+msgid "ShutDown Wii"
+msgstr "Apagar"
+
+msgid "Simple Chinese"
+msgstr "Chinu Simplificáu"
+
+msgid "Size:"
+msgstr "Grandor:"
+
+msgid "Sound Path"
+msgstr "Cartafueyu soníu"
+
+msgid "Sound Settings"
+msgstr "Axustes soníu"
+
+msgid "Source and destination folders must be different"
+msgstr "Los cartafueyos d'orixe y destín tienen de ser xebraos"
+
+msgid "Spanish"
+msgstr "Castellán"
+
+msgid "Special thanks to:"
+msgstr "Gracies especiales a:"
+
+msgid "Standard"
+msgstr "Estándar"
+
+msgid "Standard Icon"
+msgstr "Fustax estándar"
+
+msgid "Succesfully compressed"
+msgstr ""
+
+msgid "Succesfully copied"
+msgstr "Copiao ensin toges"
+
+msgid "Succesfully decompressed"
+msgstr "Estrayío ensin torges"
+
+msgid "Succesfully deleted"
+msgstr "Esniciáu ensin torges"
+
+msgid "Succesfully downloaded"
+msgstr ""
+
+msgid "Succesfully extracted"
+msgstr "Estrayío ensin torges"
+
+msgid "Succesfully installed"
+msgstr "Allugao ensin torges"
+
+msgid "Succesfully moved"
+msgstr "Ximelgao ensin torges"
+
+msgid "Successfully extracted theme."
+msgstr "Tema estrayíu ensin torges."
+
+msgid "System error received"
+msgstr ""
+
+msgid "Text"
+msgstr "Testu"
+
+msgid "The .them file was not found in the zip."
+msgstr "L'archivu .them nun s'atopó nel zip"
+
+msgid "The new font is loaded."
+msgstr "La nueva fonte ta cargada."
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Theme Downloader"
+msgstr "Xestor temas"
+
+msgid "Theme Menu"
+msgstr "Tema menú"
+
+msgid "Theme Path"
+msgstr "Cartafueyu tema"
+
+msgid "Theme Settings"
+msgstr "Axustes tema"
+
+msgid "Theme Title:"
+msgstr "Títulu tema."
+
+msgid "Themes by www.spiffy360.com"
+msgstr "Temes por www.spiffy360.com"
+
+msgid "Time left:"
+msgstr "Falta:"
+
+msgid "Title Launcher"
+msgstr "Cargador Títulos"
+
+msgid "Tooltips"
+msgstr "Ferramientes"
+
+msgid "Trad Chinese"
+msgstr "Chinu tradicional"
+
+msgid "Transfer failed"
+msgstr "Tresferencia fallía"
+
+msgid "Type:"
+msgstr "Mena:"
+
+msgid "URL is empty."
+msgstr "Enllaz lluecu"
+
+msgid "Unable to SetUID"
+msgstr ""
+
+msgid "Unable to compress datas"
+msgstr ""
+
+msgid "Unable to copy datas"
+msgstr ""
+
+msgid "Unable to decompress datas"
+msgstr ""
+
+msgid "Unable to delete datas"
+msgstr ""
+
+msgid "Unable to download file."
+msgstr ""
+
+msgid "Unable to find supported files."
+msgstr ""
+
+msgid "Unable to get NAND path"
+msgstr "Nun pue consiguise'l destín NAND"
+
+msgid "Unable to load path."
+msgstr ""
+
+msgid "Unable to move datas"
+msgstr ""
+
+msgid "Unknown"
+msgstr "Desconocíu"
+
+msgid "Unlock Console"
+msgstr "Desbloquiar consola"
+
+msgid "Unlocked"
+msgstr "Desbloquiáu"
+
+msgid "Unsupported format, try to extract manually TempTheme.zip."
+msgstr "Formatu non soportáu, preba estrayer tu TempTheme.zip."
+
+msgid "Up Button"
+msgstr ""
+
+msgid "Update"
+msgstr "Anovar"
+
+msgid "Update Path"
+msgstr "Ruta anovación"
+
+msgid "Update Settings"
+msgstr "Axustes anovaos"
+
+msgid "Update failed"
+msgstr "Anovación lluella"
+
+msgid "Update files"
+msgstr "Anovararchivos"
+
+msgid "Update successfully finished"
+msgstr "Anovación finada ensin torges"
+
+#, c-format
+msgid "Update to Rev%i available"
+msgstr "Anovación Rev%i disponible"
+
+msgid "Updates"
+msgstr "Anovaciones"
+
+msgid "Updating GameTDB..."
+msgstr ""
+
+msgid "Updating Language Files:"
+msgstr "Anovando llingues:"
+
+msgid "Use IOS58"
+msgstr "Usar IOS58"
+
+msgid "Use System Font"
+msgstr "Usar fonte sistema"
+
+msgid "Verifying file..."
+msgstr ""
+
+msgid "Version:"
+msgstr "Versión:"
+
+#, c-format
+msgid "Version: %s"
+msgstr "Versión: %s"
+
+msgid "WARNING: You need to have a save already installed in the Wii to install this one!!!"
+msgstr ""
+
+msgid "WPAD BUTTON 1"
+msgstr ""
+
+msgid "WPAD BUTTON 2"
+msgstr ""
+
+msgid "WPAD BUTTON A"
+msgstr ""
+
+msgid "WPAD BUTTON B"
+msgstr ""
+
+msgid "WPAD BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD BUTTON HOME"
+msgstr ""
+
+msgid "WPAD BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON A"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON B"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON DOWN"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL L"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON FULL R"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON HOME"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON LEFT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON MINUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON PLUS"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON RIGHT"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON UP"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON X"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON Y"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZL"
+msgstr ""
+
+msgid "WPAD CLASSIC BUTTON ZR"
+msgstr ""
+
+msgid "WPAD CLASSIC NONE BUTTON"
+msgstr ""
+
+msgid "WPAD NONE BUTTON"
+msgstr ""
+
+msgid "Wii"
+msgstr ""
+
+msgid "Wii Menu"
+msgstr "Menú Wii"
+
+msgid "Wii Settings"
+msgstr "Axustes Wii"
+
+msgid "Wiiload Receive"
+msgstr ""
+
+#, c-format
+msgid "Write Error from %s to %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s"
+msgstr ""
+
+#, c-format
+msgid "Write Error in file: %s. Disk is Full"
+msgstr ""
+
+#, c-format
+msgid "Write error to %s in %s"
+msgstr ""
+
+msgid "Writing files..."
+msgstr ""
+
+msgid "Wrong Password"
+msgstr "Conseña lluella"
+
+msgid "XML"
+msgstr ""
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "but datas are corrupted."
+msgstr ""
+
+msgid "but datas are missing."
+msgstr ""
+
+msgid "for GameTDB (GameTitleDataBase)"
+msgstr ""
+
+msgid "for Saves hosting"
+msgstr ""
+
+msgid "for Themes hosting"
+msgstr "Pol agospiu temes"
+
+msgid "for design & sources"
+msgstr "pol diseñu y el códigu fonte"
+
+msgid "for his awesome tool LibWiiGui"
+msgstr "pola so ablucante ferramienta LibWiiGui"
+
+msgid "for sources"
+msgstr "pol códigu fonte"
+
+msgid "for the SaveGame Manager sources"
+msgstr "pol códigu de SaveGame Manager"
+
+msgid "is already installed."
+msgstr "xá ta allugáu"
+
+msgid "not set"
+msgstr "ensin poner"
+
+msgid "on emulated nand"
+msgstr ""
+
+#~ msgid "Extract All Miis"
+#~ msgstr "Estrayer tolos Miis"
+
+#~ msgid "Extract All Saves"
+#~ msgstr "Estrayer tolos atroxaos"
+
+#~ msgid "Delete All Device Miis"
+#~ msgstr "Esniciar tolos Miis preséu"
+
+#~ msgid "Delete All Miis"
+#~ msgstr "Esniciar tolos Miis"
+
+#~ msgid "Delete All Nand Miis"
+#~ msgstr "Esniciar tolos Miin la NAND"
+
+#~ msgid "Delete All Saves"
+#~ msgstr "Esniciar tolos atroxaos"
+
+#~ msgid "Extract All"
+#~ msgstr "Estrayer too"
+
+#~ msgid "Install All"
+#~ msgstr "Allugar too"
+
+#~ msgid "Install All Miis"
+#~ msgstr "Allugar tolos Miis"
+
+#~ msgid "Install All Saves"
+#~ msgstr "Allugar tolos Saves"
+
+#~ msgid "Wii Nand"
+#~ msgstr "NAND Wii"
+
+#~ msgid "Explore Miis"
+#~ msgstr "Restolar Miis"
+
+#~ msgid "Explore SD"
+#~ msgstr "Restolar SD"
+
+#~ msgid "Explore Saves"
+#~ msgstr "Restolar atroxaos"
+
+#~ msgid "Explore USB"
+#~ msgstr "Restolar USB"
+
+#~ msgid "Icon Mode"
+#~ msgstr "Mou fustax"
+
+#~ msgid "List Mode"
+#~ msgstr "Mou llista"
+
+#~ msgid "Updating WiiTDB..."
+#~ msgstr "Anovando WiiTDB..."
+
+#~ msgid "WiiTDB Path"
+#~ msgstr "Cartafueyu WiiTDB"
+
+#~ msgid "WiiTDB Titles"
+#~ msgstr "Semeyes WiiTDB"
+
+#~ msgid "WiiTDB Update"
+#~ msgstr "Anovación WiiTDB"
+
+#~ msgid "WiiTDB not found."
+#~ msgstr "WiiTDB non atopáu"
+
+#~ msgid "for WiiTDB (WiiTitleDataBase)"
+#~ msgstr "por WiiTDB (WiiTitleDataBase)"
+
+#~ msgid "Failed to daget the Changelog."
+#~ msgstr "Llista camudancies non baxada"
